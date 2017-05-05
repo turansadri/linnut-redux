@@ -8,7 +8,7 @@ const Families = [...new Set(birds.map(bird => bird.Family))];
 const PrimaryNames = [...new Set(birds.map(bird => bird.PrimaryName))];
 const dates = [...new Set(birds.map(bird => helpers.getYear(bird.Date)))];
 
-const filters = [
+export const filters = [
   { id: 'Family', value: '', options: Families },
   { id: 'Date', value: '', options: dates },
   { id: 'PrimaryName', value: '', options: PrimaryNames },

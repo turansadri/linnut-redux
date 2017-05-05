@@ -14,6 +14,7 @@ class BirdsFilter extends React.Component {
         { filters.map(filter => (
 
           <select
+            key={filter.id}
             ref={filter.id}
             name={filter.id}
             onChange={onChange}
@@ -21,7 +22,11 @@ class BirdsFilter extends React.Component {
           >
             <option value="">{ filter.id }</option>
             { filter.options.map((option, index) => (
-              <option key={index} value={option}>
+              <option
+                // eslint-disable-next-line react/no-array-index-key
+                key={index}
+                value={option}
+              >
                 { option }
               </option>),
             )}
