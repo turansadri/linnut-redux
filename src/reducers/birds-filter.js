@@ -38,34 +38,35 @@ const initialState = {
 };
 
 const birdsFilter = (state = initialState, action) => {
+  const id = action.fieldName;
+  const nextFilters = state.filters.map((filter) => {
+    /* Updates options for PrimaryName dropdown if Family is changed */
+    if (filter.id === 'PrimaryName' && id === 'Family') {
+      const nextPrimaryNames =
+        primaryNameOptionsByFamilyValue(state.birds, action.value);
+      return { ...filter, options: nextPrimaryNames, value: '' };
+    }
+    if (filter.id === id) {
+      return { ...filter, value: action.value };
+    }
+    return filter;
+  });
+
+  const nextBirds = filterBirds(state.birds, nextFilters);
+
+  return {
+    ...state,
+    filteredBirds: nextBirds,
+    filters: nextFilters,
+  };
+};
+
+export default (state = initialState, action) => {
   switch (action.type) {
   case FORM_VALUE_CHANGE: {
-    const id = action.fieldName;
-
-    const nextFilters = state.filters.map((filter) => {
-      /* Updates options for PrimaryName dropdown if Family is changed */
-      if (filter.id === 'PrimaryName' && id === 'Family') {
-        const nextPrimaryNames =
-          primaryNameOptionsByFamilyValue(state.birds, action.value);
-        return { ...filter, options: nextPrimaryNames, value: '' };
-      }
-      if (filter.id === id) {
-        return { ...filter, value: action.value };
-      }
-      return filter;
-    });
-
-    const nextBirds = filterBirds(state.birds, nextFilters);
-
-    return {
-      ...state,
-      filteredBirds: nextBirds,
-      filters: nextFilters,
-    };
+    return birdsFilter(state, action);
   }
   default:
     return state;
   }
 };
-
-export default birdsFilter;

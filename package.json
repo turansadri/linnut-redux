@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "google-maps-react": "^1.0.19",
     "moment": "^2.18.1",
     "moment-timezone": "^0.5.13",
     "polished": "^1.0.3",

@@ -3,7 +3,7 @@ import { Provider } from 'react-redux';
 import { createStore, compose } from 'redux';
 import { composeWithDevTools } from 'redux-devtools-extension';
 import birdsFilter from '../reducers/birds-filter';
-import BirdsFilter from '../containers/BirdsFilter/index';
+import BirdsFilter from '../containers/BirdsFilter';
 
 const composer = process.env.NODE_ENV !== 'production' ? composeWithDevTools : compose;
 
