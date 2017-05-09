@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "google-map-react": "^0.24.0",
     "moment": "^2.18.1",
     "moment-timezone": "^0.5.13",
     "polished": "^1.0.3",
@@ -24,12 +25,15 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^3.0.2 || ^4.0.0",
     "eslint-plugin-react": "^6.9.0",
+    "node-sass": "^4.5.2",
     "react-scripts": "0.9.5"
   },
   "scripts": {
     "motley-eslint-init": "motley-eslint-init",
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "build-styles": "node-sass src/ -o src/",
+    "watch-styles": "npm run build-styles && node-sass src/ -o src/ --watch --recursive",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }

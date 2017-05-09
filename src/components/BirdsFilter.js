@@ -1,16 +1,27 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styled from 'styled-components';
+
+const FiltersContainer = styled.section`
+  position: absolute;
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  padding: 1em;
+  top: 0;
+  left: 0;
+  z-index: 100;
+`;
 
 class BirdsFilter extends React.Component {
   render() {
     const {
       filters,
-      filteredBirds,
       onChange,
     } = this.props;
 
     return (
-      <div>
+      <FiltersContainer>
         { filters.map(filter => (
 
           <select
@@ -32,8 +43,7 @@ class BirdsFilter extends React.Component {
             )}
           </select>),
         )}
-        { filteredBirds.map(bird => <p>{bird.PrimaryName}</p>)}
-      </div>
+      </FiltersContainer>
     );
   }
 }

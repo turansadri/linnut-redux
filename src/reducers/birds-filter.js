@@ -8,6 +8,13 @@ const Families = [...new Set(birds.map(bird => bird.Family))];
 const PrimaryNames = [...new Set(birds.map(bird => bird.PrimaryName))];
 const dates = [...new Set(birds.map(bird => helpers.getYear(bird.Date)))];
 
+const mapConfig = {
+  center: {
+    lat: 60.1634549,
+    lng: 24.9449212,
+  },
+};
+
 export const filters = [
   { id: 'Family', value: '', options: Families },
   { id: 'Date', value: '', options: dates },
@@ -35,6 +42,7 @@ const initialState = {
   birds,
   filters,
   filteredBirds: birds,
+  mapConfig,
 };
 
 const birdsFilter = (state = initialState, action) => {

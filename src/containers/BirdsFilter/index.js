@@ -3,16 +3,22 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import BirdsFilter from '../../components/BirdsFilter';
 import { formValueChange } from '../../actions/birds-filter';
+import BirdsMap from '../BirdsMap';
 
 const BirdsFilterContainer = (props) => {
   const {
     onChange,
   } = props;
   return (
-    <BirdsFilter
-      {...props}
-      onChange={onChange}
-    />
+    <div>
+      <BirdsFilter
+        {...props}
+        onChange={onChange}
+      />
+      <BirdsMap
+        {...props}
+      />
+    </div>
   );
 };
 
@@ -21,12 +27,14 @@ function mapStateToProps(state) {
     birds,
     filters,
     filteredBirds,
+    mapConfig,
     } = state;
 
   return {
     birds,
     filteredBirds,
     filters,
+    mapConfig,
   };
 }
 
