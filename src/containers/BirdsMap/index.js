@@ -3,8 +3,6 @@ import GoogleMapReact from 'google-map-react';
 import * as config from '../../config';
 import { BirdMarker } from '../../components/BirdMarker';
 
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
-
 const style = {
   width: '100%',
   height: '100%',

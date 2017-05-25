@@ -1,0 +1,55 @@
+id,PrimaryName,SecondaryName,Date,Count,PlaceName,Latitude,Longitude,Notes,Family,FamilyName
+1,palokärki,Black Woodpecker,5 March 2016,1,"Lammassaari, Helsinki",60.2088681990545,25.0009607568593,,tikat,Tikat
+2,harakka,(Common) Magpie,1 April 2016,,"Tähtitorninmäki, Helsinki",60.161617,24.953253,,varikset,Varikset
+3,töyhtöhyyppä,(Northern) Lapwing,2 April 2016,,"Lammassaari, Helsinki",60.2123366718264,25.0004366943122,,kahlaajat,Kahlaajat
+4,naurulokki,Black-headed Gull,2 April 2016,,"Kauppatori, Helsinki",60.1673235991897,24.9545313141138,,lokit,Lokit
+5,mustarastas,(Common) Blackbird,2 April 2016,,"Pornaistenniemi, Helsinki",60.2146021792775,24.9860055932911,,rastaat,Rastaat ym.
+6,talitiainen,Great Tit,2 April 2016,,"Pornaistenniemi, Helsinki",60.2138347444689,24.9860990449622,,tiaiset,Tiaiset ym.
+7,sinitiainen,(European) Blue Tit,2 April 2016,,"Lammassaari, Helsinki",60.214058915331,24.9870342389502,,tiaiset,Tiaiset ym.
+8,Naakka,(Western) Jackdaw,2 April 2016,,Helsinki,60.1707509329156,24.9425190848859,,varikset,Varikset
+9,Varis,Hooded Crow,2 April 2016,,Helsinki,60.1625167211052,24.9535559272819,,varikset,Varikset
+10,kottarainen,(Common) Starling,2 April 2016,,"Lammassaari, Helsinki",60.2107448799708,24.9999449004856,,rastaat,Rastaat ym.
+11,peippo,(Common) Chaffinch,2 April 2016,,"Lammassaari, Helsinki",60.2136941211898,24.9862972274891,,peipot,Peipot
+12,Uivelo,Smew,2 April 2016,2,"Lammassaari, Helsinki",60.2096685401799,25.0048857127786,,sorsat,Sorsat
+13,telkkä,(Common) Goldeneye,2 April 2016,,"Lammassaari, Helsinki",60.2091006112442,25.003909808331,,sorsat,Sorsat
+14,haapana,(Eurasian) Wigeon,2 April 2016,2,"Lammassaari, Helsinki",60.2102656852736,25.0043192765335,,sorsat,Sorsat
+15,laulujoutsen,Whooper Swan,2 April 2016,,"Pornaistenniemi, Helsinki",60.2137008918563,24.988630585059,,joutsenet-hanhet,Joutsenet ja hanhet
+16,nokikana,(Eurasian) Coot,2 April 2016,2,Toukolan rantapuisto,60.2034519356719,24.979152506367,,sorsat,Sorsat
+17,sinisorsa,Mallard,2 April 2016,,"Lammassaari, Helsinki",60.2041396617029,24.9945302980667,,sorsat,Sorsat
+18,tikli,(European) Goldfinch,2 April 2016,2,"Lammassaari, Helsinki",60.2087583182485,24.9995282251151,,peipot,Peipot
+19,varpunen,House Sparrow,6 April 2016,,"Koulupuisto, Helsinki",60.1634115717048,24.9457221760901,,varpuset-kiurut-kirviset,"Varpuset, kiurut ja kirviset"
+20,kalalokki,Common Gull,7 April 2016,,,60.1611682260969,24.8868547193938,,lokit,Lokit
+21,punarinta,(European) Robin,10 April 2016 13.54,,"Lammassaari, Helsinki",60.2085657092372,24.9977480527247,,peipot,Peipot
+22,kurki,(Common) Crane,10 April 2016 13.59,5,Ruohokarikanniemi,60.2139652229604,25.0006310062356,,kurki-haikarat,Kurki ja haikarat
+23,räkättirastas,Fieldfare,10 April 2016 14.00,,"Lammassaari, Helsinki",60.2059616897856,24.9958092686332,,rastaat,Rastaat ym.
+24,valkoposkihanhi,Barnacle Goose,10 April 2016 14.12,,"Kuusiluoto, Helsinki",60.2032771055216,24.9931277800584,,joutsenet-hanhet,Joutsenet ja hanhet
+25,kuovi,(Eurasian) Curlew,10 April 2016 14.13,,"Kuusiluoto, Helsinki",60.203199,24.993118,,kahlaajat,Kahlaajat
+26,kyhmyjoutsen,Mute Swan,10 April 2016 14.13,,"Kuusiluoto, Helsinki",60.202948,24.993011,1st winter,joutsenet-hanhet,Joutsenet ja hanhet
+27,meriharakka,(Eurasian) Oystercatcher,10 April 2016 14.23,2,"Kuusiluoto, Helsinki",60.203087,24.993419,,kahlaajat,Kahlaajat
+28,sepelkyyhky,(Common) Wood Pigeon,12 April 2016 18.19,,"Kaivopuisto, Helsinki",60.1555425590495,24.9501472214249,,kyyhkyt,Kyyhkyt
+29,haahka,(Common) Eider,16 April 2016 12.12,,"Iso Mustasaari, Helsinki",60.1495037248874,24.9829052534076,,sorsat,Sorsat
+30,viherpeippo,(European) Greenfinch,30 April 2016 13.09,,"Tähtitorninmäki, Helsinki",60.1609246499997,24.9530992196293,,peipot,Peipot
+31,kalatiira,Common Tern,6 May 2016 20.45,,"Merihaka, Helsinki",60.1783023382242,24.9608511331036,,lokit,Lokit
+32,ruskosuohaukka,(Western) Marsh Harrier,6 May 2016 21.06,1,"Pornaistenniemi, Helsinki",60.214156061467,24.9922236241633,,petolinnut,Petolinnut
+33,satakieli,Thrush Nightingale,7 May 2016 12.33,,"Herttoniemen siirtolapuutarha, Helsinki",60.1916192193145,25.0178278237814,,yolaulajat,Yölaulajat
+34,kivitasku,(Northern) Wheatear,11 May 2016 19.15,1,"Lauttasaari, Helsinki",60.1585853599147,24.887209370396,,vastarakit-taskut-lepinkaiset,"Västäräkit, taskut ja lepinkäiset"
+35,kirjosieppo,Pied Flycatcher,27 May 2016 17.44,,"Katajatie, Vuokatti",64.147147,28.254419,,tiaiset,Tiaiset ym.
+36,kuikka,Black-throated Loon,28 May 2016 17.54,2,"Särkinen, Vuokatti",64.1363199195491,28.2993155904378,,uikut-kuikat,Uikut ja kuikat
+37,tukkasotka,Tufted Duck,30 May 2016 19.25,2,"Särkiniemi, Helsinki",60.1465911744722,24.8731091525637,,sorsat,Sorsat
+38,silkkiuikku,Great Crested Grebe,30 May 2016 19.35,1,"Särkiniemi, Helsinki",60.1468280889654,24.8747235071146,,uikut-kuikat,Uikut ja kuikat
+39,Isokoskelo,Goosander,30 May 2016 19.37,1+7,"Särkiniemi, Helsinki",60.1468062960172,24.8747136164688,,sorsat,Sorsat
+40,mustapääkerttu,Blackcap,8 July 2016 19.58,,"Hasenheide, Berlin",52.4838413391751,13.4143599495417,,kertut,Kertut
+41,kapustarinta,(European) Golden Plover,16 July 2016 17.44,,"Viikki, Helsinki",60.2199948533068,25.027243299433,,kahlaajat,Kahlaajat
+42,keltavästäräkki,Yellow Wagtail,16 July 2016 18.03,,"Viikki, Helsinki",60.2202682288649,25.022267185335,,vastarakit-taskut-lepinkaiset,"Västäräkit, taskut ja lepinkäiset"
+43,tervapääsky,(Common) Swift,21 July 2016 14.43,,Kajaani,64.2329560377552,27.7381135884492,,paaskyt,Pääskyt
+44,räystäspääsky,(Common) House Martin,22 July 2016 11.27,,"Mieslahti, Helsinki",64.4203208014969,28.0257261637859,,paaskyt,Pääskyt
+45,harmaasorsa,Gadwall,4 September 2016 16.38,,"Viikki, Helsinki",60.2166607439154,25.0335874961909,,sorsat,Sorsat
+46,korppi,(Common) Raven,2 October 2016 15.03,,"Kulosaari, Helsinki",60.1811661641494,25.0148342212972,,varikset,Varikset
+47,pikkuvarpunen,(Eurasian) Tree Sparrow,2 October 2016 15.04,,"Kulosaari, Helsinki",60.1808853227473,25.0149157221692,,varpuset-kiurut-kirviset,"Varpuset, kiurut ja kirviset"
+48,kuusitiainen,Coal Tit,23 October 2016 14.27,,"Ullanlinnankatu, Helsinki",60.1629946029716,24.9474163058041,,tiaiset,Tiaiset ym.
+49,tilhi,(Bohemian) Waxwing,12 November 2016 13.44,,"Tähtitorninmäki, Helsinki",60.1616636654739,24.9529588878485,,rastaat,Rastaat ym.
+50,punatulkku,(Eurasian) Bullfinch,12 November 2016 13.45,,"Tähtitorninmäki, Helsinki",60.162560296093,24.9532924954511,,peipot,Peipot
+51,pähkinähakki,(Spotted) Nutcracker,10 December 2016 14.03,1,"Tähtitorninmäki, Helsinki",60.1620489647451,24.9521650432993,,varikset,Varikset
+52,närhi,(Eurasian) Jay,22 December 2016 11.47,,"Katajatie, Vuokatti",64.1472224417542,28.2540827595515,,varikset,Varikset
+53,Urpiainen,(Common) Redpoll,26 December 2016 13.05,,"Katajatie, Vuokatti",64.147154,28.254274,,peipot,Peipot
+54,harmaapäätikka,Grey-headed Woodpecker,27 December 2016 13.21,,"Katajatie, Vuokatti",64.147196,28.254206,,tikat,Tikat

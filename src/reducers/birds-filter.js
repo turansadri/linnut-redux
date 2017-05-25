@@ -21,9 +21,15 @@ export const filters = [
   { id: 'PrimaryName', value: '', options: PrimaryNames },
 ];
 
-const primaryNameOptionsByFamilyValue = (initialBirds, currentFamily) =>
-  [...new Set(initialBirds.filter(bird =>
-    bird.Family === currentFamily)
+const updatePrimaryNames = (initialBirds, currentFamily, currentDate) =>
+  [...new Set(initialBirds.filter((bird) => {
+    if (!currentFamily) {
+      return helpers.getYear(bird.Date) === currentDate;
+    } else if (!currentDate) {
+      return bird.Family === currentFamily;
+    }
+    return bird.Family === currentFamily && helpers.getYear(bird.Date) === currentDate;
+  })
   .map(bird => bird.PrimaryName))];
 
 const filterBirds = (initialBirds, nextFilters) => (
@@ -51,10 +57,13 @@ const birdsFilter = (state = initialState, action) => {
     const id = action.fieldName;
 
     const nextFilters = state.filters.map((filter) => {
-      /* Updates options for PrimaryName dropdown if Family is changed */
-      if (filter.id === 'PrimaryName' && id === 'Family') {
-        const nextPrimaryNames =
-          primaryNameOptionsByFamilyValue(state.birds, action.value);
+      /* Updates options for PrimaryName dropdown if Family or Date is changed */
+      if (filter.id === 'PrimaryName' && (id === 'Family' || id === 'Date')) {
+        const oldFamily = state.filters.find(f => f.id === 'Family').value;
+        const oldDate = state.filters.find(f => f.id === 'Date').value;
+        const currentFamily = id === 'Family' ? action.value : oldFamily;
+        const currentDate = id === 'Date' ? action.value : oldDate;
+        const nextPrimaryNames = updatePrimaryNames(state.birds, currentFamily, currentDate);
         return { ...filter, options: nextPrimaryNames, value: '' };
       }
       if (filter.id === id) {
