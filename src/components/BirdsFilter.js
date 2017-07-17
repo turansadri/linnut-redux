@@ -38,7 +38,7 @@ class BirdsFilter extends React.Component {
                 key={index}
                 value={option}
               >
-                { option }
+                { index } - { option }
               </option>),
             )}
           </select>),

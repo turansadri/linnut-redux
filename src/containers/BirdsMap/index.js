@@ -27,6 +27,7 @@ export default class BirdsMap extends Component {
             lat={bird.Latitude}
             lng={bird.Longitude}
             text={bird.PrimaryName}
+            family={bird.Family}
           />,
         )}
       </GoogleMapReact>

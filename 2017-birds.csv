@@ -1,119 +1,158 @@
 id,PrimaryName,SecondaryName,Date,Count,PlaceName,Latitude,Longitude,Notes,Family,FamilyName
-55,haapana,(Eurasian) Wigeon,25 May 2017 19.04,,,60.1527111726798,24.8905496761128,,sorsat,Sorsat
-56,Tukkakoskelo,Red-breasted Merganser,25 May 2017 18.05,,,60.156050324448,24.7698026126295,,sorsat,Sorsat
-57,fasaani,(Common) Pheasant,25 May 2017 17.36,,,60.1498286286617,24.7297096778006,,kanalinnut,Kanalinnut
-58,satakieli,Thrush Nightingale,25 May 2017 17.27,,,60.1529216134847,24.7143905588031,,yolaulajat,Yölaulajat
-59,lehtokerttu,Garden Warbler,25 May 2017 17.13,,,60.1523878066912,24.7223301933764,Ei 100% varma,kertut,Kertut
-60,haarapääsky,Barn Swallow,25 May 2017 16.57,,,60.1522532063725,24.723468995065,,paaskyt,Pääskyt
-61,nokikana,(Eurasian) Coot,25 May 2017 16.29,Pariskunta(?) ja 5 poikasta,,60.1521139547231,24.7215517699307,Nokikana poikasineen,sorsat,Sorsat
-62,mustakurkku-uikku,Slavonian Grebe,25 May 2017 16.20,,,60.1523694463477,24.719887668383,,uikut-kuikat,Uikut ja kuikat
-63,nokikana,(Eurasian) Coot,25 May 2017 16.14,,,60.151322282257,24.7191675994243,,sorsat,Sorsat
-64,naurulokki,Black-headed Gull,25 May 2017 16.09,,,60.1513921079231,24.7183631092992,Pesiä,lokit,Lokit
-65,Punatavi,Cinnamon Teal,25 May 2017 16.06,,,60.1515702490637,24.718421448317,,sorsat,Sorsat
-66,punasotka,(Common) Pochard,25 May 2017 16.00,,,60.151261299668,24.7184100714248,,sorsat,Sorsat
-67,harmaasorsa,Gadwall,25 May 2017 15.49,,,60.1508843882228,24.7171539273866,,sorsat,Sorsat
-68,tukkasotka,Tufted Duck,25 May 2017 15.46,2,,60.1508126456831,24.7165246334503,Pariskunta,sorsat,Sorsat
-69,lapasorsa,(Northern) Shoveler,25 May 2017 15.44,,,60.1509143787122,24.7155069466729,,sorsat,Sorsat
-70,liejukana,(Common) Moorhen,25 May 2017 15.42,,,60.1513172711489,24.7147950995862,,sorsat,Sorsat
-71,satakieli,Thrush Nightingale,25 May 2017 15.09,,,60.1616108048092,24.7487838288134,,yolaulajat,Yölaulajat
-72,silkkiuikku,Great Crested Grebe,25 May 2017 14.20,,,60.1627932997748,24.8547027355662,Ainakin kolme pesää,uikut-kuikat,Uikut ja kuikat
-73,telkkä,(Common) Goldeneye,20 May 2017 18.56,,,60.1721376182677,25.013780809901,Telkkä poikineen,sorsat,Sorsat
-74,silkkiuikku,Great Crested Grebe,20 May 2017 17.44,,,60.1614107847602,25.0783493933627,Ainakin 6 silkkiuikun pesää,uikut-kuikat,Uikut ja kuikat
-75,pensaskerttu,(Common) Whitethroat,20 May 2017 17.18,,,60.1637061361631,25.0820745608624,,kertut,Kertut
-76,mustapääkerttu,Blackcap,20 May 2017 17.10,,,60.1636931817835,25.0819755062136,Nuori punahattuinen yksilö,kertut,Kertut
-77,käpytikka,Great Spotted Woodpecker,20 May 2017 16.53,,,60.1636897198362,25.0818333803598,,tikat,Tikat
-78,mustarastas,(Common) Blackbird,20 May 2017 16.00,,,60.1688668805917,25.0562775756345,Helvetisti mustarastaita,rastaat,Rastaat ym.
-79,kanadanhanhi,Canada Goose,20 May 2017 16.10,,,60.1662690924562,25.0575684655603,Pari ja 3-4 poikasta,joutsenet-hanhet,Joutsenet ja hanhet
-80,silkkiuikku,Great Crested Grebe,20 May 2017 14.58,,,60.1960165361972,25.0212886781052,Pesä,uikut-kuikat,Uikut ja kuikat
-81,haapana,(Eurasian) Wigeon,20 May 2017 14.44,,,60.1987886963322,25.0242168972793,,sorsat,Sorsat
-82,harmaahaikara,Grey Heron,20 May 2017 14.40,,,60.1993527721276,25.0241162303203,,kurki-haikarat,Kurki ja haikarat
-83,laulurastas,Song Thrush,20 May 2017 14.21,,,60.2178613148255,25.0277352285079,,rastaat,Rastaat ym.
-84,keltasirkku,Yellowhammer,20 May 2017 14.12,,,60.2200460966703,25.0270692500737,,sirkut,Sirkut
-85,töyhtöhyyppä,(Northern) Lapwing,20 May 2017 14.06,,,60.2199985823983,25.0212231336893,Poikanen jo yhdellä,kahlaajat,Kahlaajat
-86,haarapääsky,Barn Swallow,20 May 2017 13.57,,,60.2202222972655,25.0218805572913,,paaskyt,Pääskyt
-87,kiuru,(Common) Skylark,20 May 2017 13.56,,,60.2202789710479,25.0217526858185,,varpuset-kiurut-kirviset,"Varpuset, kiurut ja kirviset"
-88,kirjosieppo,Pied Flycatcher,20 May 2017 13.38,1,,60.2196539198586,25.0048439767352,,tiaiset,Tiaiset ym.
-89,kivitasku,(Northern) Wheatear,20 May 2017 12.43,,,60.1854994193787,24.9707680145255,Än,vastarakit-taskut-lepinkaiset,"Västäräkit, taskut ja lepinkäiset"
-90,satakieli,Thrush Nightingale,20 May 2017 10.22,1,,60.1612982006513,24.9521188725172,,yolaulajat,Yölaulajat
-91,punarinta,(European) Robin,19 May 2017 8.09,,,60.1620366494297,24.9552320519848,,peipot,Peipot
-92,pajulintu,Willow Warbler,19 May 2017 7.51,,,60.1623414327945,24.9501756561139,,kertut,Kertut
-93,sinirinta,Bluethroat,17 May 2017 8.01,,,60.1624522444372,24.9506835023682,,peipot,Peipot
-94,tikli,(European) Goldfinch,17 May 2017 7.31,,,60.1618946061066,24.9504785771665,,peipot,Peipot
-95,punakylkirastas,Redwing,16 May 2017 21.11,,1,60.1622144997284,24.9522402716495,,rastaat,Rastaat ym.
-96,kirjosieppo,Pied Flycatcher,15 May 2017 20.39,,,60.1625880098128,24.9524597163557,,tiaiset,Tiaiset ym.
-97,räkättirastas,Fieldfare,14 May 2017 18.22,,,60.1605141399567,24.9532893687266,Pesä,rastaat,Rastaat ym.
-98,pajulintu,Willow Warbler,14 May 2017 18.16,,,60.1570831399385,24.9546321346966,,kertut,Kertut
-99,leppälintu,(Common) Redstart,14 May 2017 18.01,,,60.155191791524,24.9536275895814,,peipot,Peipot
-100,sinirinta,Bluethroat,14 May 2017 17.37,1,,60.1614592666644,24.951243050164,1st winter? Ei sinistä rinnassa,peipot,Peipot
-101,pajulintu,Willow Warbler,14 May 2017 6.36,,,60.1621846286767,24.9522556288252,,kertut,Kertut
-102,hernekerttu,Lesser Whitethroat,13 May 2017 12.28,,,60.1623491122256,24.9551982038283,Melko varma että oli hernekerttu,kertut,Kertut
-103,kivitasku,(Northern) Wheatear,13 May 2017 12.05,,,60.1620160192605,24.9530216394236,,vastarakit-taskut-lepinkaiset,"Västäräkit, taskut ja lepinkäiset"
-104,leppälintu,(Common) Redstart,13 May 2017 11.57,,,60.1614634625654,24.9530164407935,,peipot,Peipot
-105,suokukko,Ruff,7 May 2017 20.18,,,60.2082020781022,25.0023220424967,,kahlaajat,Kahlaajat
-106,harmaasorsa,Gadwall,7 May 2017 16.14,2,,60.2083977585054,25.0034305433179,,sorsat,Sorsat
-107,pikkutylli,Little Ringed Plover,7 May 2017 16.11,,,60.2086292026592,25.0028051293525,,kahlaajat,Kahlaajat
-108,liro,Wood Sandpiper,7 May 2017 16.08,,,60.2084830623792,25.0024791546256,,kahlaajat,Kahlaajat
-109,rantasipi,Common Sandpiper,7 May 2017 16.01,,,60.2081710642582,25.002250424714,,kahlaajat,Kahlaajat
-110,valkoviklo,(Common) Greenshank,7 May 2017 15.59,,,60.2081547350076,25.0037253024556,,kahlaajat,Kahlaajat
-111,punajalkaviklo,(Common) Redshank,7 May 2017 15.55,,,60.2083537772682,25.0024287091133,,kahlaajat,Kahlaajat
-112,taivaanvuohi,(Common) Snipe,7 May 2017 15.54,,,60.2077538850215,25.002952158113,,kahlaajat,Kahlaajat
-113,haarapääsky,Barn Swallow,7 May 2017 15.23,,,60.2136570136596,24.9950847230092,,paaskyt,Pääskyt
-114,töyhtöhyyppä,(Northern) Lapwing,7 May 2017 15.16,,,60.2140783732476,24.9965337835045,,kahlaajat,Kahlaajat
-115,nokikana,(Eurasian) Coot,7 May 2017 15.14,,,60.2141366079971,24.9923255339022,,sorsat,Sorsat
-116,ruskosuohaukka,(Western) Marsh Harrier,7 May 2017 15.13,1,,60.2139059244538,24.9963668252327,,petolinnut,Petolinnut
-117,pikkutikka,Lesser Spotted Woodpecker,7 May 2017 14.54,1,,60.213609037099,24.9864932787793,Naaras,tikat,Tikat
-118,lapintiira,Arctic Tern,6 May 2017 17.24,2,,60.1598350713482,24.894477072465,,lokit,Lokit
-119,merimetso,(Great) Cormorant,6 May 2017 17.01,3,,60.1467941310276,24.8707620245487,,joutsenet-hanhet,Joutsenet ja hanhet
-120,fasaani,(Common) Pheasant,6 May 2017 16.52,,,60.1446441316833,24.8747671327678,,kanalinnut,Kanalinnut
-121,puukiipijä,(Eurasian) Treecreeper,6 May 2017 16.21,2,,60.1458307727194,24.8884467996138,,tiaiset,Tiaiset ym.
-122,silkkiuikku,Great Crested Grebe,6 May 2017 16.12,2,,60.1522286177785,24.8909680043075,Pesä (2-3 munaa),uikut-kuikat,Uikut ja kuikat
-123,kyhmyjoutsen,Mute Swan,6 May 2017 16.11,2,,60.1523375517795,24.891009224643,Pesä,joutsenet-hanhet,Joutsenet ja hanhet
-124,kivitasku,(Northern) Wheatear,6 May 2017 16.11,2,,60.1524910809037,24.8909105678195,,vastarakit-taskut-lepinkaiset,"Västäräkit, taskut ja lepinkäiset"
-125,kalatiira,Common Tern,6 May 2017 15.51,,,60.1592256521797,24.8941394456447,,lokit,Lokit
-126,haahka,(Common) Eider,6 May 2017 15.48,2,,60.1597385570703,24.8943830631991,Pariskunta,sorsat,Sorsat
-127,merikotka,White-tailed Eagle,28 April 2017 16.50,2,,60.1669499108015,24.9397367738396,"Lensivät toimiston yli, ei täyttä varmuutta. Vaalee pää ja pyrstö, siivet näytti melkein mustilta taivasta vasten",petolinnut,Petolinnut
-128,kauluskaija,Rose-ringed Parakeet,22 April 2017 16.28,,,52.357771089276,4.89756828406002,,papukaijalinnut,Papukaijalinnut
-129,nokikana,(Eurasian) Coot,21 April 2017 14.26,4,,52.3816232005951,4.92028110071383,,sorsat,Sorsat
-130,pikkuvarpunen,(Eurasian) Tree Sparrow,14 April 2017 13.35,,,60.1615693959267,24.9520869314723,,varpuset-kiurut-kirviset,"Varpuset, kiurut ja kirviset"
-131,silkkiuikku,Great Crested Grebe,9 April 2017 15.51,2,Seurasaari,60.1795230254017,24.8869744623564,,uikut-kuikat,Uikut ja kuikat
-132,västäräkki,White / Pied Wagtail,9 April 2017 15.44,1,Seurasaari,60.1777971413012,24.8868477882439,,vastarakit-taskut-lepinkaiset,"Västäräkit, taskut ja lepinkäiset"
-133,punarinta,(European) Robin,9 April 2017 15.40,1,Seurasaari,60.1775711927679,24.8871129013981,,peipot,Peipot
-134,tukkasotka,Tufted Duck,9 April 2017 15.23,Lukuisia,Seurasaari,60.1779949081078,24.8793349756673,,sorsat,Sorsat
-135,meriharakka,(Eurasian) Oystercatcher,2 April 2017 16.28,1,,60.2099281565636,24.9838061119695,,kahlaajat,Kahlaajat
-136,sinisuohaukka,Hen Harrier,2 April 2017 15.25,1,,60.2087982407953,25.001781577364,,petolinnut,Petolinnut
-137,kanadanhanhi,Canada Goose,2 April 2017 15.25,,,60.2088736259002,25.0021157089189,,joutsenet-hanhet,Joutsenet ja hanhet
-138,kurki,(Common) Crane,2 April 2017 15.17,12,,60.2090525488708,25.0023188690894,NE,kurki-haikarat,Kurki ja haikarat
-139,hippiäinen,Goldcrest,2 April 2017 15.06,,Lammassaaren Lintutorni,60.2086691956084,25.0018196111647,,tiaiset,Tiaiset ym.
-140,peippo,(Common) Chaffinch,28 March 2017 18.53,1,,60.1572463874413,24.9535579950007,,peipot,Peipot
-141,sepelkyyhky,(Common) Wood Pigeon,26 March 2017 16.24,1,,60.2784309942945,24.9165339702384,,kyyhkyt,Kyyhkyt
-142,harakka,(Common) Magpie,26 March 2017 16.18,,,60.2756678373565,24.9129735743463,,varikset,Varikset
-143,varpunen,House Sparrow,26 March 2017 14.43,,,60.2841482036328,24.9229001593541,,varpuset-kiurut-kirviset,"Varpuset, kiurut ja kirviset"
-144,Naakka,(Western) Jackdaw,26 March 2017 11.36,,,60.1708451573046,24.9429377918304,,varikset,Varikset
-145,Kesykyyhky,Feral Pigeon,26 March 2017 11.16,,,60.171242584635,24.941787343738,,kyyhkyt,Kyyhkyt
-146,kalalokki,Common Gull,25 March 2017 17.11,,,60.1619773405101,24.9193500530132,,lokit,Lokit
-147,naurulokki,Black-headed Gull,25 March 2017 17.06,,,60.1620884008023,24.917965751951,,lokit,Lokit
-148,viherpeippo,(European) Greenfinch,25 March 2017 15.34,12,,60.1677810933967,24.914855772498,Ruokintapaikalla,peipot,Peipot
-149,räkättirastas,Fieldfare,25 March 2017 15.28,,,60.1733145585079,24.9159832862698,,rastaat,Rastaat ym.
-150,tikli,(European) Goldfinch,25 March 2017 15.24,,,60.1707892673839,24.9119162265894,,peipot,Peipot
-151,käpytikka,Great Spotted Woodpecker,25 March 2017 15.02,1,,60.1675714847802,24.9177256463686,,tikat,Tikat
-152,kuusitiainen,Coal Tit,25 March 2017 14.58,1,,60.1667259928411,24.9165942270648,,tiaiset,Tiaiset ym.
-153,telkkä,(Common) Goldeneye,25 March 2017 14.46,2,,60.161813101891,24.9178956395129,Pariskunta,sorsat,Sorsat
-154,Isokoskelo,Goosander,25 March 2017 14.37,2,,60.1602889546546,24.9242012642168,Pariskunta,sorsat,Sorsat
-155,Varis,Hooded Crow,23 March 2017 17.04,,Esplanadin puisto,60.1675650537619,24.9450598793874,Variksen pesä,varikset,Varikset
-156,Naakka,(Western) Jackdaw,22 March 2017 8.31,,,60.1553067370633,24.9452695697948,,varikset,Varikset
-157,kottarainen,(Common) Starling,22 March 2017 8.21,,Kaivopuisto,60.1573424153658,24.9539016152337,,rastaat,Rastaat ym.
-158,viherpeippo,(European) Greenfinch,18 March 2017 16.30,6,,60.2110699440192,24.9822494968618,,peipot,Peipot
-159,harmaahaikara,Grey Heron,18 March 2017 15.59,6-7,,60.2146466024285,24.9962397564439,,kurki-haikarat,Kurki ja haikarat
-160,keltasirkku,Yellowhammer,18 March 2017 15.46,2,,60.2136333147886,24.9914810876373,,sirkut,Sirkut
-161,pikkutikka,Lesser Spotted Woodpecker,18 March 2017 15.45,1,,60.2136740365078,24.991465220086,,tikat,Tikat
-162,Urpiainen,(Common) Redpoll,18 March 2017 15.38,1,,60.2144142868552,24.9913713021511,,peipot,Peipot
-163,Isokoskelo,Goosander,18 March 2017 15.23,5,,60.2114301215009,24.9851916420474,,sorsat,Sorsat
-164,Isokoskelo,Goosander,16 March 2017 18.45,5,Kaivopuistonranta,60.1552175020669,24.9625257375827,,sorsat,Sorsat
-165,kyhmyjoutsen,Mute Swan,11 March 2017 13.29,2,,60.1808688778136,24.9076910840823,,joutsenet-hanhet,Joutsenet ja hanhet
-166,harmaapäätikka,Grey-headed Woodpecker,11 March 2017 12.43,2,Seurasaari ,60.1792239671087,24.8825595037955,,tikat,Tikat
-167,käpytikka,Great Spotted Woodpecker,11 March 2017 12.35,1,Seurasaari,60.1777890032245,24.8840568098266,,tikat,Tikat
-168,sinitiainen,(European) Blue Tit,11 March 2017 11.44,,,60.1774371787683,24.8858411706428,Söivät kädestä,tiaiset,Tiaiset ym.
-169,talitiainen,Great Tit,11 March 2017 11.30,,,60.17786786388,24.8855402103715,Söivät kädestä,tiaiset,Tiaiset ym.
-170,sinisorsa,Mallard,18 February 2017 14.05,80,Ruoholahden Kanavanranta,60.1619257726353,24.9199314414011,,sorsat,Sorsat
-171,kyhmyjoutsen,Mute Swan,18 January 2017 18.09,Pari + 5 poikasta (1st winter),Eteläranta,60.157133706001,24.9630143872717,,joutsenet-hanhet,Joutsenet ja hanhet
-172,pähkinähakki,(Spotted) Nutcracker,6 January 2017 13.17,1,Tähtitorninmäki,60.1620745388685,24.9505688230114,,varikset,Varikset
+55,pähkinähakki,(Spotted) Nutcracker,6 January 2017 13.17,1,Tähtitorninmäki,60.1620745388685,24.9505688230114,,varikset,Varikset
+56,kyhmyjoutsen,Mute Swan,18 January 2017 18.09,Pari + 5 poikasta (1st winter),Eteläranta,60.157133706001,24.9630143872717,,joutsenet-hanhet,Joutsenet ja hanhet
+57,sinisorsa,Mallard,18 February 2017 14.05,80,Ruoholahden Kanavanranta,60.1619257726353,24.9199314414011,,sorsat,Sorsat
+58,talitiainen,Great Tit,11 March 2017 11.30,,,60.17786786388,24.8855402103715,Söivät kädestä,tiaiset,Tiaiset ym.
+59,sinitiainen,(European) Blue Tit,11 March 2017 11.44,,,60.1774371787683,24.8858411706428,Söivät kädestä,tiaiset,Tiaiset ym.
+60,käpytikka,Great Spotted Woodpecker,11 March 2017 12.35,1,Seurasaari,60.1777890032245,24.8840568098266,,tikat,Tikat
+61,harmaapäätikka,Grey-headed Woodpecker,11 March 2017 12.43,2,Seurasaari ,60.1792239671087,24.8825595037955,,tikat,Tikat
+62,kyhmyjoutsen,Mute Swan,11 March 2017 13.29,2,,60.1808688778136,24.9076910840823,,joutsenet-hanhet,Joutsenet ja hanhet
+63,Isokoskelo,Goosander,16 March 2017 18.45,5,Kaivopuistonranta,60.1552175020669,24.9625257375827,,sorsat,Sorsat
+64,Isokoskelo,Goosander,18 March 2017 15.23,5,,60.2114301215009,24.9851916420474,,sorsat,Sorsat
+65,Urpiainen,(Common) Redpoll,18 March 2017 15.38,1,,60.2144142868552,24.9913713021511,,peipot,Peipot
+66,pikkutikka,Lesser Spotted Woodpecker,18 March 2017 15.45,1,,60.2136740365078,24.991465220086,,tikat,Tikat
+67,keltasirkku,Yellowhammer,18 March 2017 15.46,2,,60.2136333147886,24.9914810876373,,sirkut,Sirkut
+68,harmaahaikara,Grey Heron,18 March 2017 15.59,6-7,,60.2146466024285,24.9962397564439,,kurki-haikarat,Kurki ja haikarat
+69,viherpeippo,(European) Greenfinch,18 March 2017 16.30,6,,60.2110699440192,24.9822494968618,,peipot,Peipot
+70,kottarainen,(Common) Starling,22 March 2017 8.21,,Kaivopuisto,60.1573424153658,24.9539016152337,,rastaat,Rastaat ym.
+71,Naakka,(Western) Jackdaw,22 March 2017 8.31,,,60.1553067370633,24.9452695697948,,varikset,Varikset
+72,Varis,Hooded Crow,23 March 2017 17.04,,Esplanadin puisto,60.1675650537619,24.9450598793874,Variksen pesä,varikset,Varikset
+73,Isokoskelo,Goosander,25 March 2017 14.37,2,,60.1602889546546,24.9242012642168,Pariskunta,sorsat,Sorsat
+74,telkkä,(Common) Goldeneye,25 March 2017 14.46,2,,60.161813101891,24.9178956395129,Pariskunta,sorsat,Sorsat
+75,kuusitiainen,Coal Tit,25 March 2017 14.58,1,,60.1667259928411,24.9165942270648,,tiaiset,Tiaiset ym.
+76,käpytikka,Great Spotted Woodpecker,25 March 2017 15.02,1,,60.1675714847802,24.9177256463686,,tikat,Tikat
+77,tikli,(European) Goldfinch,25 March 2017 15.24,,,60.1707892673839,24.9119162265894,,peipot,Peipot
+78,räkättirastas,Fieldfare,25 March 2017 15.28,,,60.1733145585079,24.9159832862698,,rastaat,Rastaat ym.
+79,viherpeippo,(European) Greenfinch,25 March 2017 15.34,12,,60.1677810933967,24.914855772498,Ruokintapaikalla,peipot,Peipot
+80,naurulokki,Black-headed Gull,25 March 2017 17.06,,,60.1620884008023,24.917965751951,,lokit,Lokit
+81,kalalokki,Common Gull,25 March 2017 17.11,,,60.1619773405101,24.9193500530132,,lokit,Lokit
+82,Kesykyyhky,Feral Pigeon,26 March 2017 11.16,,,60.171242584635,24.941787343738,,kyyhkyt,Kyyhkyt
+83,Naakka,(Western) Jackdaw,26 March 2017 11.36,,,60.1708451573046,24.9429377918304,,varikset,Varikset
+84,varpunen,House Sparrow,26 March 2017 14.43,,,60.2841482036328,24.9229001593541,,varpuset-kiurut-kirviset,"Varpuset, kiurut ja kirviset"
+85,harakka,(Common) Magpie,26 March 2017 16.18,,,60.2756678373565,24.9129735743463,,varikset,Varikset
+86,sepelkyyhky,(Common) Wood Pigeon,26 March 2017 16.24,1,,60.2784309942945,24.9165339702384,,kyyhkyt,Kyyhkyt
+87,peippo,(Common) Chaffinch,28 March 2017 18.53,1,,60.1572463874413,24.9535579950007,,peipot,Peipot
+88,hippiäinen,Goldcrest,2 April 2017 15.06,,Lammassaaren Lintutorni,60.2086691956084,25.0018196111647,,tiaiset,Tiaiset ym.
+89,kurki,(Common) Crane,2 April 2017 15.17,12,,60.2090525488708,25.0023188690894,NE,kurki-haikarat,Kurki ja haikarat
+90,kanadanhanhi,Canada Goose,2 April 2017 15.25,,,60.2088736259002,25.0021157089189,,joutsenet-hanhet,Joutsenet ja hanhet
+91,sinisuohaukka,Hen Harrier,2 April 2017 15.25,1,,60.2087982407953,25.001781577364,,petolinnut,Petolinnut
+92,meriharakka,(Eurasian) Oystercatcher,2 April 2017 16.28,1,,60.2099281565636,24.9838061119695,,kahlaajat,Kahlaajat
+93,tukkasotka,Tufted Duck,9 April 2017 15.23,Lukuisia,Seurasaari,60.1779949081078,24.8793349756673,,sorsat,Sorsat
+94,punarinta,(European) Robin,9 April 2017 15.40,1,Seurasaari,60.1775711927679,24.8871129013981,,peipot,Peipot
+95,västäräkki,White / Pied Wagtail,9 April 2017 15.44,1,Seurasaari,60.1777971413012,24.8868477882439,,vastarakit-taskut-lepinkaiset,"Västäräkit, taskut ja lepinkäiset"
+96,silkkiuikku,Great Crested Grebe,9 April 2017 15.51,2,Seurasaari,60.1795230254017,24.8869744623564,,uikut-kuikat,Uikut ja kuikat
+97,pikkuvarpunen,(Eurasian) Tree Sparrow,14 April 2017 13.35,,,60.1615693959267,24.9520869314723,,varpuset-kiurut-kirviset,"Varpuset, kiurut ja kirviset"
+98,nokikana,(Eurasian) Coot,21 April 2017 14.26,4,,52.3816232005951,4.92028110071383,,sorsat,Sorsat
+99,kauluskaija,Rose-ringed Parakeet,22 April 2017 16.28,,,52.357771089276,4.89756828406002,,papukaijalinnut,Papukaijalinnut
+100,merikotka,White-tailed Eagle,28 April 2017 16.50,2,,60.1669499108015,24.9397367738396,"Lensivät toimiston yli, ei täyttä varmuutta. Vaalee pää ja pyrstö, siivet näytti melkein mustilta taivasta vasten",petolinnut,Petolinnut
+101,haahka,(Common) Eider,6 May 2017 15.48,2,,60.1597385570703,24.8943830631991,Pariskunta,sorsat,Sorsat
+102,kalatiira,Common Tern,6 May 2017 15.51,,,60.1592256521797,24.8941394456447,,lokit,Lokit
+103,kivitasku,(Northern) Wheatear,6 May 2017 16.11,2,,60.1524910809037,24.8909105678195,,vastarakit-taskut-lepinkaiset,"Västäräkit, taskut ja lepinkäiset"
+104,kyhmyjoutsen,Mute Swan,6 May 2017 16.11,2,,60.1523375517795,24.891009224643,Pesä,joutsenet-hanhet,Joutsenet ja hanhet
+105,silkkiuikku,Great Crested Grebe,6 May 2017 16.12,2,,60.1522286177785,24.8909680043075,Pesä (2-3 munaa),uikut-kuikat,Uikut ja kuikat
+106,puukiipijä,(Eurasian) Treecreeper,6 May 2017 16.21,2,,60.1458307727194,24.8884467996138,,tiaiset,Tiaiset ym.
+107,fasaani,(Common) Pheasant,6 May 2017 16.52,,,60.1446441316833,24.8747671327678,,kanalinnut,Kanalinnut
+108,merimetso,(Great) Cormorant,6 May 2017 17.01,3,,60.1467941310276,24.8707620245487,,joutsenet-hanhet,Joutsenet ja hanhet
+109,lapintiira,Arctic Tern,6 May 2017 17.24,2,,60.1598350713482,24.894477072465,,lokit,Lokit
+110,pikkutikka,Lesser Spotted Woodpecker,7 May 2017 14.54,1,,60.213609037099,24.9864932787793,Naaras,tikat,Tikat
+111,ruskosuohaukka,(Western) Marsh Harrier,7 May 2017 15.13,1,,60.2139059244538,24.9963668252327,,petolinnut,Petolinnut
+112,nokikana,(Eurasian) Coot,7 May 2017 15.14,,,60.2141366079971,24.9923255339022,,sorsat,Sorsat
+113,töyhtöhyyppä,(Northern) Lapwing,7 May 2017 15.16,,,60.2140783732476,24.9965337835045,,kahlaajat,Kahlaajat
+114,haarapääsky,Barn Swallow,7 May 2017 15.23,,,60.2136570136596,24.9950847230092,,paaskyt,Pääskyt
+115,taivaanvuohi,(Common) Snipe,7 May 2017 15.54,,,60.2077538850215,25.002952158113,,kahlaajat,Kahlaajat
+116,punajalkaviklo,(Common) Redshank,7 May 2017 15.55,,,60.2083537772682,25.0024287091133,,kahlaajat,Kahlaajat
+117,valkoviklo,(Common) Greenshank,7 May 2017 15.59,,,60.2081547350076,25.0037253024556,,kahlaajat,Kahlaajat
+118,rantasipi,Common Sandpiper,7 May 2017 16.01,,,60.2081710642582,25.002250424714,,kahlaajat,Kahlaajat
+119,liro,Wood Sandpiper,7 May 2017 16.08,,,60.2084830623792,25.0024791546256,,kahlaajat,Kahlaajat
+120,pikkutylli,Little Ringed Plover,7 May 2017 16.11,,,60.2086292026592,25.0028051293525,,kahlaajat,Kahlaajat
+121,harmaasorsa,Gadwall,7 May 2017 16.14,2,,60.2083977585054,25.0034305433179,,sorsat,Sorsat
+122,suokukko,Ruff,7 May 2017 20.18,,,60.2082020781022,25.0023220424967,,kahlaajat,Kahlaajat
+123,leppälintu,(Common) Redstart,13 May 2017 11.57,,,60.1614634625654,24.9530164407935,,peipot,Peipot
+124,kivitasku,(Northern) Wheatear,13 May 2017 12.05,,,60.1620160192605,24.9530216394236,,vastarakit-taskut-lepinkaiset,"Västäräkit, taskut ja lepinkäiset"
+125,hernekerttu,Lesser Whitethroat,13 May 2017 12.28,,,60.1623491122256,24.9551982038283,Melko varma että oli hernekerttu,kertut,Kertut
+126,pajulintu,Willow Warbler,14 May 2017 6.36,,,60.1621846286767,24.9522556288252,,kertut,Kertut
+127,sinirinta,Bluethroat,14 May 2017 17.37,1,,60.1614592666644,24.951243050164,1st winter? Ei sinistä rinnassa,peipot,Peipot
+128,leppälintu,(Common) Redstart,14 May 2017 18.01,,,60.155191791524,24.9536275895814,,peipot,Peipot
+129,pajulintu,Willow Warbler,14 May 2017 18.16,,,60.1570831399385,24.9546321346966,,kertut,Kertut
+130,räkättirastas,Fieldfare,14 May 2017 18.22,,,60.1605141399567,24.9532893687266,Pesä,rastaat,Rastaat ym.
+131,kirjosieppo,Pied Flycatcher,15 May 2017 20.39,,,60.1625880098128,24.9524597163557,,tiaiset,Tiaiset ym.
+132,punakylkirastas,Redwing,16 May 2017 21.11,,1,60.1622144997284,24.9522402716495,,rastaat,Rastaat ym.
+133,tikli,(European) Goldfinch,17 May 2017 7.31,,,60.1618946061066,24.9504785771665,,peipot,Peipot
+134,sinirinta,Bluethroat,17 May 2017 8.01,,,60.1624522444372,24.9506835023682,,peipot,Peipot
+135,pajulintu,Willow Warbler,19 May 2017 7.51,,,60.1623414327945,24.9501756561139,,kertut,Kertut
+136,punarinta,(European) Robin,19 May 2017 8.09,,,60.1620366494297,24.9552320519848,,peipot,Peipot
+137,satakieli,Thrush Nightingale,20 May 2017 10.22,1,,60.1612982006513,24.9521188725172,,yolaulajat,Yölaulajat
+138,kivitasku,(Northern) Wheatear,20 May 2017 12.43,,,60.1854994193787,24.9707680145255,Än,vastarakit-taskut-lepinkaiset,"Västäräkit, taskut ja lepinkäiset"
+139,kirjosieppo,Pied Flycatcher,20 May 2017 13.38,1,,60.2196539198586,25.0048439767352,,tiaiset,Tiaiset ym.
+140,kiuru,(Common) Skylark,20 May 2017 13.56,,,60.2202789710479,25.0217526858185,,varpuset-kiurut-kirviset,"Varpuset, kiurut ja kirviset"
+141,haarapääsky,Barn Swallow,20 May 2017 13.57,,,60.2202222972655,25.0218805572913,,paaskyt,Pääskyt
+142,töyhtöhyyppä,(Northern) Lapwing,20 May 2017 14.06,,,60.2199985823983,25.0212231336893,Poikanen jo yhdellä,kahlaajat,Kahlaajat
+143,keltasirkku,Yellowhammer,20 May 2017 14.12,,,60.2200460966703,25.0270692500737,,sirkut,Sirkut
+144,laulurastas,Song Thrush,20 May 2017 14.21,,,60.2178613148255,25.0277352285079,,rastaat,Rastaat ym.
+145,harmaahaikara,Grey Heron,20 May 2017 14.40,,,60.1993527721276,25.0241162303203,,kurki-haikarat,Kurki ja haikarat
+146,haapana,(Eurasian) Wigeon,20 May 2017 14.44,,,60.1987886963322,25.0242168972793,,sorsat,Sorsat
+147,silkkiuikku,Great Crested Grebe,20 May 2017 14.58,,,60.1960165361972,25.0212886781052,Pesä,uikut-kuikat,Uikut ja kuikat
+148,kanadanhanhi,Canada Goose,20 May 2017 16.10,,,60.1662690924562,25.0575684655603,Pari ja 3-4 poikasta,joutsenet-hanhet,Joutsenet ja hanhet
+149,mustarastas,(Common) Blackbird,20 May 2017 16.00,,,60.1688668805917,25.0562775756345,Helvetisti mustarastaita,rastaat,Rastaat ym.
+150,käpytikka,Great Spotted Woodpecker,20 May 2017 16.53,,,60.1636897198362,25.0818333803598,,tikat,Tikat
+151,mustapääkerttu,Blackcap,20 May 2017 17.10,,,60.1636931817835,25.0819755062136,Nuori punahattuinen yksilö,kertut,Kertut
+152,pensaskerttu,(Common) Whitethroat,20 May 2017 17.18,,,60.1637061361631,25.0820745608624,,kertut,Kertut
+153,silkkiuikku,Great Crested Grebe,20 May 2017 17.44,,,60.1614107847602,25.0783493933627,Ainakin 6 silkkiuikun pesää,uikut-kuikat,Uikut ja kuikat
+154,telkkä,(Common) Goldeneye,20 May 2017 18.56,,,60.1721376182677,25.013780809901,Telkkä poikineen,sorsat,Sorsat
+155,silkkiuikku,Great Crested Grebe,25 May 2017 14.20,,,60.1627932997748,24.8547027355662,Ainakin kolme pesää,uikut-kuikat,Uikut ja kuikat
+156,satakieli,Thrush Nightingale,25 May 2017 15.09,,,60.1616108048092,24.7487838288134,,yolaulajat,Yölaulajat
+157,liejukana,(Common) Moorhen,25 May 2017 15.42,,,60.1513172711489,24.7147950995862,,sorsat,Sorsat
+158,lapasorsa,(Northern) Shoveler,25 May 2017 15.44,,,60.1509143787122,24.7155069466729,,sorsat,Sorsat
+159,tukkasotka,Tufted Duck,25 May 2017 15.46,2,,60.1508126456831,24.7165246334503,Pariskunta,sorsat,Sorsat
+160,harmaasorsa,Gadwall,25 May 2017 15.49,,,60.1508843882228,24.7171539273866,,sorsat,Sorsat
+161,punasotka,(Common) Pochard,25 May 2017 16.00,,,60.151261299668,24.7184100714248,,sorsat,Sorsat
+162,Punatavi,Cinnamon Teal,25 May 2017 16.06,,,60.1515702490637,24.718421448317,,sorsat,Sorsat
+163,naurulokki,Black-headed Gull,25 May 2017 16.09,,,60.1513921079231,24.7183631092992,Pesiä,lokit,Lokit
+164,nokikana,(Eurasian) Coot,25 May 2017 16.14,,,60.151322282257,24.7191675994243,,sorsat,Sorsat
+165,mustakurkku-uikku,Slavonian Grebe,25 May 2017 16.20,,,60.1523694463477,24.719887668383,,uikut-kuikat,Uikut ja kuikat
+166,nokikana,(Eurasian) Coot,25 May 2017 16.29,Pariskunta(?) ja 5 poikasta,,60.1521139547231,24.7215517699307,Nokikana poikasineen,sorsat,Sorsat
+167,haarapääsky,Barn Swallow,25 May 2017 16.57,,,60.1522532063725,24.723468995065,,paaskyt,Pääskyt
+168,lehtokerttu,Garden Warbler,25 May 2017 17.13,,,60.1523878066912,24.7223301933764,Ei 100% varma,kertut,Kertut
+169,satakieli,Thrush Nightingale,25 May 2017 17.27,,,60.1529216134847,24.7143905588031,,yolaulajat,Yölaulajat
+170,fasaani,(Common) Pheasant,25 May 2017 17.36,,,60.1498286286617,24.7297096778006,,kanalinnut,Kanalinnut
+171,tukkakoskelo,Red-breasted Merganser,25 May 2017 18.05,,,60.156050324448,24.7698026126295,,sorsat,Sorsat
+172,haapana,(Eurasian) Wigeon,25 May 2017 19.04,,,60.1527111726798,24.8905496761128,,sorsat,Sorsat
+173,kottarainen,(Common) Starling,27 May 2017 13.15,,,60.1628224113593,24.9517476362641,Pesä,rastaat,Rastaat ym.
+174,tervapääsky,(Common) Swift,27 May 2017 13.27,,,60.1605493644542,24.9521903484107,,paaskyt,Pääskyt
+175,tukkasotka,Tufted Duck,27 May 2017 13.42,2,,60.153898446315,24.9538161725346,Pariskunta ,sorsat,Sorsat
+176,harmaasieppo,Spotted Flycatcher,27 May 2017 14.14,,,60.1679435304976,24.917122639751,,varpuset-kiurut-kirviset,"Varpuset, kiurut ja kirviset"
+177,tervapääsky,(Common) Swift,8 June 2017 18.28,,,60.4750930185218,25.0836203331921,,paaskyt,Pääskyt
+178,punarinta,(European) Robin,8 June 2017 19.13,,,60.4750722554098,25.0834261062337,,peipot,Peipot
+179,kivitasku,(Northern) Wheatear,10 June 2017 14.56,,,60.1821890359501,24.9624748458409,,vastarakit-taskut-lepinkaiset,"Västäräkit, taskut ja lepinkäiset"
+180,käpytikka,Great Spotted Woodpecker,10 June 2017 15.47,,,60.1962437687986,25.0640975486306,Käpytikan pesä,tikat,Tikat
+181,lapasorsa,(Northern) Shoveler,10 June 2017 18.42,,,60.1855148852098,25.1512468573226,,sorsat,Sorsat
+182,hippiäinen,Goldcrest,10 June 2017 18.55,,,60.1838132957014,25.1520222312085,,tiaiset,Tiaiset ym.
+183,merimetso,(Great) Cormorant,11 June 2017 15.40,,,60.149979464963,24.9607147845639,,joutsenet-hanhet,Joutsenet ja hanhet
+184,haahka,(Common) Eider,11 June 2017 15.41,,,60.1496827490939,24.9599751718959,,sorsat,Sorsat
+185,haarapääsky,Barn Swallow,11 June 2017 15.51,,,60.149554363532,24.9590008738756,,paaskyt,Pääskyt
+186,harmaasieppo,Spotted Flycatcher,25 June 2017 13.33,,,60.2744032090367,24.5019086331752,,varpuset-kiurut-kirviset,"Varpuset, kiurut ja kirviset"
+187,talitiainen,Great Tit,25 June 2017 17.12,,,60.274373287711,24.5017268897293,,tiaiset,Tiaiset ym.
+188,pajulintu,Willow Warbler,25 June 2017 17.12,,,60.2737660596975,24.5020203045348,,kertut,Kertut
+189,tervapääsky,(Common) Swift,28 June 2017 21.32,,,59.4365208706461,24.741907541878,,paaskyt,Pääskyt
+190,kattohaikara,White Stork,29 June 2017 12.59,,,59.2317162197492,24.2196339811304,,kurki-haikarat,Kurki ja haikarat
+191,tiltaltti,(Common) Chiffchaff,2 July 2017 10.06,,,59.22998783,24.19320916,,kertut,Kertut
+192,kiuru,(Common) Skylark,2 July 2017 10.07,,,59.2266338771038,24.185833713787,,varpuset-kiurut-kirviset,"Varpuset, kiurut ja kirviset"
+193,rantasipi,Common Sandpiper,3 July 2017 20.41,,,61.2287102897619,25.6107351999656,,kahlaajat,Kahlaajat
+194,tukkakoskelo,Red-breasted Merganser,3 July 2017 21.01,,,61.2282409230589,25.6113150199382,,sorsat,Sorsat
+195,kuikka,Black-throated Loon,3 July 2017 22.33,,,61.228757482381,25.6101203255792,,sorsat,Sorsat
+196,käpytikka,Great Spotted Woodpecker,4 July 2017 5.56,,,61.2286174566559,25.6102062951099,,tikat,Tikat
+197,härkälintu,Red-necked Grebe,5 July 2017 17.14,,,61.1971140439817,25.5588053391448,,sorsat,Sorsat
+198,merimetso,(Great) Cormorant,10 July 2017 17.13,2,,60.1589961764933,24.9645116709575,,joutsenet-hanhet,Joutsenet ja hanhet
+199,haapana,(Eurasian) Wigeon,14 July 2017 16.51,,,60.1959626404421,25.024002043014,,sorsat,Sorsat
+200,harmaahaikara,Grey Heron,14 July 2017 17.37,,,60.1960823846538,25.0243436348428,S,kurki-haikarat,Kurki ja haikarat
+201,räystäspääsky,(Common) House Martin,15 July 2017 19.47,,,64.4204385044903,28.0251489178611,,paaskyt,Pääskyt
+202,lehtokurppa,(Eurasian) Woodcock,15 July 2017 23.18,,,64.4204811696768,28.0253611218257,Lensi ohi ääntä pitäen,kahlaajat,Kahlaajat
+203,punarinta,(European) Robin,16 July 2017 0.10,,,64.4207202897849,28.0313913092069,,peipot,Peipot
+204,tiltaltti,(Common) Chiffchaff,16 July 2017 13.08,,,64.3817036254907,28.0495678621777,,kertut,Kertut
+205,vihervarpunen,(Eurasian) Siskin,16 July 2017 13.36,,,64.3940563630251,27.996002131098,,peipot,Peipot
+206,kurki,(Common) Crane,16 July 2017 17.21,2,,64.4185594093966,27.7137914088738,,kurki-haikarat,Kurki ja haikarat
+207,korppi,(Common) Raven,16 July 2017 17.53,1,,64.4184382654034,28.0255510752586,,varikset,Varikset
+208,kuovi,(Eurasian) Curlew,16 July 2017 21.25,1,,64.4031094334184,27.9961341275201,,kahlaajat,Kahlaajat
+209,punakylkirastas,Redwing,16 July 2017 21.37,,,64.3851368720387,27.9875401150232,,rastaat,Rastaat ym.
+210,punarinta,(European) Robin,16 July 2017 21.41,,,64.3839386800739,27.9872694537511,,peipot,Peipot
+211,metsäviklo,Green Sandpiper,16 July 2017 22.41,,,64.4175711255254,27.9678803674631,,kahlaajat,Kahlaajat
