@@ -1,6 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
+import { darken } from 'polished';
+import { colorize } from '../helpers/styled-utils';
+import * as swatches from '../constants/styled-variables';
 
 const Marker = styled.span`
   width: 30px;
@@ -12,6 +15,7 @@ const Marker = styled.span`
   position: relative;
   cursor: pointer;
   transition: all 0.3s ease;
+  border: 2px solid #eee;
   span {
     display: none;
     font-family: Helvetica;
@@ -21,9 +25,9 @@ const Marker = styled.span`
     line-height: 8px;
     font-weight: bold;
     left: 50%;
-    bottom: -16px;
-    background-color: #fff!important;
-    color: #000!important;
+    bottom: -18px;
+    background-color: #fff;
+    color: #000;
     padding: 3px 2px 1px;
     transform: translate(-50%,-50%);
     text-transform: uppercase;
@@ -37,139 +41,67 @@ const Marker = styled.span`
     }
   }
   &.varikset {
-    background-color: #999;
-    border-color: darken(#999, 7%);
-    span {
-      background-color: #999;
-    }
+    ${colorize(swatches.varikset)};
   }
   &.tikat {
-    background-color: #FF1800;
-    span {
-      background-color: #FF1800;
-    }
+    ${colorize(swatches.tikat)};
   }
   &.kahlaajat {
-    background-color: #00A87C;
-    span {
-      background-color: #00A87C;
-    }
+    ${colorize(swatches.kahlaajat)};
   }
   &.lokit {
-    background-color: #fff;
-    span {
-      background-color: #fff;
-    }
+    ${colorize(swatches.lokit)};
   }
   &.rastaat {
-    background-color: #333;
-    color: #fff;
-    -webkit-font-smoothing: antialiased;
-    span {
-      background-color: #333;
-    }
+    ${colorize(swatches.rastaat)};
   }
   &.tiaiset {
-    background-color: #FFF600;
-    span {
-      background-color: #FFF600;
-    }
+    ${colorize(swatches.tiaiset)};
   }
   &.peipot {
-    background-color: #C24D24;
-    span {
-      background-color: #C24D24;
-    }
+    ${colorize(swatches.peipot)};
   }
   &.sorsat {
-    background-color: #002BCF;
-    color: #fff;
-    -webkit-font-smoothing: antialiased;
-    span {
-      background-color: #002BCF;
-    }
+    ${colorize(swatches.sorsat)};
   }
   &.joutsenet-hanhet {
-    background-color: #00C8CF;
-    span {
-      background-color: #00C8CF;
-    }
+    ${colorize(swatches.joutsenetHanhet)};
   }
   &.varpuset-kiurut-kirviset {
-    background-color: #EEA003;
-    span {
-      background-color: #EEA003;
-    }
+    ${colorize(swatches.varpusetKiurutKirviset)};
   }
   &.kertut {
-    background-color: #EE7708;
-    span {
-      background-color: #EE7708;
-    }
+    ${colorize(swatches.kertut)};
   }
   &.kyyhkyt {
-    background-color: #ccc;
-    span {
-      background-color: #ccc;
-    }
+    ${colorize(swatches.kyyhkyt)};
   }
   &.kurki-haikarat {
-    background-color: #A17D37;
-    span {
-      background-color: #A17D37;
-    }
+    ${colorize(swatches.kurkiHaikarat)};
   }
   &.petolinnut {
-    background-color: #634C2F;
-    span {
-      background-color: #634C2F;
-    }
+    ${colorize(swatches.petolinnut)};
   }
   &.yolaulajat {
-    background-color: #C20548;
-    color: #fff;
-    -webkit-font-smoothing: antialiased;
-    span {
-      background-color: #C20548;
-    }
+    ${colorize(swatches.yolaulajat)};
   }
   &.vastarakit-taskut-lepinkaiset {
-    background-color: #81D447;
-    span {
-      background-color: #81D447;
-    }
+    ${colorize(swatches.vastarakitTaskutLepinkaiset)};
   }
   &.uikut-kuikat {
-    background-color: #008ECF;
-    color: #fff;
-    -webkit-font-smoothing: antialiased;
-    span {
-      background-color: #008ECF;
-    }
+    ${colorize(swatches.uikutKuikat)};
   }
   &.paaskyt {
-    background-color: #B97CC2;
-    span {
-      background-color: #B97CC2;
-    }
+    ${colorize(swatches.paaskyt)};
   }
   &.sirkut {
-    background-color: #C1C23B;
-    span {
-      background-color: #C1C23B;
-    }
+    ${colorize(swatches.sirkut)};
   }
   &.papukaijalinnut {
-    background-color: #01D922;
-    span {
-      background-color: #01D922;
-    }
+    ${colorize(swatches.papukaijalinnut)};
   }
   &.kanalinnut {
-    background-color: #D4B640;
-    span {
-      background-color: #D4B640;
-    }
+    ${colorize(swatches.kanalinnut)};
   }
 `;
 
