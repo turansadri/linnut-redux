@@ -75,15 +75,15 @@ id,PrimaryName,SecondaryName,Date,Count,PlaceName,Latitude,Longitude,Notes,Famil
 128,leppälintu,(Common) Redstart,14 May 2017 18.01,,,60.155191791524,24.9536275895814,,peipot,Peipot
 129,pajulintu,Willow Warbler,14 May 2017 18.16,,,60.1570831399385,24.9546321346966,,kertut,Kertut
 130,räkättirastas,Fieldfare,14 May 2017 18.22,,,60.1605141399567,24.9532893687266,Pesä,rastaat,Rastaat ym.
-131,kirjosieppo,Pied Flycatcher,15 May 2017 20.39,,,60.1625880098128,24.9524597163557,,tiaiset,Tiaiset ym.
+131,kirjosieppo,Pied Flycatcher,15 May 2017 20.39,,,60.1625880098128,24.9524597163557,,varpuset-kiurut-kirviset,"Varpuset, kiurut ja kirviset"
 132,punakylkirastas,Redwing,16 May 2017 21.11,,1,60.1622144997284,24.9522402716495,,rastaat,Rastaat ym.
 133,tikli,(European) Goldfinch,17 May 2017 7.31,,,60.1618946061066,24.9504785771665,,peipot,Peipot
 134,sinirinta,Bluethroat,17 May 2017 8.01,,,60.1624522444372,24.9506835023682,,peipot,Peipot
 135,pajulintu,Willow Warbler,19 May 2017 7.51,,,60.1623414327945,24.9501756561139,,kertut,Kertut
 136,punarinta,(European) Robin,19 May 2017 8.09,,,60.1620366494297,24.9552320519848,,peipot,Peipot
-137,satakieli,Thrush Nightingale,20 May 2017 10.22,1,,60.1612982006513,24.9521188725172,,yolaulajat,Yölaulajat
+137,satakieli,Thrush Nightingale,20 May 2017 10.22,1,,60.1612982006513,24.9521188725172,,varpuset-kiurut-kirviset,"Varpuset, kiurut ja kirviset"
 138,kivitasku,(Northern) Wheatear,20 May 2017 12.43,,,60.1854994193787,24.9707680145255,Än,vastarakit-taskut-lepinkaiset,"Västäräkit, taskut ja lepinkäiset"
-139,kirjosieppo,Pied Flycatcher,20 May 2017 13.38,1,,60.2196539198586,25.0048439767352,,tiaiset,Tiaiset ym.
+139,kirjosieppo,Pied Flycatcher,20 May 2017 13.38,1,,60.2196539198586,25.0048439767352,,varpuset-kiurut-kirviset,"Varpuset, kiurut ja kirviset"
 140,kiuru,(Common) Skylark,20 May 2017 13.56,,,60.2202789710479,25.0217526858185,,varpuset-kiurut-kirviset,"Varpuset, kiurut ja kirviset"
 141,haarapääsky,Barn Swallow,20 May 2017 13.57,,,60.2202222972655,25.0218805572913,,paaskyt,Pääskyt
 142,töyhtöhyyppä,(Northern) Lapwing,20 May 2017 14.06,,,60.2199985823983,25.0212231336893,Poikanen jo yhdellä,kahlaajat,Kahlaajat
@@ -100,7 +100,7 @@ id,PrimaryName,SecondaryName,Date,Count,PlaceName,Latitude,Longitude,Notes,Famil
 153,silkkiuikku,Great Crested Grebe,20 May 2017 17.44,,,60.1614107847602,25.0783493933627,Ainakin 6 silkkiuikun pesää,uikut-kuikat,Uikut ja kuikat
 154,telkkä,(Common) Goldeneye,20 May 2017 18.56,,,60.1721376182677,25.013780809901,Telkkä poikineen,sorsat,Sorsat
 155,silkkiuikku,Great Crested Grebe,25 May 2017 14.20,,,60.1627932997748,24.8547027355662,Ainakin kolme pesää,uikut-kuikat,Uikut ja kuikat
-156,satakieli,Thrush Nightingale,25 May 2017 15.09,,,60.1616108048092,24.7487838288134,,yolaulajat,Yölaulajat
+156,satakieli,Thrush Nightingale,25 May 2017 15.09,,,60.1616108048092,24.7487838288134,,varpuset-kiurut-kirviset,"Varpuset, kiurut ja kirviset"
 157,liejukana,(Common) Moorhen,25 May 2017 15.42,,,60.1513172711489,24.7147950995862,,sorsat,Sorsat
 158,lapasorsa,(Northern) Shoveler,25 May 2017 15.44,,,60.1509143787122,24.7155069466729,,sorsat,Sorsat
 159,tukkasotka,Tufted Duck,25 May 2017 15.46,2,,60.1508126456831,24.7165246334503,Pariskunta,sorsat,Sorsat
@@ -113,7 +113,7 @@ id,PrimaryName,SecondaryName,Date,Count,PlaceName,Latitude,Longitude,Notes,Famil
 166,nokikana,(Eurasian) Coot,25 May 2017 16.29,Pariskunta(?) ja 5 poikasta,,60.1521139547231,24.7215517699307,Nokikana poikasineen,sorsat,Sorsat
 167,haarapääsky,Barn Swallow,25 May 2017 16.57,,,60.1522532063725,24.723468995065,,paaskyt,Pääskyt
 168,lehtokerttu,Garden Warbler,25 May 2017 17.13,,,60.1523878066912,24.7223301933764,Ei 100% varma,kertut,Kertut
-169,satakieli,Thrush Nightingale,25 May 2017 17.27,,,60.1529216134847,24.7143905588031,,yolaulajat,Yölaulajat
+169,satakieli,Thrush Nightingale,25 May 2017 17.27,,,60.1529216134847,24.7143905588031,,varpuset-kiurut-kirviset,"Varpuset, kiurut ja kirviset"
 170,fasaani,(Common) Pheasant,25 May 2017 17.36,,,60.1498286286617,24.7297096778006,,kanalinnut,Kanalinnut
 171,tukkakoskelo,Red-breasted Merganser,25 May 2017 18.05,,,60.156050324448,24.7698026126295,,sorsat,Sorsat
 172,haapana,(Eurasian) Wigeon,25 May 2017 19.04,,,60.1527111726798,24.8905496761128,,sorsat,Sorsat

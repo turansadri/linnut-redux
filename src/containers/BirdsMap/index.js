@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import GoogleMapReact from 'google-map-react';
 import * as config from '../../config';
-import { BirdMarker } from '../../components/BirdMarker';
+import BirdMarker from '../../components/BirdMarker';
 
 const style = {
   width: '100%',
@@ -12,14 +12,16 @@ const style = {
 export default class BirdsMap extends Component {
   render() {
     const {
+      onMarkerClick,
       mapConfig,
       filteredBirds,
+      activeMarker,
     } = this.props;
     return (
       <GoogleMapReact
         bootstrapURLKeys={{ key: config.getGoogleKey() }}
         style={style}
-        center={ mapConfig.center }
+        center={mapConfig.center}
         defaultZoom={11}
       >
         { filteredBirds.map(bird =>
@@ -28,6 +30,10 @@ export default class BirdsMap extends Component {
             lng={bird.Longitude}
             text={bird.PrimaryName}
             family={bird.Family}
+            key={bird.id}
+            id={bird.id}
+            activeMarker={activeMarker}
+            onMarkerClick={onMarkerClick}
           />,
         )}
       </GoogleMapReact>

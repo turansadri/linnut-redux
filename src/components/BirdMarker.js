@@ -1,13 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import { darken } from 'polished';
 import { colorize } from '../helpers/styled-utils';
-import * as swatches from '../constants/styled-variables';
+import helpers from '../helpers';
+import * as styled_var from '../constants/styled-variables';
+import * as icons from '../icons';
+
+const Icon = props => <div dangerouslySetInnerHTML={{ __html: icons[props.icon] }} />;
 
 const Marker = styled.span`
-  width: 30px;
-  height: 30px;
+  width: 28px;
+  height: 28px;
   display: block;
   text-align: center;
   border-radius: 100px;
@@ -20,7 +23,7 @@ const Marker = styled.span`
     display: none;
     font-family: Helvetica;
     position: absolute;
-    font-size: 8px;
+    font-size: 7.5px;
     letter-spacing: -0.05em;
     line-height: 8px;
     font-weight: bold;
@@ -28,85 +31,127 @@ const Marker = styled.span`
     bottom: -18px;
     background-color: #fff;
     color: #000;
-    padding: 3px 2px 1px;
+    padding: 2px 2px 1px;
     transform: translate(-50%,-50%);
     text-transform: uppercase;
     border: 1px solid #eee;
   }
+  svg {
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%,-40%);
+    position: absolute;
+    width: 27px;
+    fill: #000;
+  }
   &:hover {
     z-index: 1000;
-    transform: scale(1.1);
+    transform: scale(1.25);
+    span {
+      display: block;
+    }
+  }
+  &.active {
+    z-index: 1000;
+    transform: scale(1.7);
     span {
       display: block;
     }
   }
   &.varikset {
-    ${colorize(swatches.varikset)};
+    ${colorize(styled_var.varikset)};
   }
   &.tikat {
-    ${colorize(swatches.tikat)};
+    ${colorize(styled_var.tikat)};
   }
   &.kahlaajat {
-    ${colorize(swatches.kahlaajat)};
+    ${colorize(styled_var.kahlaajat)};
   }
   &.lokit {
-    ${colorize(swatches.lokit)};
+    ${colorize(styled_var.lokit)};
+    svg {
+      fill: #fff;
+    }
   }
   &.rastaat {
-    ${colorize(swatches.rastaat)};
+    ${colorize(styled_var.rastaat)};
   }
   &.tiaiset {
-    ${colorize(swatches.tiaiset)};
+    ${colorize(styled_var.tiaiset)};
   }
   &.peipot {
-    ${colorize(swatches.peipot)};
+    ${colorize(styled_var.peipot)};
+    svg {
+      fill: #fff;
+    }
   }
   &.sorsat {
-    ${colorize(swatches.sorsat)};
+    ${colorize(styled_var.sorsat)};
   }
   &.joutsenet-hanhet {
-    ${colorize(swatches.joutsenetHanhet)};
+    ${colorize(styled_var.joutsenetHanhet)};
   }
   &.varpuset-kiurut-kirviset {
-    ${colorize(swatches.varpusetKiurutKirviset)};
+    ${colorize(styled_var.varpusetKiurutKirviset)};
+    svg {
+      fill: #5E4920;
+    }
   }
   &.kertut {
-    ${colorize(swatches.kertut)};
+    ${colorize(styled_var.kertut)};
+    svg {
+      fill: #FF8709;
+    }
   }
   &.kyyhkyt {
-    ${colorize(swatches.kyyhkyt)};
+    ${colorize(styled_var.kyyhkyt)};
+    svg {
+      fill: #666;
+    }
   }
   &.kurki-haikarat {
-    ${colorize(swatches.kurkiHaikarat)};
+    ${colorize(styled_var.kurkiHaikarat)};
+    svg {
+      fill: #fff;
+    }
   }
   &.petolinnut {
-    ${colorize(swatches.petolinnut)};
-  }
-  &.yolaulajat {
-    ${colorize(swatches.yolaulajat)};
+    ${colorize(styled_var.petolinnut)};
+    svg {
+      fill: #29200E;
+    }
   }
   &.vastarakit-taskut-lepinkaiset {
-    ${colorize(swatches.vastarakitTaskutLepinkaiset)};
+    ${colorize(styled_var.vastarakitTaskutLepinkaiset)};
   }
   &.uikut-kuikat {
-    ${colorize(swatches.uikutKuikat)};
+    ${colorize(styled_var.uikutKuikat)};
   }
   &.paaskyt {
-    ${colorize(swatches.paaskyt)};
+    ${colorize(styled_var.paaskyt)};
   }
   &.sirkut {
-    ${colorize(swatches.sirkut)};
+    ${colorize(styled_var.sirkut)};
   }
   &.papukaijalinnut {
-    ${colorize(swatches.papukaijalinnut)};
+    ${colorize(styled_var.papukaijalinnut)};
+    svg {
+      fill: #01FB22;
+    }
   }
   &.kanalinnut {
-    ${colorize(swatches.kanalinnut)};
+    ${colorize(styled_var.kanalinnut)};
   }
 `;
 
-export const BirdMarker = (props) => {
+const BirdMarker = (props) => {
+  const isActive = props.id == props.activeMarker ? 'active' : '';
+  const classes = `${props.family} ${isActive}`;
   return (
-    <Marker className={props.family}><span>{ props.text }</span></Marker>
+    <Marker className={classes} onClick={(e) => props.onMarkerClick(props.id)}>
+      <Icon icon={helpers.camelCasify(props.family)} />
+      <span>{ props.text }</span>
+    </Marker>
   );
 };
+export default BirdMarker;

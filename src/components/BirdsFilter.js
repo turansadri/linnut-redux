@@ -1,16 +1,20 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
+import * as styled_var from '../constants/styled-variables';
 
 const FiltersContainer = styled.section`
   position: absolute;
   width: 100%;
   height: auto;
-  background-color: #fff;
+  background-color: ${styled_var.primaryColor};
   padding: 1em;
   top: 0;
   left: 0;
   z-index: 100;
+  select {
+    text-transform: capitalize;
+  }
 `;
 
 class BirdsFilter extends React.Component {
@@ -38,7 +42,7 @@ class BirdsFilter extends React.Component {
                 key={index}
                 value={option}
               >
-                { index } - { option }
+                { option }
               </option>),
             )}
           </select>),

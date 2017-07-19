@@ -1,24 +1,26 @@
 import birds from '../data/birds';
 import helpers from '../helpers';
 import {
+  ACTIVE_MARKER_CHANGE,
   FORM_VALUE_CHANGE,
 } from '../actions/birds-filter';
 
 const Families = [...new Set(birds.map(bird => bird.Family))];
 const PrimaryNames = [...new Set(birds.map(bird => bird.PrimaryName))];
 const dates = [...new Set(birds.map(bird => helpers.getYear(bird.Date)))];
-
+const activeMarker = {
+  id: '',
+};
 const mapConfig = {
   center: {
     lat: 60.1634549,
     lng: 24.9449212,
   },
 };
-
 export const filters = [
-  { id: 'Family', value: '', options: Families },
-  { id: 'Date', value: '', options: dates },
-  { id: 'PrimaryName', value: '', options: PrimaryNames },
+  { id: 'Family', value: '', displayName: '', options: Families },
+  { id: 'Date', value: '', displayName: '', options: dates },
+  { id: 'PrimaryName', value: '', displayName: '', options: PrimaryNames },
 ];
 
 const updatePrimaryNames = (initialBirds, currentFamily, currentDate) =>
@@ -49,10 +51,17 @@ const initialState = {
   filters,
   filteredBirds: birds,
   mapConfig,
+  activeMarker,
 };
 
 const birdsFilter = (state = initialState, action) => {
   switch (action.type) {
+  case ACTIVE_MARKER_CHANGE: {
+    return {
+      ...state,
+      activeMarker: action.id,
+    };
+  }
   case FORM_VALUE_CHANGE: {
     const id = action.fieldName;
 
@@ -64,7 +73,7 @@ const birdsFilter = (state = initialState, action) => {
         const currentFamily = id === 'Family' ? action.value : oldFamily;
         const currentDate = id === 'Date' ? action.value : oldDate;
         const nextPrimaryNames = updatePrimaryNames(state.birds, currentFamily, currentDate);
-        return { ...filter, options: nextPrimaryNames, value: '' };
+        return { ...filter, options: nextPrimaryNames, value: '', displayName: '' };
       }
       if (filter.id === id) {
         return { ...filter, value: action.value };
