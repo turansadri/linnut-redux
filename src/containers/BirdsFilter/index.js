@@ -14,7 +14,7 @@ const BirdsFilterContainer = props => {
   const { onChange, onMarkerClick } = props;
   return (
     <div>
-      <BirdsFilter {...props} onChange={onChange} />
+      {/* <BirdsFilter {...props} onChange={onChange} /> */}
       <BirdsMap {...props} onClick={onMarkerClick} />
     </div>
   );

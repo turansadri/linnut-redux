@@ -3,10 +3,11 @@ import { Provider } from 'react-redux';
 import { createStore, compose } from 'redux';
 import { composeWithDevTools } from 'redux-devtools-extension';
 import { reactReduxFirebase } from 'react-redux-firebase';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { firebaseConfig } from '../config';
 import * as firebase from 'firebase';
 import reducers from '../reducers';
+import Navigation from '../components/Navigation';
 import BirdsFilter from '../containers/BirdsFilter';
 import BirdsForm from '../containers/BirdsForm';
 import './App.css';
@@ -34,8 +35,11 @@ class App extends Component {
       <Provider store={store}>
         <BrowserRouter>
           <div>
-            <Route exact path="/" component={BirdsFilter} />
-            <Route path="/add" component={BirdsForm} />
+            <Navigation />
+            <Switch>
+              <Route exact path="/" component={BirdsFilter} />
+              <Route path="/add" component={BirdsForm} />
+            </Switch>
           </div>
         </BrowserRouter>
       </Provider>
