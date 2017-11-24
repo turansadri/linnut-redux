@@ -4,6 +4,7 @@ import { createStore, compose } from 'redux';
 import { composeWithDevTools } from 'redux-devtools-extension';
 import { reactReduxFirebase } from 'react-redux-firebase';
 import { BrowserRouter, Route } from 'react-router-dom';
+import { firebaseConfig } from '../config';
 import * as firebase from 'firebase';
 import reducers from '../reducers';
 import BirdsFilter from '../containers/BirdsFilter';
@@ -14,6 +15,8 @@ const composer =
   process.env.NODE_ENV !== 'production' ? composeWithDevTools : compose;
 
 const rrfConfig = { userProfile: 'users' }; // react-redux-firebase config
+
+const config = firebaseConfig;
 
 firebase.initializeApp(config); // <- new to v2.*.*
 
