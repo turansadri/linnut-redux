@@ -1,0 +1,2238 @@
+{
+  "species": [
+    {
+      "name": "Anatidae",
+      "displayName": "Sorsat",
+      "species": [
+        {
+          "displayName": "Kyhmyjoutsen",
+          "name": "Cygnus olor"
+        },
+        {
+          "displayName": "Pikkujoutsen",
+          "name": "Cygnus columbianus"
+        },
+        {
+          "displayName": "Laulujoutsen",
+          "name": "Cygnus cygnus"
+        },
+        {
+          "displayName": "Metsähanhi",
+          "name": "Anser fabalis"
+        },
+        {
+          "displayName": "Lyhytnokkahanhi",
+          "name": "Anser brachyrhynchus"
+        },
+        {
+          "displayName": "Tundrahanhi",
+          "name": "Anser albifrons"
+        },
+        {
+          "displayName": "Kiljuhanhi",
+          "name": "Anser erythropus"
+        },
+        {
+          "displayName": "Merihanhi",
+          "name": "Anser anser"
+        },
+        {
+          "displayName": "Lumihanhi",
+          "name": "Anser caerulescens"
+        },
+        {
+          "displayName": "Tiibetinhanhi",
+          "name": "Anser indicus"
+        },
+        {
+          "displayName": "Kanadanhanhi",
+          "name": "Branta canadensis"
+        },
+        {
+          "displayName": "Valkoposkihanhi",
+          "name": "Branta leucopsis"
+        },
+        {
+          "displayName": "Sepelhanhi",
+          "name": "Branta bernicla"
+        },
+        {
+          "displayName": "Punakaulahanhi",
+          "name": "Branta ruficollis"
+        },
+        {
+          "displayName": "Ruostesorsa",
+          "name": "Tadorna ferruginea"
+        },
+        {
+          "displayName": "Ristisorsa",
+          "name": "Tadorna tadorna"
+        },
+        {
+          "displayName": "Mandariinisorsa",
+          "name": "Aix galericulata"
+        },
+        {
+          "displayName": "Haapana",
+          "name": "Anas penelope"
+        },
+        {
+          "displayName": "Amerikanhaapana",
+          "name": "Anas americana"
+        },
+        {
+          "displayName": "Harmaasorsa",
+          "name": "Anas strepera"
+        },
+        {
+          "displayName": "Tavi",
+          "name": "Anas crecca"
+        },
+        {
+          "displayName": "Amerikantavi",
+          "name": "Anas carolinensis"
+        },
+        {
+          "displayName": "Sinisorsa",
+          "name": "Anas platyrhynchos"
+        },
+        {
+          "displayName": "Nokisorsa",
+          "name": "Anas rubripes"
+        },
+        {
+          "displayName": "Jouhisorsa",
+          "name": "Anas acuta"
+        },
+        {
+          "displayName": "Heinätavi",
+          "name": "Anas querquedula"
+        },
+        {
+          "displayName": "Sinisiipitavi",
+          "name": "Anas discors"
+        },
+        {
+          "displayName": "Lapasorsa",
+          "name": "Anas clypeata"
+        },
+        {
+          "displayName": "Punapäänarsku",
+          "name": "Netta rufina"
+        },
+        {
+          "displayName": "Punasotka",
+          "name": "Aythya ferina"
+        },
+        {
+          "displayName": "Amerikantukkasotka",
+          "name": "Aythya collaris"
+        },
+        {
+          "displayName": "Ruskosotka",
+          "name": "Aythya nyroca"
+        },
+        {
+          "displayName": "Tukkasotka",
+          "name": "Aythya fuligula"
+        },
+        {
+          "displayName": "Lapasotka",
+          "name": "Aythya marila"
+        },
+        {
+          "displayName": "Pikkulapasotka",
+          "name": "Aythya affinis"
+        },
+        {
+          "displayName": "Haahka",
+          "name": "Somateria mollissima"
+        },
+        {
+          "displayName": "Kyhmyhaahka",
+          "name": "Somateria spectabilis"
+        },
+        {
+          "displayName": "Allihaahka",
+          "name": "Polysticta stelleri"
+        },
+        {
+          "displayName": "Virta-alli",
+          "name": "Histrionicus histrionicus"
+        },
+        {
+          "displayName": "Alli",
+          "name": "Clangula hyemalis"
+        },
+        {
+          "displayName": "Mustalintu",
+          "name": "Melanitta nigra"
+        },
+        {
+          "displayName": "Amerikanmustalintu",
+          "name": "Melanitta americana"
+        },
+        {
+          "displayName": "Pilkkaniska",
+          "name": "Melanitta perspicillata"
+        },
+        {
+          "displayName": "Pilkkasiipi",
+          "name": "Melanitta fusca"
+        },
+        {
+          "displayName": "Kyhmypilkkasiipi",
+          "name": "Melanitta deglandi"
+        },
+        {
+          "displayName": "Telkkä",
+          "name": "Bucephala clangula"
+        },
+        {
+          "displayName": "Uivelo",
+          "name": "Mergellus albellus"
+        },
+        {
+          "displayName": "Tukkakoskelo",
+          "name": "Mergus serrator"
+        },
+        {
+          "displayName": "Isokoskelo",
+          "name": "Mergus merganser"
+        },
+        {
+          "displayName": "Kuparisorsa",
+          "name": "Oxyura jamaicensis"
+        }
+      ]
+    },
+    {
+      "name": "Phasianidae",
+      "displayName": "Aitokanat",
+      "species": [
+        {
+          "displayName": "Pyy",
+          "name": "Bonasa bonasia"
+        },
+        {
+          "displayName": "Riekko",
+          "name": "Lagopus lagopus"
+        },
+        {
+          "displayName": "Kiiruna",
+          "name": "Lagopus muta"
+        },
+        {
+          "displayName": "Teeri",
+          "name": "Tetrao tetrix"
+        },
+        {
+          "displayName": "Metso",
+          "name": "Tetrao urogallus"
+        },
+        {
+          "displayName": "Peltopyy",
+          "name": "Perdix perdix"
+        },
+        {
+          "displayName": "Viiriäinen",
+          "name": "Coturnix coturnix"
+        },
+        {
+          "displayName": "Fasaani",
+          "name": "Phasianus colchicus"
+        }
+      ]
+    },
+    {
+      "name": "Gaviidae",
+      "displayName": "Kuikat",
+      "species": [
+        {
+          "displayName": "Kaakkuri",
+          "name": "Gavia stellata"
+        },
+        {
+          "displayName": "Kuikka",
+          "name": "Gavia arctica"
+        },
+        {
+          "displayName": "Tundrakuikka",
+          "name": "Gavia pacifica"
+        },
+        {
+          "displayName": "Amerikanjääkuikka",
+          "name": "Gavia immer"
+        },
+        {
+          "displayName": "Jääkuikka",
+          "name": "Gavia adamsii"
+        }
+      ]
+    },
+    {
+      "name": "Podicipedidae",
+      "displayName": "Uikut",
+      "species": [
+        {
+          "displayName": "Pikku-uikku",
+          "name": "Tachybaptus ruficollis"
+        },
+        {
+          "displayName": "Silkkiuikku",
+          "name": "Podiceps cristatus"
+        },
+        {
+          "displayName": "Härkälintu",
+          "name": "Podiceps grisegena"
+        },
+        {
+          "displayName": "Mustakurkku-uikku",
+          "name": "Podiceps auritus"
+        },
+        {
+          "displayName": "Mustakaulauikku",
+          "name": "Podiceps nigricollis"
+        }
+      ]
+    },
+    {
+      "name": "Sulidae",
+      "displayName": "Suulat",
+      "species": [
+        {
+          "displayName": "Suula",
+          "name": "Morus bassanus"
+        }
+      ]
+    },
+    {
+      "name": "Phalacrocoracidae",
+      "displayName": "Merimetsot",
+      "species": [
+        {
+          "displayName": "Merimetso",
+          "name": "Phalacrocorax carbo"
+        },
+        {
+          "displayName": "Karimetso",
+          "name": "Phalacrocorax aristotelis"
+        }
+      ]
+    },
+    {
+      "name": "Pelecanidae",
+      "displayName": "Pelikaanit",
+      "species": [
+        {
+          "displayName": "Pelikaani",
+          "name": "Pelecanus onocrotalus"
+        }
+      ]
+    },
+    {
+      "name": "Ardeidae",
+      "displayName": "Haikarat",
+      "species": [
+        {
+          "displayName": "Kaulushaikara",
+          "name": "Botaurus stellaris"
+        },
+        {
+          "displayName": "Pikkuhaikara",
+          "name": "Ixobrychus minutus"
+        },
+        {
+          "displayName": "Yöhaikara",
+          "name": "Nycticorax nycticorax"
+        },
+        {
+          "displayName": "Lehmähaikara",
+          "name": "Bubulcus ibis"
+        },
+        {
+          "displayName": "Rääkkähaikara",
+          "name": "Ardeola ralloides"
+        },
+        {
+          "displayName": "Silkkihaikara",
+          "name": "Egretta garzetta"
+        },
+        {
+          "displayName": "Jalohaikara",
+          "name": "Egretta alba"
+        },
+        {
+          "displayName": "Harmaahaikara",
+          "name": "Ardea cinerea"
+        },
+        {
+          "displayName": "Ruskohaikara",
+          "name": "Ardea purpurea"
+        }
+      ]
+    },
+    {
+      "name": "Ciconiidae",
+      "displayName": "Kattohaikarat",
+      "species": [
+        {
+          "displayName": "Mustahaikara",
+          "name": "Ciconia nigra"
+        },
+        {
+          "displayName": "Kattohaikara",
+          "name": "Ciconia ciconia"
+        }
+      ]
+    },
+    {
+      "name": "Threskiornithidae",
+      "displayName": "Iibikset",
+      "species": [
+        {
+          "displayName": "Pronssi-iibis",
+          "name": "Plegadis falcinellus"
+        },
+        {
+          "displayName": "Kapustahaikara",
+          "name": "Platalea leucorodia"
+        }
+      ]
+    },
+    {
+      "name": "Accipitridae",
+      "displayName": "Haukat",
+      "species": [
+        {
+          "displayName": "Mehiläishaukka",
+          "name": "Pernis apivorus"
+        },
+        {
+          "displayName": "Haarahaukka",
+          "name": "Milvus migrans"
+        },
+        {
+          "displayName": "Isohaarahaukka",
+          "name": "Milvus milvus"
+        },
+        {
+          "displayName": "Aromerikotka",
+          "name": "Haliaeetus leucoryphus"
+        },
+        {
+          "displayName": "Merikotka",
+          "name": "Haliaeetus albicilla"
+        },
+        {
+          "displayName": "Pikkukorppikotka",
+          "name": "Neophron percnopterus"
+        },
+        {
+          "displayName": "Hanhikorppikotka",
+          "name": "Gyps fulvus"
+        },
+        {
+          "displayName": "Munkkikorppikotka",
+          "name": "Aegypius monachus"
+        },
+        {
+          "displayName": "Käärmekotka",
+          "name": "Circaetus gallicus"
+        },
+        {
+          "displayName": "Ruskosuohaukka",
+          "name": "Circus aeruginosus"
+        },
+        {
+          "displayName": "Sinisuohaukka",
+          "name": "Circus cyaneus"
+        },
+        {
+          "displayName": "Arosuohaukka",
+          "name": "Circus macrourus"
+        },
+        {
+          "displayName": "Niittysuohaukka",
+          "name": "Circus pygargus"
+        },
+        {
+          "displayName": "Kanahaukka",
+          "name": "Accipiter gentilis"
+        },
+        {
+          "displayName": "Varpushaukka",
+          "name": "Accipiter nisus"
+        },
+        {
+          "displayName": "Hiirihaukka",
+          "name": "Buteo buteo"
+        },
+        {
+          "displayName": "Arohiirihaukka",
+          "name": "Buteo rufinus"
+        },
+        {
+          "displayName": "Piekana",
+          "name": "Buteo lagopus"
+        },
+        {
+          "displayName": "Pikkukiljukotka",
+          "name": "Aquila pomarina"
+        },
+        {
+          "displayName": "Kiljukotka",
+          "name": "Aquila clanga"
+        },
+        {
+          "displayName": "Arokotka",
+          "name": "Aquila nipalensis"
+        },
+        {
+          "displayName": "Keisarikotka",
+          "name": "Aquila heliaca"
+        },
+        {
+          "displayName": "Maakotka",
+          "name": "Aquila chrysaetos"
+        },
+        {
+          "displayName": "Pikkukotka",
+          "name": "Hieraaetus pennatus"
+        },
+        {
+          "displayName": "Sääksi",
+          "name": "Pandion haliaetus"
+        }
+      ]
+    },
+    {
+      "name": "Falconidae",
+      "displayName": "Jalohaukat",
+      "species": [
+        {
+          "displayName": "Pikkutuulihaukka",
+          "name": "Falco naumanni"
+        },
+        {
+          "displayName": "Tuulihaukka",
+          "name": "Falco tinnunculus"
+        },
+        {
+          "displayName": "Punajalkahaukka",
+          "name": "Falco vespertinus"
+        },
+        {
+          "displayName": "Ampuhaukka",
+          "name": "Falco columbarius"
+        },
+        {
+          "displayName": "Nuolihaukka",
+          "name": "Falco subbuteo"
+        },
+        {
+          "displayName": "Välimerenhaukka",
+          "name": "Falco eleonorae"
+        },
+        {
+          "displayName": "Aavikkohaukka",
+          "name": "Falco cherrug"
+        },
+        {
+          "displayName": "Tunturihaukka",
+          "name": "Falco rusticolus"
+        },
+        {
+          "displayName": "Muuttohaukka",
+          "name": "Falco peregrinus"
+        }
+      ]
+    },
+    {
+      "name": "Rallidae",
+      "displayName": "Rantakanat",
+      "species": [
+        {
+          "displayName": "Luhtakana",
+          "name": "Rallus aquaticus"
+        },
+        {
+          "displayName": "Luhtahuitti",
+          "name": "Porzana porzana"
+        },
+        {
+          "displayName": "Pikkuhuitti",
+          "name": "Porzana parva"
+        },
+        {
+          "displayName": "Kääpiöhuitti",
+          "name": "Porzana pusilla"
+        },
+        {
+          "displayName": "Ruisrääkkä",
+          "name": "Crex crex"
+        },
+        {
+          "displayName": "Liejukana",
+          "name": "Gallinula chloropus"
+        },
+        {
+          "displayName": "Kurnuliejukana",
+          "name": "Porphyrio alleni"
+        },
+        {
+          "displayName": "Nokikana",
+          "name": "Fulica atra"
+        }
+      ]
+    },
+    {
+      "name": "Gruidae",
+      "displayName": "Kurjet",
+      "species": [
+        {
+          "displayName": "Kurki",
+          "name": "Grus grus"
+        },
+        {
+          "displayName": "Hietakurki",
+          "name": "Grus canadensis"
+        },
+        {
+          "displayName": "Neitokurki",
+          "name": "Grus virgo"
+        }
+      ]
+    },
+    {
+      "name": "Otididae",
+      "displayName": "Trapit",
+      "species": [
+        {
+          "displayName": "Pikkutrappi",
+          "name": "Tetrax tetrax"
+        },
+        {
+          "displayName": "Idänkaulustrappi",
+          "name": "Chlamydotis macqueenii"
+        },
+        {
+          "displayName": "Isotrappi",
+          "name": "Otis tarda"
+        }
+      ]
+    },
+    {
+      "name": "Haematopodidae",
+      "displayName": "Meriharakat",
+      "species": [
+        {
+          "displayName": "Meriharakka",
+          "name": "Haematopus ostralegus"
+        }
+      ]
+    },
+    {
+      "name": "Recurvirostridae",
+      "displayName": "Avosetit",
+      "species": [
+        {
+          "displayName": "Pitkäjalka",
+          "name": "Himantopus himantopus"
+        },
+        {
+          "displayName": "Avosetti",
+          "name": "Recurvirostra avosetta"
+        }
+      ]
+    },
+    {
+      "name": "Burhinidae",
+      "displayName": "Paksujalat",
+      "species": [
+        {
+          "displayName": "Paksujalka",
+          "name": "Burhinus oedicnemus"
+        }
+      ]
+    },
+    {
+      "name": "Glareolidae",
+      "displayName": "Pääskykahlaajat",
+      "species": [
+        {
+          "displayName": "Aavikkojuoksija",
+          "name": "Cursorius cursor"
+        },
+        {
+          "displayName": "Pääskykahlaaja",
+          "name": "Glareola pratincola"
+        },
+        {
+          "displayName": "Aropääskykahlaaja",
+          "name": "Glareola nordmanni"
+        }
+      ]
+    },
+    {
+      "name": "Charadriidae",
+      "displayName": "Kurmitsat",
+      "species": [
+        {
+          "displayName": "Pikkutylli",
+          "name": "Charadrius dubius"
+        },
+        {
+          "displayName": "Tylli",
+          "name": "Charadrius hiaticula"
+        },
+        {
+          "displayName": "Mustajalkatylli",
+          "name": "Charadrius alexandrinus"
+        },
+        {
+          "displayName": "Ylänkötylli",
+          "name": "Charadrius mongolus"
+        },
+        {
+          "displayName": "Aavikkotylli",
+          "name": "Charadrius leschenaultii"
+        },
+        {
+          "displayName": "Kaspiantylli",
+          "name": "Charadrius asiaticus"
+        },
+        {
+          "displayName": "Gobintylli",
+          "name": "Charadrius veredus"
+        },
+        {
+          "displayName": "Keräkurmitsa",
+          "name": "Charadrius morinellus"
+        },
+        {
+          "displayName": "Amerikankurmitsa",
+          "name": "Pluvialis dominica"
+        },
+        {
+          "displayName": "Siperiankurmitsa",
+          "name": "Pluvialis fulva"
+        },
+        {
+          "displayName": "Kapustarinta",
+          "name": "Pluvialis apricaria"
+        },
+        {
+          "displayName": "Tundrakurmitsa",
+          "name": "Pluvialis squatarola"
+        },
+        {
+          "displayName": "Arohyyppä",
+          "name": "Vanellus gregarius"
+        },
+        {
+          "displayName": "Suohyyppä",
+          "name": "Vanellus leucurus"
+        },
+        {
+          "displayName": "Töyhtöhyyppä",
+          "name": "Vanellus vanellus"
+        }
+      ]
+    },
+    {
+      "name": "Scolopacidae",
+      "displayName": "Kurpat",
+      "species": [
+        {
+          "displayName": "Isosirri",
+          "name": "Calidris canutus"
+        },
+        {
+          "displayName": "Pulmussirri",
+          "name": "Calidris alba"
+        },
+        {
+          "displayName": "Rusokaulasirri",
+          "name": "Calidris ruficollis"
+        },
+        {
+          "displayName": "Pikkusirri",
+          "name": "Calidris minuta"
+        },
+        {
+          "displayName": "Lapinsirri",
+          "name": "Calidris temminckii"
+        },
+        {
+          "displayName": "Siperiansirri",
+          "name": "Calidris subminuta"
+        },
+        {
+          "displayName": "Amerikansirri",
+          "name": "Calidris minutilla"
+        },
+        {
+          "displayName": "Valkoperäsirri",
+          "name": "Calidris fuscicollis"
+        },
+        {
+          "displayName": "Eskimosirri",
+          "name": "Calidris bairdii"
+        },
+        {
+          "displayName": "Palsasirri",
+          "name": "Calidris melanotos"
+        },
+        {
+          "displayName": "Suippopyrstösirri",
+          "name": "Calidris acuminata"
+        },
+        {
+          "displayName": "Kuovisirri",
+          "name": "Calidris ferruginea"
+        },
+        {
+          "displayName": "Pitkäkoipisirri",
+          "name": "Calidris himantopus"
+        },
+        {
+          "displayName": "Merisirri",
+          "name": "Calidris maritima"
+        },
+        {
+          "displayName": "Suosirri",
+          "name": "Calidris alpina"
+        },
+        {
+          "displayName": "Jänkäsirriäinen",
+          "name": "Limicola falcinellus"
+        },
+        {
+          "displayName": "Tundravikla",
+          "name": "Tryngites subruficollis"
+        },
+        {
+          "displayName": "Suokukko",
+          "name": "Philomachus pugnax"
+        },
+        {
+          "displayName": "Jänkäkurppa",
+          "name": "Lymnocryptes minimus"
+        },
+        {
+          "displayName": "Taivaanvuohi",
+          "name": "Gallinago gallinago"
+        },
+        {
+          "displayName": "Amerikantaivaanvuohi",
+          "name": "Gallinago delicata"
+        },
+        {
+          "displayName": "Heinäkurppa",
+          "name": "Gallinago media"
+        },
+        {
+          "displayName": "Siperiankurppa",
+          "name": "Gallinago megala"
+        },
+        {
+          "displayName": "Tundrakurppelo",
+          "name": "Limnodromus scolopaceus"
+        },
+        {
+          "displayName": "Lehtokurppa",
+          "name": "Scolopax rusticola"
+        },
+        {
+          "displayName": "Mustapyrstökuiri",
+          "name": "Limosa limosa"
+        },
+        {
+          "displayName": "Punakuiri",
+          "name": "Limosa lapponica"
+        },
+        {
+          "displayName": "Taigakuovi",
+          "name": "Numenius minutus"
+        },
+        {
+          "displayName": "Pikkukuovi",
+          "name": "Numenius phaeopus"
+        },
+        {
+          "displayName": "Kuovi",
+          "name": "Numenius arquata"
+        },
+        {
+          "displayName": "Mustaviklo",
+          "name": "Tringa erythropus"
+        },
+        {
+          "displayName": "Punajalkaviklo",
+          "name": "Tringa totanus"
+        },
+        {
+          "displayName": "Lampiviklo",
+          "name": "Tringa stagnatilis"
+        },
+        {
+          "displayName": "Valkoviklo",
+          "name": "Tringa nebularia"
+        },
+        {
+          "displayName": "Keltajalkaviklo",
+          "name": "Tringa flavipes"
+        },
+        {
+          "displayName": "Metsäviklo",
+          "name": "Tringa ochropus"
+        },
+        {
+          "displayName": "Liro",
+          "name": "Tringa glareola"
+        },
+        {
+          "displayName": "Rantakurvi",
+          "name": "Xenus cinereus"
+        },
+        {
+          "displayName": "Rantasipi",
+          "name": "Actitis hypoleucos"
+        },
+        {
+          "displayName": "Amerikansipi",
+          "name": "Actitis macularius"
+        },
+        {
+          "displayName": "Preeriaviklo",
+          "name": "Catoptrophorus semipalmatus"
+        },
+        {
+          "displayName": "Karikukko",
+          "name": "Arenaria interpres"
+        },
+        {
+          "displayName": "Amerikanvesipääsky",
+          "name": "Phalaropus tricolor"
+        },
+        {
+          "displayName": "Vesipääsky",
+          "name": "Phalaropus lobatus"
+        },
+        {
+          "displayName": "Isovesipääsky",
+          "name": "Phalaropus fulicarius"
+        }
+      ]
+    },
+    {
+      "name": "Stercorariidae",
+      "displayName": "Kihut",
+      "species": [
+        {
+          "displayName": "Leveäpyrstökihu",
+          "name": "Stercorarius pomarinus"
+        },
+        {
+          "displayName": "Merikihu",
+          "name": "Stercorarius parasiticus"
+        },
+        {
+          "displayName": "Tunturikihu",
+          "name": "Stercorarius longicaudus"
+        },
+        {
+          "displayName": "Isokihu",
+          "name": "Stercorarius skua"
+        }
+      ]
+    },
+    {
+      "name": "Laridae",
+      "displayName": "Lokit",
+      "species": [
+        {
+          "displayName": "Mustanmerenlokki",
+          "name": "Larus melanocephalus"
+        },
+        {
+          "displayName": "Nokisiipilokki",
+          "name": "Larus atricilla"
+        },
+        {
+          "displayName": "Preerianaurulokki",
+          "name": "Larus pipixcan"
+        },
+        {
+          "displayName": "Tiiralokki",
+          "name": "Larus sabini"
+        },
+        {
+          "displayName": "Naurulokki",
+          "name": "Larus ridibundus"
+        },
+        {
+          "displayName": "Kaitanokkalokki",
+          "name": "Larus genei"
+        },
+        {
+          "displayName": "Kalalokki",
+          "name": "Larus canus"
+        },
+        {
+          "displayName": "Välimerenlokki",
+          "name": "Larus audouinii"
+        },
+        {
+          "displayName": "Selkälokki",
+          "name": "Larus fuscus"
+        },
+        {
+          "displayName": "Harmaalokki",
+          "name": "Larus argentatus"
+        },
+        {
+          "displayName": "Aroharmaalokki",
+          "name": "Larus cachinnans"
+        },
+        {
+          "displayName": "Etelänharmaalokki",
+          "name": "Larus michahellis"
+        },
+        {
+          "displayName": "Grönlanninlokki",
+          "name": "Larus glaucoides"
+        },
+        {
+          "displayName": "Isolokki",
+          "name": "Larus hyperboreus"
+        },
+        {
+          "displayName": "Merilokki",
+          "name": "Larus marinus"
+        },
+        {
+          "displayName": "Ohotanlokki",
+          "name": "Larus schistisagus"
+        },
+        {
+          "displayName": "Ruusulokki",
+          "name": "Rhodostethia rosea"
+        },
+        {
+          "displayName": "Pikkukajava",
+          "name": "Rissa tridactyla"
+        },
+        {
+          "displayName": "Jäälokki",
+          "name": "Pagophila eburnea"
+        },
+        {
+          "displayName": "Pikkulokki",
+          "name": "Hydrocoloeus minutus"
+        },
+        {
+          "displayName": "Hietatiira",
+          "name": "Gelochelidon nilotica"
+        },
+        {
+          "displayName": "Räyskä",
+          "name": "Hydroprogne caspia"
+        },
+        {
+          "displayName": "Riuttatiira",
+          "name": "Sterna sandvicensis"
+        },
+        {
+          "displayName": "Kalatiira",
+          "name": "Sterna hirundo"
+        },
+        {
+          "displayName": "Lapintiira",
+          "name": "Sterna paradisaea"
+        },
+        {
+          "displayName": "Pikkutiira",
+          "name": "Sternula albifrons"
+        },
+        {
+          "displayName": "Valkoposkitiira",
+          "name": "Chlidonias hybrida"
+        },
+        {
+          "displayName": "Mustatiira",
+          "name": "Chlidonias niger"
+        },
+        {
+          "displayName": "Valkosiipitiira",
+          "name": "Chlidonias leucopterus"
+        }
+      ]
+    },
+    {
+      "name": "Alcidae",
+      "displayName": "Ruokit",
+      "species": [
+        {
+          "displayName": "Etelänkiisla",
+          "name": "Uria aalge"
+        },
+        {
+          "displayName": "Pohjankiisla",
+          "name": "Uria lomvia"
+        },
+        {
+          "displayName": "Ruokki",
+          "name": "Alca torda"
+        },
+        {
+          "displayName": "Riskilä",
+          "name": "Cepphus grylle"
+        },
+        {
+          "displayName": "Pikkuruokki",
+          "name": "Alle alle"
+        },
+        {
+          "displayName": "Lunni",
+          "name": "Fratercula arctica"
+        }
+      ]
+    },
+    {
+      "name": "Pteroclididae",
+      "displayName": "Hietakyyhkyt",
+      "species": [
+        {
+          "displayName": "Arokyyhky",
+          "name": "Syrrhaptes paradoxus"
+        }
+      ]
+    },
+    {
+      "name": "Columbidae",
+      "displayName": "Kyyhkyt",
+      "species": [
+        {
+          "displayName": "Kesykyyhky",
+          "name": "Columba livia domestica"
+        },
+        {
+          "displayName": "Uuttukyyhky",
+          "name": "Columba oenas"
+        },
+        {
+          "displayName": "Sepelkyyhky",
+          "name": "Columba palumbus"
+        },
+        {
+          "displayName": "Turkinkyyhky",
+          "name": "Streptopelia decaocto"
+        },
+        {
+          "displayName": "Turturikyyhky",
+          "name": "Streptopelia turtur"
+        },
+        {
+          "displayName": "Idänturturikyyhky",
+          "name": "Streptopelia orientalis"
+        }
+      ]
+    },
+    {
+      "name": "Cuculidae",
+      "displayName": "Käet",
+      "species": [
+        {
+          "displayName": "Harakkakäki",
+          "name": "Clamator glandarius"
+        },
+        {
+          "displayName": "Käki",
+          "name": "Cuculus canorus"
+        }
+      ]
+    },
+    {
+      "name": "Tytonidae",
+      "displayName": "Tornipöllöt",
+      "species": [
+        {
+          "displayName": "Tornipöllö",
+          "name": "Tyto alba"
+        }
+      ]
+    },
+    {
+      "name": "Strigidae",
+      "displayName": "Pöllöt",
+      "species": [
+        {
+          "displayName": "Kyläpöllönen",
+          "name": "Otus scops"
+        },
+        {
+          "displayName": "Huuhkaja",
+          "name": "Bubo bubo"
+        },
+        {
+          "displayName": "Tunturipöllö",
+          "name": "Bubo scandiacus"
+        },
+        {
+          "displayName": "Hiiripöllö",
+          "name": "Surnia ulula"
+        },
+        {
+          "displayName": "Varpuspöllö",
+          "name": "Glaucidium passerinum"
+        },
+        {
+          "displayName": "Minervanpöllö",
+          "name": "Athene noctua"
+        },
+        {
+          "displayName": "Lehtopöllö",
+          "name": "Strix aluco"
+        },
+        {
+          "displayName": "Viirupöllö",
+          "name": "Strix uralensis"
+        },
+        {
+          "displayName": "Lapinpöllö",
+          "name": "Strix nebulosa"
+        },
+        {
+          "displayName": "Sarvipöllö",
+          "name": "Asio otus"
+        },
+        {
+          "displayName": "Suopöllö",
+          "name": "Asio flammeus"
+        },
+        {
+          "displayName": "Helmipöllö",
+          "name": "Aegolius funereus"
+        }
+      ]
+    },
+    {
+      "name": "Caprimulgidae",
+      "displayName": "Kehrääjät",
+      "species": [
+        {
+          "displayName": "Kehrääjä",
+          "name": "Caprimulgus europaeus"
+        }
+      ]
+    },
+    {
+      "name": "Apodidae",
+      "displayName": "Kiitäjät",
+      "species": [
+        {
+          "displayName": "Piikkipyrstökiitäjä",
+          "name": "Hirundapus caudacutus"
+        },
+        {
+          "displayName": "Tervapääsky",
+          "name": "Apus apus"
+        },
+        {
+          "displayName": "Vaaleakiitäjä",
+          "name": "Apus pallidus"
+        },
+        {
+          "displayName": "Alppikiitäjä",
+          "name": "Apus melba"
+        },
+        {
+          "displayName": "Kafferikiitäjä",
+          "name": "Apus caffer"
+        }
+      ]
+    },
+    {
+      "name": "Alcedinidae",
+      "displayName": "Kuningaskalastajat",
+      "species": [
+        {
+          "displayName": "Kuningaskalastaja",
+          "name": "Alcedo atthis"
+        }
+      ]
+    },
+    {
+      "name": "Meropidae",
+      "displayName": "Mehiläissyöjät",
+      "species": [
+        {
+          "displayName": "Vihermehiläissyöjä",
+          "name": "Merops persicus"
+        },
+        {
+          "displayName": "Mehiläissyöjä",
+          "name": "Merops apiaster"
+        }
+      ]
+    },
+    {
+      "name": "Coraciidae",
+      "displayName": "Sininärhet",
+      "species": [
+        {
+          "displayName": "Sininärhi",
+          "name": "Coracias garrulus"
+        }
+      ]
+    },
+    {
+      "name": "Upupidae",
+      "displayName": "Harjalinnut",
+      "species": [
+        {
+          "displayName": "Harjalintu",
+          "name": "Upupa epops"
+        }
+      ]
+    },
+    {
+      "name": "Picidae",
+      "displayName": "Tikat",
+      "species": [
+        {
+          "displayName": "Käenpiika",
+          "name": "Jynx torquilla"
+        },
+        {
+          "displayName": "Harmaapäätikka",
+          "name": "Picus canus"
+        },
+        {
+          "displayName": "Vihertikka",
+          "name": "Picus viridis"
+        },
+        {
+          "displayName": "Palokärki",
+          "name": "Dryocopus martius"
+        },
+        {
+          "displayName": "Käpytikka",
+          "name": "Dendrocopos major"
+        },
+        {
+          "displayName": "Tammitikka",
+          "name": "Dendrocopos medius"
+        },
+        {
+          "displayName": "Valkoselkätikka",
+          "name": "Dendrocopos leucotos"
+        },
+        {
+          "displayName": "Pikkutikka",
+          "name": "Dendrocopos minor"
+        },
+        {
+          "displayName": "Pohjantikka",
+          "name": "Picoides tridactylus"
+        }
+      ]
+    },
+    {
+      "name": "Alaudidae",
+      "displayName": "Kiurut",
+      "species": [
+        {
+          "displayName": "Arokiuru",
+          "name": "Melanocorypha calandra"
+        },
+        {
+          "displayName": "Ylänkökiuru",
+          "name": "Melanocorypha bimaculata"
+        },
+        {
+          "displayName": "Valkosiipikiuru",
+          "name": "Melanocorypha leucoptera"
+        },
+        {
+          "displayName": "Mustakiuru",
+          "name": "Melanocorypha yeltoniensis"
+        },
+        {
+          "displayName": "Lyhytvarvaskiuru",
+          "name": "Calandrella brachydactyla"
+        },
+        {
+          "displayName": "Pikkukiuru",
+          "name": "Calandrella rufescens"
+        },
+        {
+          "displayName": "Töyhtökiuru",
+          "name": "Galerida cristata"
+        },
+        {
+          "displayName": "Kangaskiuru",
+          "name": "Lullula arborea"
+        },
+        {
+          "displayName": "Kiuru",
+          "name": "Alauda arvensis"
+        },
+        {
+          "displayName": "Tunturikiuru",
+          "name": "Eremophila alpestris"
+        }
+      ]
+    },
+    {
+      "name": "Hirundinidae",
+      "displayName": "Pääskyt",
+      "species": [
+        {
+          "displayName": "Törmäpääsky",
+          "name": "Riparia riparia"
+        },
+        {
+          "displayName": "Kalliopääsky",
+          "name": "Ptyonoprogne rupestris"
+        },
+        {
+          "displayName": "Haarapääsky",
+          "name": "Hirundo rustica"
+        },
+        {
+          "displayName": "Ruostepääsky",
+          "name": "Hirundo daurica"
+        },
+        {
+          "displayName": "Räystäspääsky",
+          "name": "Delichon urbicum"
+        }
+      ]
+    },
+    {
+      "name": "Motacillidae",
+      "displayName": "Västäräkit",
+      "species": [
+        {
+          "displayName": "Isokirvinen",
+          "name": "Anthus richardi"
+        },
+        {
+          "displayName": "Mongoliankirvinen",
+          "name": "Anthus godlewskii"
+        },
+        {
+          "displayName": "Nummikirvinen",
+          "name": "Anthus campestris"
+        },
+        {
+          "displayName": "Taigakirvinen",
+          "name": "Anthus hodgsoni"
+        },
+        {
+          "displayName": "Metsäkirvinen",
+          "name": "Anthus trivialis"
+        },
+        {
+          "displayName": "Tundrakirvinen",
+          "name": "Anthus gustavi"
+        },
+        {
+          "displayName": "Niittykirvinen",
+          "name": "Anthus pratensis"
+        },
+        {
+          "displayName": "Lapinkirvinen",
+          "name": "Anthus cervinus"
+        },
+        {
+          "displayName": "Luotokirvinen",
+          "name": "Anthus petrosus"
+        },
+        {
+          "displayName": "Keltavästäräkki",
+          "name": "Motacilla flava"
+        },
+        {
+          "displayName": "Sitruunavästäräkki",
+          "name": "Motacilla citreola"
+        },
+        {
+          "displayName": "Virtavästäräkki",
+          "name": "Motacilla cinerea"
+        },
+        {
+          "displayName": "Västäräkki",
+          "name": "Motacilla alba"
+        }
+      ]
+    },
+    {
+      "name": "Bombycillidae",
+      "displayName": "Tilhet",
+      "species": [
+        {
+          "displayName": "Tilhi",
+          "name": "Bombycilla garrulus"
+        }
+      ]
+    },
+    {
+      "name": "Cinclus",
+      "displayName": "Koskikarat",
+      "species": [
+        {
+          "displayName": "Koskikara",
+          "name": "Cinclus cinclus"
+        }
+      ]
+    },
+    {
+      "name": "Troglodytidae",
+      "displayName": "Peukaloiset",
+      "species": [
+        {
+          "displayName": "Peukaloinen",
+          "name": "Troglodytes troglodytes"
+        }
+      ]
+    },
+    {
+      "name": "Prunellidae",
+      "displayName": "Rautiaiset",
+      "species": [
+        {
+          "displayName": "Rautiainen",
+          "name": "Prunella modularis"
+        },
+        {
+          "displayName": "Taigarautiainen",
+          "name": "Prunella montanella"
+        },
+        {
+          "displayName": "Mustakurkkurautiainen",
+          "name": "Prunella atrogularis"
+        },
+        {
+          "displayName": "Alppirautiainen",
+          "name": "Prunella collaris"
+        }
+      ]
+    },
+    {
+      "name": "Turdidae",
+      "displayName": "Rastaat",
+      "species": [
+        {
+          "displayName": "Kirjorastas",
+          "name": "Zoothera dauma"
+        },
+        {
+          "displayName": "Korpirastas",
+          "name": "Catharus ustulatus"
+        },
+        {
+          "displayName": "Sepelrastas",
+          "name": "Turdus torquatus"
+        },
+        {
+          "displayName": "Mustarastas",
+          "name": "Turdus merula"
+        },
+        {
+          "displayName": "Harmaakurkkurastas",
+          "name": "Turdus obscurus"
+        },
+        {
+          "displayName": "Ruosterastas",
+          "name": "Turdus naumanni"
+        },
+        {
+          "displayName": "Ruostesiipirastas",
+          "name": "Turdus eunomus"
+        },
+        {
+          "displayName": "Mustakaularastas",
+          "name": "Turdus atrogularis"
+        },
+        {
+          "displayName": "Räkättirastas",
+          "name": "Turdus pilaris"
+        },
+        {
+          "displayName": "Laulurastas",
+          "name": "Turdus philomelos"
+        },
+        {
+          "displayName": "Punakylkirastas",
+          "name": "Turdus iliacus"
+        },
+        {
+          "displayName": "Kulorastas",
+          "name": "Turdus viscivorus"
+        }
+      ]
+    },
+    {
+      "name": "Sylviidae",
+      "displayName": "Kertut",
+      "species": [
+        {
+          "displayName": "Viirusirkkalintu",
+          "name": "Locustella lanceolata"
+        },
+        {
+          "displayName": "Pensassirkkalintu",
+          "name": "Locustella naevia"
+        },
+        {
+          "displayName": "Viitasirkkalintu",
+          "name": "Locustella fluviatilis"
+        },
+        {
+          "displayName": "Ruokosirkkalintu",
+          "name": "Locustella luscinioides"
+        },
+        {
+          "displayName": "Paksunokkakerttunen",
+          "name": "Acrocephalus aedon"
+        },
+        {
+          "displayName": "Sarakerttunen",
+          "name": "Acrocephalus paludicola"
+        },
+        {
+          "displayName": "Ruokokerttunen",
+          "name": "Acrocephalus schoenobaenus"
+        },
+        {
+          "displayName": "Rytikerttunen",
+          "name": "Acrocephalus scirpaceus"
+        },
+        {
+          "displayName": "Luhtakerttunen",
+          "name": "Acrocephalus palustris"
+        },
+        {
+          "displayName": "Viitakerttunen",
+          "name": "Acrocephalus dumetorum"
+        },
+        {
+          "displayName": "Kenttäkerttunen",
+          "name": "Acrocephalus agricola"
+        },
+        {
+          "displayName": "Rastaskerttunen",
+          "name": "Acrocephalus arundinaceus"
+        },
+        {
+          "displayName": "Vaaleakultarinta",
+          "name": "Hippolais pallida"
+        },
+        {
+          "displayName": "Pikkukultarinta",
+          "name": "Hippolais caligata"
+        },
+        {
+          "displayName": "Aavikkokultarinta",
+          "name": "Hippolais rama"
+        },
+        {
+          "displayName": "Kultarinta",
+          "name": "Hippolais icterina"
+        },
+        {
+          "displayName": "Mustapääkerttu",
+          "name": "Sylvia atricapilla"
+        },
+        {
+          "displayName": "Lehtokerttu",
+          "name": "Sylvia borin"
+        },
+        {
+          "displayName": "Hernekerttu",
+          "name": "Sylvia curruca"
+        },
+        {
+          "displayName": "Pensaskerttu",
+          "name": "Sylvia communis"
+        },
+        {
+          "displayName": "Kääpiökerttu",
+          "name": "Sylvia nana"
+        },
+        {
+          "displayName": "Kirjokerttu",
+          "name": "Sylvia nisoria"
+        },
+        {
+          "displayName": "Ruskokerttu",
+          "name": "Sylvia undata"
+        },
+        {
+          "displayName": "Rusorintakerttu",
+          "name": "Sylvia cantillans"
+        },
+        {
+          "displayName": "Samettipääkerttu",
+          "name": "Sylvia melanocephala"
+        },
+        {
+          "displayName": "Mustakurkkukerttu",
+          "name": "Sylvia rueppelli"
+        },
+        {
+          "displayName": "Amurinuunilintu",
+          "name": "Phylloscopus coronatus"
+        },
+        {
+          "displayName": "Idänuunilintu",
+          "name": "Phylloscopus trochiloides"
+        },
+        {
+          "displayName": "Burjatianuunilintu",
+          "name": "Phylloscopus plumbeitarsus"
+        },
+        {
+          "displayName": "Lapinuunilintu",
+          "name": "Phylloscopus borealis"
+        },
+        {
+          "displayName": "Hippiäisuunilintu",
+          "name": "Phylloscopus proregulus"
+        },
+        {
+          "displayName": "Taigauunilintu",
+          "name": "Phylloscopus inornatus"
+        },
+        {
+          "displayName": "Kashmirinuunilintu",
+          "name": "Phylloscopus humei"
+        },
+        {
+          "displayName": "Siperianuunilintu",
+          "name": "Phylloscopus schwarzi"
+        },
+        {
+          "displayName": "Ruskouunilintu",
+          "name": "Phylloscopus fuscatus"
+        },
+        {
+          "displayName": "Vuoriuunilintu",
+          "name": "Phylloscopus bonelli"
+        },
+        {
+          "displayName": "Balkaninuunilintu",
+          "name": "Phylloscopus orientalis"
+        },
+        {
+          "displayName": "Sirittäjä",
+          "name": "Phylloscopus sibilatrix"
+        },
+        {
+          "displayName": "Tiltaltti",
+          "name": "Phylloscopus collybita"
+        },
+        {
+          "displayName": "Iberiantiltaltti",
+          "name": "Phylloscopus ibericus"
+        },
+        {
+          "displayName": "Pajulintu",
+          "name": "Phylloscopus trochilus"
+        }
+      ]
+    },
+    {
+      "name": "Regulus",
+      "displayName": "Hippiäiset",
+      "species": [
+        {
+          "displayName": "Hippiäinen",
+          "name": "Regulus regulus"
+        },
+        {
+          "displayName": "Tulipäähippiäinen",
+          "name": "Regulus ignicapilla"
+        }
+      ]
+    },
+    {
+      "name": "Muscicapidae",
+      "displayName": "Siepot",
+      "species": [
+        {
+          "displayName": "Harmaasieppo",
+          "name": "Muscicapa striata"
+        },
+        {
+          "displayName": "Pikkusieppo",
+          "name": "Ficedula parva"
+        },
+        {
+          "displayName": "Sepelsieppo",
+          "name": "Ficedula albicollis"
+        },
+        {
+          "displayName": "Kirjosieppo",
+          "name": "Ficedula hypoleuca"
+        },
+        {
+          "displayName": "Ruostepyrstö",
+          "name": "Cercotrichas galactotes"
+        },
+        {
+          "displayName": "Punarinta",
+          "name": "Erithacus rubecula"
+        },
+        {
+          "displayName": "Satakieli",
+          "name": "Luscinia luscinia"
+        },
+        {
+          "displayName": "Etelänsatakieli",
+          "name": "Luscinia megarhynchos"
+        },
+        {
+          "displayName": "Rubiinisatakieli",
+          "name": "Luscinia calliope"
+        },
+        {
+          "displayName": "Sinirinta",
+          "name": "Luscinia svecica"
+        },
+        {
+          "displayName": "Sinipyrstö",
+          "name": "Tarsiger cyanurus"
+        },
+        {
+          "displayName": "Mustaleppälintu",
+          "name": "Phoenicurus ochruros"
+        },
+        {
+          "displayName": "Leppälintu",
+          "name": "Phoenicurus phoenicurus"
+        },
+        {
+          "displayName": "Pensastasku",
+          "name": "Saxicola rubetra"
+        },
+        {
+          "displayName": "Mustapäätasku",
+          "name": "Saxicola rubicola"
+        },
+        {
+          "displayName": "Sepeltasku",
+          "name": "Saxicola maurus"
+        },
+        {
+          "displayName": "Nokitasku",
+          "name": "Saxicola caprata"
+        },
+        {
+          "displayName": "Arotasku",
+          "name": "Oenanthe isabellina"
+        },
+        {
+          "displayName": "Kivitasku",
+          "name": "Oenanthe oenanthe"
+        },
+        {
+          "displayName": "Nunnatasku",
+          "name": "Oenanthe pleschanka"
+        },
+        {
+          "displayName": "Rusotasku",
+          "name": "Oenanthe hispanica"
+        },
+        {
+          "displayName": "Aavikkotasku",
+          "name": "Oenanthe deserti"
+        },
+        {
+          "displayName": "Kivikkorastas",
+          "name": "Monticola saxatilis"
+        },
+        {
+          "displayName": "Sinirastas",
+          "name": "Monticola solitarius"
+        }
+      ]
+    },
+    {
+      "name": "Timaliidae",
+      "displayName": "Timalit",
+      "species": [
+        {
+          "displayName": "Viiksitimali",
+          "name": "Panurus biarmicus"
+        }
+      ]
+    },
+    {
+      "name": "Aegithalidae",
+      "displayName": "Pyrstötiaiset",
+      "species": [
+        {
+          "displayName": "Pyrstötiainen",
+          "name": "Aegithalos caudatus"
+        }
+      ]
+    },
+    {
+      "name": "Paridae",
+      "displayName": "Tiaiset",
+      "species": [
+        {
+          "displayName": "Viitatiainen",
+          "name": "Parus palustris"
+        },
+        {
+          "displayName": "Hömötiainen",
+          "name": "Parus montanus"
+        },
+        {
+          "displayName": "Lapintiainen",
+          "name": "Parus cinctus"
+        },
+        {
+          "displayName": "Töyhtötiainen",
+          "name": "Parus cristatus"
+        },
+        {
+          "displayName": "Kuusitiainen",
+          "name": "Parus ater"
+        },
+        {
+          "displayName": "Sinitiainen",
+          "name": "Parus caeruleus"
+        },
+        {
+          "displayName": "Valkopäätiainen",
+          "name": "Parus cyanus"
+        },
+        {
+          "displayName": "Talitiainen",
+          "name": "Parus major"
+        }
+      ]
+    },
+    {
+      "name": "Sittidae",
+      "displayName": "Nakkelit",
+      "species": [
+        {
+          "displayName": "Pähkinänakkeli",
+          "name": "Sitta europaea"
+        }
+      ]
+    },
+    {
+      "name": "Certhiidae",
+      "displayName": "Puukiipijät",
+      "species": [
+        {
+          "displayName": "Puukiipijä",
+          "name": "Certhia familiaris"
+        }
+      ]
+    },
+    {
+      "name": "Remizidae",
+      "displayName": "Pussitiaiset",
+      "species": [
+        {
+          "displayName": "Pussitiainen",
+          "name": "Remiz pendulinus"
+        }
+      ]
+    },
+    {
+      "name": "Oriolidae",
+      "displayName": "Kuhankeittäjät",
+      "species": [
+        {
+          "displayName": "Kuhankeittäjä",
+          "name": "Oriolus oriolus"
+        }
+      ]
+    },
+    {
+      "name": "Laniidae",
+      "displayName": "Lepinkäiset",
+      "species": [
+        {
+          "displayName": "Punapyrstölepinkäinen",
+          "name": "Lanius isabellinus"
+        },
+        {
+          "displayName": "Pikkulepinkäinen",
+          "name": "Lanius collurio"
+        },
+        {
+          "displayName": "Mustaotsalepinkäinen",
+          "name": "Lanius minor"
+        },
+        {
+          "displayName": "Isolepinkäinen",
+          "name": "Lanius excubitor"
+        },
+        {
+          "displayName": "Etelänisolepinkäinen",
+          "name": "Lanius meridionalis"
+        },
+        {
+          "displayName": "Punapäälepinkäinen",
+          "name": "Lanius senator"
+        },
+        {
+          "displayName": "Valko-otsalepinkäinen",
+          "name": "Lanius nubicus"
+        }
+      ]
+    },
+    {
+      "name": "Corvidae",
+      "displayName": "Varikset",
+      "species": [
+        {
+          "displayName": "Närhi",
+          "name": "Garrulus glandarius"
+        },
+        {
+          "displayName": "Kuukkeli",
+          "name": "Perisoreus infaustus"
+        },
+        {
+          "displayName": "Harakka",
+          "name": "Pica pica"
+        },
+        {
+          "displayName": "Pähkinähakki",
+          "name": "Nucifraga caryocatactes"
+        },
+        {
+          "displayName": "Naakka",
+          "name": "Corvus monedula"
+        },
+        {
+          "displayName": "Idännaakka",
+          "name": "Corvus dauuricus"
+        },
+        {
+          "displayName": "Mustavaris",
+          "name": "Corvus frugilegus"
+        },
+        {
+          "displayName": "Varis",
+          "name": "Corvus corone cornix"
+        },
+        {
+          "displayName": "Nokivaris",
+          "name": "Corvus corone corone"
+        },
+        {
+          "displayName": "Korppi",
+          "name": "Corvus corax"
+        }
+      ]
+    },
+    {
+      "name": "Sturnidae",
+      "displayName": "Kottaraiset",
+      "species": [
+        {
+          "displayName": "Kottarainen",
+          "name": "Sturnus vulgaris"
+        },
+        {
+          "displayName": "Punakottarainen",
+          "name": "Sturnus roseus"
+        }
+      ]
+    },
+    {
+      "name": "Passeridae",
+      "displayName": "Varpuset",
+      "species": [
+        {
+          "displayName": "Varpunen",
+          "name": "Passer domesticus"
+        },
+        {
+          "displayName": "Pensasvarpunen",
+          "name": "Passer hispaniolensis"
+        },
+        {
+          "displayName": "Pikkuvarpunen",
+          "name": "Passer montanus"
+        }
+      ]
+    },
+    {
+      "name": "Fringillidae",
+      "displayName": "Peipot",
+      "species": [
+        {
+          "displayName": "Peippo",
+          "name": "Fringilla coelebs"
+        },
+        {
+          "displayName": "Järripeippo",
+          "name": "Fringilla montifringilla"
+        },
+        {
+          "displayName": "Keltahemppo",
+          "name": "Serinus serinus"
+        },
+        {
+          "displayName": "Viherpeippo",
+          "name": "Carduelis chloris"
+        },
+        {
+          "displayName": "Tikli",
+          "name": "Carduelis carduelis"
+        },
+        {
+          "displayName": "Vihervarpunen",
+          "name": "Carduelis spinus"
+        },
+        {
+          "displayName": "Hemppo",
+          "name": "Carduelis cannabina"
+        },
+        {
+          "displayName": "Vuorihemppo",
+          "name": "Carduelis flavirostris"
+        },
+        {
+          "displayName": "Urpiainen",
+          "name": "Carduelis flammea"
+        },
+        {
+          "displayName": "Tundraurpiainen",
+          "name": "Carduelis hornemanni"
+        },
+        {
+          "displayName": "Kirjosiipikäpylintu",
+          "name": "Loxia leucoptera"
+        },
+        {
+          "displayName": "Pikkukäpylintu",
+          "name": "Loxia curvirostra"
+        },
+        {
+          "displayName": "Isokäpylintu",
+          "name": "Loxia pytyopsittacus"
+        },
+        {
+          "displayName": "Aavikkotulkku",
+          "name": "Bucanetes githagineus"
+        },
+        {
+          "displayName": "Punavarpunen",
+          "name": "Carpodacus erythrinus"
+        },
+        {
+          "displayName": "Taviokuurna",
+          "name": "Pinicola enucleator"
+        },
+        {
+          "displayName": "Punatulkku",
+          "name": "Pyrrhula pyrrhula"
+        },
+        {
+          "displayName": "Nokkavarpunen",
+          "name": "Coccothraustes coccothraustes"
+        }
+      ]
+    },
+    {
+      "name": "Parulidae",
+      "displayName": "Kerttulit",
+      "species": [
+        {
+          "displayName": "Viirukerttuli",
+          "name": "Dendroica striata"
+        }
+      ]
+    },
+    {
+      "name": "Emberizidae",
+      "displayName": "Sirkut",
+      "species": [
+        {
+          "displayName": "Valkokurkkusirkku",
+          "name": "Zonotrichia albicollis"
+        },
+        {
+          "displayName": "Lapinsirkku",
+          "name": "Calcarius lapponicus"
+        },
+        {
+          "displayName": "Pulmunen",
+          "name": "Plectrophenax nivalis"
+        },
+        {
+          "displayName": "Harmaapääsirkku",
+          "name": "Emberiza spodocephala"
+        },
+        {
+          "displayName": "Mäntysirkku",
+          "name": "Emberiza leucocephalos"
+        },
+        {
+          "displayName": "Keltasirkku",
+          "name": "Emberiza citrinella"
+        },
+        {
+          "displayName": "Kivikkosirkku",
+          "name": "Emberiza buchanani"
+        },
+        {
+          "displayName": "Peltosirkku",
+          "name": "Emberiza hortulana"
+        },
+        {
+          "displayName": "Ruostekurkkusirkku",
+          "name": "Emberiza caesia"
+        },
+        {
+          "displayName": "Pohjansirkku",
+          "name": "Emberiza rustica"
+        },
+        {
+          "displayName": "Pikkusirkku",
+          "name": "Emberiza pusilla"
+        },
+        {
+          "displayName": "Kastanjasirkku",
+          "name": "Emberiza rutila"
+        },
+        {
+          "displayName": "Kultasirkku",
+          "name": "Emberiza aureola"
+        },
+        {
+          "displayName": "Pajusirkku",
+          "name": "Emberiza schoeniclus"
+        },
+        {
+          "displayName": "Mustapääsirkku",
+          "name": "Emberiza melanocephala"
+        },
+        {
+          "displayName": "Harmaasirkku",
+          "name": "Emberiza calandra"
+        },
+        {
+          "displayName": "Kettusirkku",
+          "name": "Passerella iliaca"
+        }
+      ]
+    }
+  ]
+}
