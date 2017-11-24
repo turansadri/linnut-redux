@@ -13,15 +13,6 @@ import './App.css';
 const composer =
   process.env.NODE_ENV !== 'production' ? composeWithDevTools : compose;
 
-// Firebase config
-const config = {
-  apiKey: 'AIzaSyC-BZ66Eh-L8v8rZnVauVOO5g1nL8uZvFc',
-  authDomain: 'linnut-1494001515929.firebaseapp.com',
-  databaseURL: 'https://linnut-1494001515929.firebaseio.com',
-  projectId: 'linnut-1494001515929',
-  storageBucket: 'linnut-1494001515929.appspot.com',
-  messagingSenderId: '972109382162',
-};
 const rrfConfig = { userProfile: 'users' }; // react-redux-firebase config
 
 firebase.initializeApp(config); // <- new to v2.*.*
