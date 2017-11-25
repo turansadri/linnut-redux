@@ -4,16 +4,28 @@ import { compose } from 'redux';
 import { firebaseConnect, isLoaded, isEmpty } from 'react-redux-firebase';
 import BirdsForm from '../../components/BirdsForm';
 
+// const BirdsFormContainer = props => {
+//   const { birds, families } = props;
+//   return <BirdsForm {...props} birds={birds} families={families} />;
+// };
+
 const BirdsFormContainer = props => {
-  const { birds, family } = props;
-  return <BirdsForm {...props} birds={birds} family={family} />;
+  const { families } = props;
+  const Form = !isLoaded(families) ? (
+    'Loading'
+  ) : isEmpty(families) ? (
+    'No bird families'
+  ) : (
+    <BirdsForm families={families} />
+  );
+  return <div>{Form}</div>;
 };
 
 function mapStateToProps(state) {
   const { birds, family } = state.firebase.data;
   return {
     birds,
-    family,
+    families: family,
   };
 }
 
