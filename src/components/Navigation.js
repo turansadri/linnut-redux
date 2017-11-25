@@ -20,20 +20,17 @@ const StyledLink = styled(Link)`
   color: #fff;
 `;
 
-class Navigation extends React.Component {
-  render() {
-    return (
-      <NavigationContainer>
-        <LinkList>
-          <LinkListItem>
-            <StyledLink to="/">Home</StyledLink>
-          </LinkListItem>
-          <LinkListItem>
-            <StyledLink to="/add">Add bird</StyledLink>
-          </LinkListItem>
-        </LinkList>
-      </NavigationContainer>
-    );
-  }
-}
+const Navigation = () => (
+  <NavigationContainer>
+    <LinkList>
+      <LinkListItem>
+        <StyledLink to="/">Home</StyledLink>
+      </LinkListItem>
+      <LinkListItem>
+        <StyledLink to="/add">Add bird</StyledLink>
+      </LinkListItem>
+    </LinkList>
+  </NavigationContainer>
+);
+
 export default Navigation;

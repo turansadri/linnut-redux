@@ -32,7 +32,9 @@ const BirdsForm = props => {
       <h1>Add bird</h1>
       <select>
         {families.map(family => (
-          <option value={family.name}>{family.displayName}</option>
+          <option value={family.name} key={family.name}>
+            {family.displayName}
+          </option>
         ))}
       </select>
     </FormContainer>
