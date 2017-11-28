@@ -22,6 +22,7 @@ const BirdsFilterContainer = props => {
 
 function mapStateToProps(state) {
   const { family } = state.firebase.data;
+  const birdsTest = state.firebase.data.birds;
 
   const {
     birds,
@@ -33,6 +34,7 @@ function mapStateToProps(state) {
 
   return {
     family,
+    birdsTest,
     birds,
     filteredBirds,
     filters,
@@ -57,6 +59,6 @@ BirdsFilterContainer.propTypes = {
   onMarkerClick: PropTypes.func.isRequired,
 };
 export default compose(
-  firebaseConnect(['/family']),
+  firebaseConnect(['/family', '/birds']),
   connect(mapStateToProps, mapDispatchToProps),
 )(BirdsFilterContainer);

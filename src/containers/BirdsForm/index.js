@@ -5,10 +5,6 @@ import { string, arrayOf, shape } from 'prop-types';
 import { firebaseConnect, isLoaded, isEmpty } from 'react-redux-firebase';
 import BirdsForm from '../../components/BirdsForm';
 
-// const BirdsFormContainer = props => {
-//   const { birds, families } = props;
-//   return <BirdsForm {...props} birds={birds} families={families} />;
-// };
 const PropTypes = {
   families: arrayOf(
     shape({
@@ -26,14 +22,14 @@ const PropTypes = {
 const DefaultProps = [];
 
 const BirdsFormContainer = props => {
-  const { families } = props;
+  const { families, ...rest } = props;
   /* eslint-disable no-nested-ternary */
   const Form = !isLoaded(families) ? (
     'Loading'
   ) : isEmpty(families) ? (
     'No bird families'
   ) : (
-    <BirdsForm families={families} />
+    <BirdsForm families={families} {...rest} />
   );
   return <div>{Form}</div>;
   /* eslint-enable no-nested-ternary */
