@@ -6,7 +6,9 @@ import helpers from '../helpers';
 import * as styled_var from '../constants/styled-variables';
 import * as icons from '../icons';
 
-const Icon = props => <div dangerouslySetInnerHTML={{ __html: icons[props.icon] }} />;
+const Icon = props => (
+  <div dangerouslySetInnerHTML={{ __html: icons[props.icon] }} />
+);
 
 const Marker = styled.span`
   width: 28px;
@@ -32,14 +34,14 @@ const Marker = styled.span`
     background-color: #fff;
     color: #000;
     padding: 2px 2px 1px;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     text-transform: uppercase;
     border: 1px solid #eee;
   }
   svg {
     top: 50%;
     left: 50%;
-    transform: translate(-40%,-40%);
+    transform: translate(-40%, -40%);
     position: absolute;
     width: 27px;
     fill: #000;
@@ -94,13 +96,13 @@ const Marker = styled.span`
   &.varpuset-kiurut-kirviset {
     ${colorize(styled_var.varpusetKiurutKirviset)};
     svg {
-      fill: #5E4920;
+      fill: #5e4920;
     }
   }
   &.kertut {
     ${colorize(styled_var.kertut)};
     svg {
-      fill: #FF8709;
+      fill: #ff8709;
     }
   }
   &.kyyhkyt {
@@ -118,7 +120,7 @@ const Marker = styled.span`
   &.petolinnut {
     ${colorize(styled_var.petolinnut)};
     svg {
-      fill: #29200E;
+      fill: #29200e;
     }
   }
   &.vastarakit-taskut-lepinkaiset {
@@ -136,7 +138,7 @@ const Marker = styled.span`
   &.papukaijalinnut {
     ${colorize(styled_var.papukaijalinnut)};
     svg {
-      fill: #01FB22;
+      fill: #01fb22;
     }
   }
   &.kanalinnut {
@@ -144,13 +146,13 @@ const Marker = styled.span`
   }
 `;
 
-const BirdMarker = (props) => {
-  const isActive = props.id == props.activeMarker ? 'active' : '';
+const BirdMarker = props => {
+  const isActive = props.id === props.activeMarker ? 'active' : '';
   const classes = `${props.family} ${isActive}`;
   return (
-    <Marker className={classes} onClick={(e) => props.onMarkerClick(props.id)}>
+    <Marker className={classes} onClick={e => props.onMarkerClick(props.id)}>
       <Icon icon={helpers.camelCasify(props.family)} />
-      <span>{ props.text }</span>
+      <span>{props.text}</span>
     </Marker>
   );
 };

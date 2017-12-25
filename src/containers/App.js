@@ -11,6 +11,7 @@ import Navigation from '../components/Navigation';
 import BirdsFilter from '../containers/BirdsFilter';
 import BirdsForm from '../containers/BirdsForm';
 import './App.css';
+import 'input-moment/dist/input-moment.css';
 
 const composer =
   process.env.NODE_ENV !== 'production' ? composeWithDevTools : compose;
