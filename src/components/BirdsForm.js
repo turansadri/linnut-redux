@@ -7,6 +7,7 @@ import moment from 'moment';
 import styled from 'styled-components';
 import update from 'immutability-helper';
 import BirdsFormMap from './BirdsFormMap';
+import BirdsFormSearch from './BirdsFormSearch';
 
 // moment.locale('fi');
 
@@ -63,6 +64,7 @@ class BirdsForm extends React.Component {
       datetimeshown: false,
       date: moment(),
       families: props.families,
+      allBirds: [],
       birds: [],
       places: [],
       sighting: {
@@ -81,6 +83,19 @@ class BirdsForm extends React.Component {
         date: moment().toISOString(),
       },
     };
+  }
+  componentDidMount() {
+    const { families } = this.state;
+    const allBirds = [];
+    families.forEach(family => {
+      family.species.forEach(bird => {
+        allBirds.push(bird);
+      });
+    });
+    console.log(allBirds);
+    this.setState({
+      allBirds,
+    });
   }
   getBirdsByFamily(currentFamilyName) {
     const { families } = this.state;
@@ -125,6 +140,9 @@ class BirdsForm extends React.Component {
       datetimeshown: true,
     });
   }
+  triggerGetCurrentPosition() {
+    this.refs.birdsformmap.getCurrentPosition();
+  }
   handleDateSave() {
     this.setState({
       datetimeshown: false,
@@ -150,9 +168,6 @@ class BirdsForm extends React.Component {
       sighting: newSighting,
     });
   }
-  triggerGetCurrentPosition() {
-    this.refs.birdsformmap.getCurrentPosition();
-  }
   handleSubmit(e) {
     e.preventDefault();
     console.log(this.state);
@@ -168,6 +183,11 @@ class BirdsForm extends React.Component {
       <FormContainer onSubmit={this.handleSubmit}>
         <h1>Add bird</h1>
         <button onClick={this.triggerGetCurrentPosition}>Get position</button>
+        <BirdsFormSearch
+          items={this.state.allBirds}
+          onChange={selectedItem => console.log(selectedItem)}
+          // onChange={selectedItem => console.log(selectedItem)}
+        />
         <select name="family" onChange={this.handleChange}>
           <option value="">Valitse suku</option>
           {this.state.families.map(family => (

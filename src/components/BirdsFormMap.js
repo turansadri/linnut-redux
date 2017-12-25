@@ -90,7 +90,7 @@ class BirdsFormMap extends React.Component {
       },
       {
         enableHighAccuracy: false,
-        maximumAge: 0,
+        // maximumAge: 0,
         timeout: 30000,
       },
     );

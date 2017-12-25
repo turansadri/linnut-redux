@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "downshift": "^1.22.5",
     "eslint": "^4.9.0",
     "eslint-plugin-jsx-a11y": "^6.0.0",
     "firebase": "^4.1.3",
