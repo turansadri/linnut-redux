@@ -5,9 +5,16 @@ import {
   GoogleMap,
   Marker,
 } from 'react-google-maps';
+import { func } from 'prop-types';
 import { MAP } from 'react-google-maps/lib/constants';
 
 const googleMapStyles = require('../data/googleMapStyles.json');
+
+const PropTypes = {
+  handleMapPlaces: func.isRequired,
+  handleMapAddress: func.isRequired,
+  handleMapLocation: func.isRequired,
+};
 
 const Map = withScriptjs(
   withGoogleMap(props => (
@@ -103,7 +110,7 @@ class BirdsFormMap extends React.Component {
     }
     return this.service.nearbySearch(
       {
-        location: location,
+        location,
         types: ['park', 'neighborhood', 'locality', 'natural_feature'],
         radius: 1000,
         language: 'fi',
@@ -138,7 +145,7 @@ class BirdsFormMap extends React.Component {
       } else {
         console.log(
           // eslint-disable-line no-console
-          'Geocoder failed due to: ' + status,
+          `Geocoder failed due to: ${status}`,
         );
       }
     });
@@ -174,4 +181,5 @@ class BirdsFormMap extends React.Component {
     );
   }
 }
+BirdsFormMap.propTypes = PropTypes;
 export default BirdsFormMap;

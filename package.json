@@ -19,6 +19,7 @@
     "react-dom": "^16.2.0",
     "react-google-maps": "^9.4.1",
     "react-moment": "^0.2.2",
+    "react-moment-proptypes": "^1.5.0",
     "react-redux": "^5.0.4",
     "react-redux-firebase": "canary",
     "react-router": "^4.2.0",

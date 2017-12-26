@@ -30,8 +30,6 @@ const PropTypes = {
 const DefaultProps = {
   families: [],
   firebase: {},
-  numberOfMonths: 1,
-  displayFormat: () => moment.localeData().longDateFormat('L'),
 };
 const FormContainer = styled.form`
   margin: 0 auto;
@@ -84,7 +82,7 @@ class BirdsForm extends React.Component {
       },
     };
   }
-  componentDidMount() {
+  componentWillMount() {
     const { families } = this.state;
     const allBirds = [];
     families.forEach(family => {
@@ -92,7 +90,10 @@ class BirdsForm extends React.Component {
         allBirds.push(bird);
       });
     });
-    console.log(allBirds);
+    console.log(
+      // eslint-disable-line no-console
+      allBirds,
+    );
     this.setState({
       allBirds,
     });
@@ -151,7 +152,7 @@ class BirdsForm extends React.Component {
   handleDateChange(date) {
     const dateString = date.toISOString();
     const newSighting = update(this.state.sighting, {
-      ['date']: { $set: dateString },
+      date: { $set: dateString },
     });
     this.setState({
       sighting: newSighting,
@@ -170,7 +171,10 @@ class BirdsForm extends React.Component {
   }
   handleSubmit(e) {
     e.preventDefault();
-    console.log(this.state);
+    console.log(
+      // eslint-disable-line no-console
+      this.state,
+    );
     // return this.props.firebase
     //   .push('/birds', { text: newBird.value, done: false })
     //   .then(() => {
@@ -185,7 +189,12 @@ class BirdsForm extends React.Component {
         <button onClick={this.triggerGetCurrentPosition}>Get position</button>
         <BirdsFormSearch
           items={this.state.allBirds}
-          onChange={selectedItem => console.log(selectedItem)}
+          onChange={selectedItem =>
+            console.log(
+              // eslint-disable-line no-console
+              selectedItem,
+            )
+          }
           // onChange={selectedItem => console.log(selectedItem)}
         />
         <select name="family" onChange={this.handleChange}>
@@ -235,7 +244,7 @@ class BirdsForm extends React.Component {
           visible={this.state.datetimeshown ? 'true' : 'false'}
         />
         <BirdsFormMap
-          ref="birdsformmap"
+          ref="birdsFormMap"
           handleMapLocation={this.handleMapLocation}
           handleMapAddress={this.handleMapAddress}
           handleMapPlaces={this.handleMapPlaces}
