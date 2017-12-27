@@ -1,36 +1,17 @@
 import React from 'react';
 import 'react-dates/initialize';
 import InputMoment from 'input-moment';
-import { string, arrayOf, shape } from 'prop-types';
 import moment from 'moment';
+import { string, arrayOf, shape, object } from 'prop-types';
 // import 'moment/locale/fi';
 import styled from 'styled-components';
 import update from 'immutability-helper';
+import helpers from '../helpers';
 import BirdsFormMap from './BirdsFormMap';
 import BirdsFormSearch from './BirdsFormSearch';
 
 // moment.locale('fi');
 
-const PropTypes = {
-  families: arrayOf(
-    shape({
-      displayName: string.isRequired,
-      name: string.isRequired,
-      spesies: arrayOf(
-        shape({
-          displayName: string.isRequired,
-          name: string.isRequired,
-        }),
-      ),
-    }),
-  ),
-  firebase: shape(),
-};
-
-const DefaultProps = {
-  families: [],
-  firebase: {},
-};
 const FormContainer = styled.form`
   margin: 0 auto;
   max-width: 720px;
@@ -56,7 +37,7 @@ class BirdsForm extends React.Component {
     this.handleDateSave = this.handleDateSave.bind(this);
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
-    this.showHideDatetime = this.showHideDatetime.bind(this);
+    this.showDatetime = this.showDatetime.bind(this);
     this.triggerGetCurrentPosition = this.triggerGetCurrentPosition.bind(this);
     this.state = {
       datetimeshown: false,
@@ -66,18 +47,27 @@ class BirdsForm extends React.Component {
       birds: [],
       places: [],
       sighting: {
-        family: '',
         bird: '',
         location: {
-          lat: '',
-          lng: '',
+          target: {
+            coords: {
+              lat: '',
+              lng: '',
+            },
+          },
+          observer: {
+            coords: {
+              lat: '',
+              lng: '',
+            },
+          },
+          place: '',
+          address: {
+            name: '',
+            address: '',
+            country: '',
+          },
         },
-        address: {
-          name: '',
-          address: '',
-          country: '',
-        },
-        place: '',
         date: moment().toISOString(),
       },
     };
@@ -85,39 +75,38 @@ class BirdsForm extends React.Component {
   componentWillMount() {
     const { families } = this.state;
     const allBirds = [];
-    families.forEach(family => {
-      family.species.forEach(bird => {
-        allBirds.push(bird);
+    Object.keys(families).map(key => {
+      families[key].species.forEach(bird => {
+        const birdObj = bird;
+        birdObj.familyName = helpers.slugify(families[key].name);
+        allBirds.push(birdObj);
       });
     });
-    console.log(
-      // eslint-disable-line no-console
-      allBirds,
-    );
     this.setState({
       allBirds,
     });
   }
   getBirdsByFamily(currentFamilyName) {
     const { families } = this.state;
-    return families.filter(family => family.name === currentFamilyName)[0]
-      .species;
+    return Object.keys(families)
+      .map(key => {
+        return families[key];
+      })
+      .filter(family => {
+        return family.name === currentFamilyName;
+      })[0].species;
+    // return Object.keys(families).filter(key => families[key].name === currentFamilyName)[0]
+    //   .species;
   }
   updateBirdsList(e) {
-    if (e.target.name !== 'family') {
-      return;
-    }
     const birds = this.getBirdsByFamily(e.currentTarget.value);
     this.setState({
       birds,
-      sighting: {
-        bird: '',
-      },
     });
   }
   handleMapLocation(location) {
     const newSighting = update(this.state.sighting, {
-      location: { $set: location },
+      location: { target: { coords: { $set: location } } },
     });
     this.setState({
       sighting: newSighting,
@@ -125,29 +114,26 @@ class BirdsForm extends React.Component {
   }
   handleMapAddress(address) {
     const newSighting = update(this.state.sighting, {
-      address: { $set: address },
+      location: { address: { $set: address } },
     });
     this.setState({
       sighting: newSighting,
     });
   }
   handleMapPlaces(places) {
-    this.setState({
-      places,
-    });
+    this.setState({ places });
   }
-  showHideDatetime() {
+  showDatetime(show = true) {
+    const newShowState = show ? show : false;
     this.setState({
-      datetimeshown: true,
+      datetimeshown: newShowState,
     });
   }
   triggerGetCurrentPosition() {
     this.refs.birdsformmap.getCurrentPosition();
   }
   handleDateSave() {
-    this.setState({
-      datetimeshown: false,
-    });
+    this.setState({ datetimeshown: false });
   }
   handleDateChange(date) {
     const dateString = date.toISOString();
@@ -158,50 +144,65 @@ class BirdsForm extends React.Component {
       sighting: newSighting,
     });
   }
+  handleSearchChange(selectedItem) {
+    const newSighting = update(this.state.sighting, {
+      bird: { $set: selectedItem },
+    });
+    this.setState({
+      sighting: newSighting,
+    });
+  }
   handleChange(e) {
     const { target } = e;
     const { value, name } = target;
-    const newSighting = update(this.state.sighting, {
-      [name]: { $set: value },
-    });
-    this.updateBirdsList(e);
+    let newSighting = {};
+    if (name === 'family') {
+      this.updateBirdsList(e);
+      return;
+    }
+    if (name === 'place') {
+      newSighting = update(this.state.sighting, {
+        location: { [name]: { $set: value } },
+      });
+    } else {
+      newSighting = update(this.state.sighting, {
+        [name]: { $set: value },
+      });
+    }
+    console.log(
+      // eslint-disable-line no-console
+      newSighting,
+    );
     this.setState({
       sighting: newSighting,
     });
   }
   handleSubmit(e) {
     e.preventDefault();
-    console.log(
-      // eslint-disable-line no-console
-      this.state,
-    );
+    const { sighting } = this.state;
+    console.log(sighting);
     // return this.props.firebase
-    //   .push('/birds', { text: newBird.value, done: false })
+    //   .push('/sightings', { sighting })
     //   .then(() => {
-    //     newBird.value = '';
-    //     console.log('Bird Created!');
+    //     console.log('Sighting added!');
     //   });
   }
   render() {
+    const { families } = this.state;
     return (
       <FormContainer onSubmit={this.handleSubmit}>
         <h1>Add bird</h1>
-        <button onClick={this.triggerGetCurrentPosition}>Get position</button>
+        <a onClick={this.triggerGetCurrentPosition}>Get position</a>
         <BirdsFormSearch
           items={this.state.allBirds}
-          onChange={selectedItem =>
-            console.log(
-              // eslint-disable-line no-console
-              selectedItem,
-            )
-          }
+          onChange={selectedItem => this.handleSearchChange(selectedItem)}
           // onChange={selectedItem => console.log(selectedItem)}
         />
         <select name="family" onChange={this.handleChange}>
           <option value="">Valitse suku</option>
-          {this.state.families.map(family => (
-            <option value={family.name} key={family.name}>
-              {family.displayName}
+          {Object.keys(families).map(key => (
+            <option value={families[key].name} key={key}>
+              {families[key].displayName}
             </option>
           ))}
         </select>
@@ -218,7 +219,7 @@ class BirdsForm extends React.Component {
           ))}
         </select>
         <select
-          value={this.state.sighting.place.value}
+          value={this.state.sighting.location.place.value}
           name="place"
           onChange={this.handleChange}
         >
@@ -234,7 +235,7 @@ class BirdsForm extends React.Component {
           name="date"
           value={this.state.date.format()}
           onChange={this.handleChange}
-          onClick={this.showHideDatetime}
+          onClick={this.showDatetime}
         />
         <DateTimePicker
           moment={this.state.date}
@@ -244,7 +245,7 @@ class BirdsForm extends React.Component {
           visible={this.state.datetimeshown ? 'true' : 'false'}
         />
         <BirdsFormMap
-          ref="birdsFormMap"
+          ref="birdsformmap"
           handleMapLocation={this.handleMapLocation}
           handleMapAddress={this.handleMapAddress}
           handleMapPlaces={this.handleMapPlaces}
@@ -254,7 +255,15 @@ class BirdsForm extends React.Component {
     );
   }
 }
+const PropTypes = {
+  families: object,
+  firebase: shape(),
+};
 
+const DefaultProps = {
+  families: [],
+  firebase: {},
+};
 BirdsForm.propTypes = PropTypes;
 BirdsForm.defaultProps = DefaultProps;
 export default BirdsForm;

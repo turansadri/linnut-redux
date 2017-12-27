@@ -10,6 +10,7 @@ import reducers from '../reducers';
 import Navigation from '../components/Navigation';
 import BirdsFilter from '../containers/BirdsFilter';
 import BirdsForm from '../containers/BirdsForm';
+import BirdsUpdater from '../containers/BirdsUpdater';
 import './App.css';
 import 'input-moment/dist/input-moment.css';
 
@@ -40,6 +41,7 @@ class App extends Component {
             <Switch>
               <Route exact path="/" component={BirdsFilter} />
               <Route path="/add" component={BirdsForm} />
+              <Route path="/updater" component={BirdsUpdater} />
             </Switch>
           </div>
         </BrowserRouter>

@@ -29,6 +29,9 @@ const Navigation = () => (
       <LinkListItem>
         <StyledLink to="/add">Add bird</StyledLink>
       </LinkListItem>
+      <LinkListItem>
+        <StyledLink to="/updater">Updater</StyledLink>
+      </LinkListItem>
     </LinkList>
   </NavigationContainer>
 );

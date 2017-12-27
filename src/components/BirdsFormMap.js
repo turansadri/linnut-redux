@@ -81,6 +81,10 @@ class BirdsFormMap extends React.Component {
     this.updateLocationInfo(location);
   }
   getCurrentPosition() {
+    console.log(
+      // eslint-disable-line no-console
+      'Getting location..',
+    );
     navigator.geolocation.getCurrentPosition(
       pos => {
         const location = {
@@ -151,6 +155,10 @@ class BirdsFormMap extends React.Component {
     });
   }
   updateLocationInfo(location) {
+    console.log(
+      // eslint-disable-line no-console
+      'Location updated.',
+    );
     const places = this.getMapPlaces(location);
     const address = this.getReverseGeolocation({
       location,
