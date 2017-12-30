@@ -4,15 +4,15 @@ import { createStore, compose } from 'redux';
 import { composeWithDevTools } from 'redux-devtools-extension';
 import { reactReduxFirebase } from 'react-redux-firebase';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import { firebaseConfig } from '../config';
 import * as firebase from 'firebase';
+import 'input-moment/dist/input-moment.css';
+import { firebaseConfig } from '../config';
 import reducers from '../reducers';
 import Navigation from '../components/Navigation';
 import BirdsFilter from '../containers/BirdsFilter';
 import BirdsForm from '../containers/BirdsForm';
 import BirdsUpdater from '../containers/BirdsUpdater';
 import './App.css';
-import 'input-moment/dist/input-moment.css';
 
 const composer =
   process.env.NODE_ENV !== 'production' ? composeWithDevTools : compose;
@@ -41,6 +41,7 @@ class App extends Component {
             <Switch>
               <Route exact path="/" component={BirdsFilter} />
               <Route path="/add" component={BirdsForm} />
+              <Route path="/update/:id" component={BirdsForm} />
               <Route path="/updater" component={BirdsUpdater} />
             </Switch>
           </div>

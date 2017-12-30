@@ -22,6 +22,7 @@ const DefaultProps = [];
 
 const BirdsFormContainer = props => {
   const { families, ...rest } = props;
+  console.log(props.match.params.id);
   /* eslint-disable no-nested-ternary */
   const Form = !isLoaded(families) ? (
     'Loading'

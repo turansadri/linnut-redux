@@ -1,23 +1,12 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { compose } from 'redux';
-import { string, arrayOf, shape } from 'prop-types';
+import { string, arrayOf, shape, object } from 'prop-types';
 import { firebaseConnect, isLoaded, isEmpty } from 'react-redux-firebase';
 import BirdsUpdater from '../../components/BirdsUpdater';
 
 const PropTypes = {
-  families: arrayOf(
-    shape({
-      displayName: string.isRequired,
-      name: string.isRequired,
-      spesies: arrayOf(
-        shape({
-          displayName: string.isRequired,
-          name: string.isRequired,
-        }),
-      ),
-    }),
-  ),
+  families: object,
 };
 const DefaultProps = [];
 
@@ -36,10 +25,10 @@ const BirdsUpdaterContainer = props => {
 };
 
 function mapStateToProps(state) {
-  const { birds, family } = state.firebase.data;
+  const { birds, families } = state.firebase.data;
   return {
     birds,
-    families: family,
+    families,
   };
 }
 
@@ -47,6 +36,6 @@ BirdsUpdaterContainer.propTypes = PropTypes;
 BirdsUpdaterContainer.defaultProps = DefaultProps;
 
 export default compose(
-  firebaseConnect(['/birds', '/family']),
+  firebaseConnect(['/birds', '/families']),
   connect(mapStateToProps),
 )(BirdsUpdaterContainer);

@@ -1284,8 +1284,8 @@ module.exports = [
     Latitude: 52.357771089276,
     Longitude: 4.89756828406002,
     Notes: '',
-    Family: 'papukaijalinnut',
-    FamilyName: 'Papukaijalinnut',
+    Family: 'papukaijat',
+    FamilyName: 'Papukaijat',
   },
   {
     id: 100,
