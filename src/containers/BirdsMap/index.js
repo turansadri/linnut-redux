@@ -14,29 +14,33 @@ export default class BirdsMap extends Component {
     const {
       onMarkerClick,
       mapConfig,
-      filteredBirds,
+      filteredSightings,
       activeMarker,
     } = this.props;
     return (
-      <GoogleMapReact
-        bootstrapURLKeys={{ key: config.getGoogleKey() }}
-        style={style}
-        center={mapConfig.center}
-        defaultZoom={11}
-      >
-        { filteredBirds.map(bird =>
-          <BirdMarker
-            lat={bird.Latitude}
-            lng={bird.Longitude}
-            text={bird.PrimaryName}
-            family={bird.Family}
-            key={bird.id}
-            id={bird.id}
-            activeMarker={activeMarker}
-            onMarkerClick={onMarkerClick}
-          />,
-        )}
-      </GoogleMapReact>
+      console.log(filteredSightings),
+      (
+        <div>Nakki</div>
+        // <GoogleMapReact
+        //   bootstrapURLKeys={{ key: config.getGoogleKey() }}
+        //   style={style}
+        //   center={mapConfig.center}
+        //   defaultZoom={11}
+        // >
+        //   { filteredSightings.map(bird =>
+        //     <BirdMarker
+        //       lat={bird.Latitude}
+        //       lng={bird.Longitude}
+        //       text={bird.PrimaryName}
+        //       family={bird.Family}
+        //       key={bird.id}
+        //       id={bird.id}
+        //       activeMarker={activeMarker}
+        //       onMarkerClick={onMarkerClick}
+        //     />,
+        //   )}
+        // </GoogleMapReact>
+      )
     );
   }
 }

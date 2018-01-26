@@ -8,34 +8,29 @@ import BirdsMap from '../BirdsMap';
 import {
   formValueChange,
   activeMarkerChange,
-} from '../../actions/birds-filter';
+  fetchSightings,
+} from '../../actions/sightings-filter';
 
 const BirdsFilterContainer = props => {
   const { onChange, onMarkerClick } = props;
   return (
     <div>
-      <BirdsFilter {...props} onChange={onChange} />
-      <BirdsMap {...props} onClick={onMarkerClick} />
+      {/* 
+        <BirdsFilter {...props} onChange={onChange} />
+        <BirdsMap {...props} onClick={onMarkerClick} />
+      */}
     </div>
   );
 };
 
 function mapStateToProps(state) {
-  const { family } = state.firebase.data;
-  const birdsTest = state.firebase.data.birds;
+  const { families, sightings } = state.firebase.data;
 
-  const {
-    birds,
-    filters,
-    filteredBirds,
-    mapConfig,
-    activeMarker,
-  } = state.birds;
+  const { filters, filteredBirds, mapConfig, activeMarker } = state.birds;
 
   return {
-    family,
-    birdsTest,
-    birds,
+    families,
+    sightings,
     filteredBirds,
     filters,
     mapConfig,
@@ -59,6 +54,6 @@ BirdsFilterContainer.propTypes = {
   onMarkerClick: PropTypes.func.isRequired,
 };
 export default compose(
-  firebaseConnect(['/family', '/birds']),
+  firebaseConnect(['/families', '/sightings']),
   connect(mapStateToProps, mapDispatchToProps),
 )(BirdsFilterContainer);

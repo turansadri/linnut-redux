@@ -1,9 +1,9 @@
 import { combineReducers } from 'redux';
 import { firebaseStateReducer } from 'react-redux-firebase';
-import birdsFilter from './birds-filter';
+import sightingsFilter from './sightings-filter';
 
 const rootReducer = combineReducers({
-  birds: birdsFilter,
+  birds: sightingsFilter,
   firebase: firebaseStateReducer,
 });
 

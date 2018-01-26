@@ -9,7 +9,7 @@ import 'input-moment/dist/input-moment.css';
 import { firebaseConfig } from '../config';
 import reducers from '../reducers';
 import Navigation from '../components/Navigation';
-import BirdsFilter from '../containers/BirdsFilter';
+import Sightings from '../containers/Sightings';
 import BirdsForm from '../containers/BirdsForm';
 import BirdsUpdater from '../containers/BirdsUpdater';
 import './App.css';
@@ -39,7 +39,7 @@ class App extends Component {
           <div>
             <Navigation />
             <Switch>
-              <Route exact path="/" component={BirdsFilter} />
+              <Route exact path="/" component={Sightings} />
               <Route path="/add" component={BirdsForm} />
               <Route path="/update/:id" component={BirdsForm} />
               <Route path="/updater" component={BirdsUpdater} />
