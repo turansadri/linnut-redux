@@ -5,7 +5,10 @@ import { firebaseConnect, isLoaded, isEmpty } from 'react-redux-firebase';
 import PropTypes from 'prop-types';
 import BirdsFilter from '../../components/BirdsFilter';
 import BirdsMap from '../BirdsMap';
-import { fetchInitialData } from '../../actions/sightings-filter';
+import {
+  fetchInitialData,
+  formValueChange,
+} from '../../actions/sightings-filter';
 
 class Sightings extends React.Component {
   componentWillMount() {
@@ -14,8 +17,8 @@ class Sightings extends React.Component {
   }
   render() {
     return (
-      <div>
-        <BirdsFilter {...this.props} />
+      <div style={{ height: '100%' }}>
+        {/* <BirdsFilter {...this.props} /> */}
         <BirdsMap {...this.props} />
       </div>
     );
@@ -23,13 +26,13 @@ class Sightings extends React.Component {
 }
 
 const SightingsContainer = props => {
-  const { sightings, onDataLoad } = props;
+  const { sightings, onDataLoad, formValueChange } = props;
   const content = !isLoaded(sightings) ? (
     'Loading'
   ) : isEmpty(sightings) ? (
     'No sightings'
   ) : (
-    <Sightings sightings={sightings} onDataLoad={onDataLoad} {...props} />
+    <Sightings onDataLoad={onDataLoad} onChange={formValueChange} {...props} />
   );
   return <div>{content}</div>;
 };
@@ -37,6 +40,9 @@ const SightingsContainer = props => {
 const mapDispatchToProps = dispatch => ({
   onDataLoad: event => {
     dispatch(fetchInitialData(event));
+  },
+  formValueChange: event => {
+    dispatch(formValueChange(event));
   },
 });
 

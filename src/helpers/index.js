@@ -1,6 +1,7 @@
 import moment from 'moment';
 
 const helpers = {
+  getMarkerImage: family => 'icons/talitiainen.png',
   getYear: date => moment(date, 'D MMMM YYYY HH.mm').format('YYYY'),
   camelCasify: string =>
     string.replace(/-([a-z])/g, g => {

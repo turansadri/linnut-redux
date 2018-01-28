@@ -68,10 +68,13 @@ class BirdsFormMap extends React.Component {
       );
       return;
     }
+    if (!this.map) {
+      return;
+    }
     this.geocoder = new googleMaps.Geocoder();
-    // this.service = new googleMaps.places.PlacesService(
-    //   this.map.context.__SECRET_MAP_DO_NOT_USE_OR_YOU_WILL_BE_FIRED,
-    // );
+    this.service = new googleMaps.places.PlacesService(
+      this.map.context.__SECRET_MAP_DO_NOT_USE_OR_YOU_WILL_BE_FIRED,
+    );
   }
   onMarkerPositionChanged() {
     const { map } = this;
@@ -159,7 +162,7 @@ class BirdsFormMap extends React.Component {
       // eslint-disable-line no-console
       'Location updated.',
     );
-    // const places = this.getMapPlaces(location);
+    const places = this.getMapPlaces(location);
     const address = this.getReverseGeolocation({
       location,
       language: 'fi',

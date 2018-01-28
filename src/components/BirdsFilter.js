@@ -14,10 +14,10 @@ const FiltersContainer = styled.section`
 
 class BirdsFilter extends React.Component {
   render() {
-    const { filters /* onChange */ } = this.props;
+    const { filters, onChange } = this.props;
     return (
       <FiltersContainer>
-        {/* filters.map(filter => (
+        {filters.map(filter => (
           <select
             key={filter.id}
             ref={filter.id}
@@ -36,19 +36,19 @@ class BirdsFilter extends React.Component {
               </option>
             ))}
           </select>
-        )) */}
+        ))}
       </FiltersContainer>
     );
   }
 }
 BirdsFilter.propTypes = {
-  // onChange: PropTypes.func.isRequired,
-  // filters: PropTypes.arrayOf(
-  //   PropTypes.shape({
-  //     id: PropTypes.string,
-  //     value: PropTypes.string,
-  //     options: PropTypes.arrayOf(PropTypes.string),
-  //   }),
-  // ).isRequired,
+  onChange: PropTypes.func.isRequired,
+  filters: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string,
+      value: PropTypes.string,
+      options: PropTypes.arrayOf(PropTypes.string),
+    }),
+  ).isRequired,
 };
 export default BirdsFilter;

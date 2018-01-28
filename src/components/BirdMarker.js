@@ -22,7 +22,6 @@ const Marker = styled.span`
   transition: all 0.3s ease;
   border: 2px solid #eee;
   span {
-    display: none;
     font-family: Helvetica;
     position: absolute;
     font-size: 7.5px;
@@ -147,11 +146,11 @@ const Marker = styled.span`
 `;
 
 const BirdMarker = props => {
-  const isActive = props.id === props.activeMarker ? 'active' : '';
-  const classes = `${props.family} ${isActive}`;
+  // const isActive = props.id === props.activeMarker ? 'active' : '';
+  // const classes = `${props.family} ${isActive}`;
   return (
-    <Marker className={classes} onClick={e => props.onMarkerClick(props.id)}>
-      <Icon icon={helpers.camelCasify(props.family)} />
+    <Marker /* className={classes} onClick={e => props.onMarkerClick(props.id)} */
+    >
       <span>{props.text}</span>
     </Marker>
   );

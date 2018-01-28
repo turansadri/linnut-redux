@@ -18,7 +18,6 @@ const mapConfig = {
   },
 };
 const initialState = {
-  sightings: [],
   filters,
   filteredSightings: [],
   mapConfig,
@@ -54,7 +53,16 @@ const getBirdNames = (sightings, family, year) => {
     ),
   ];
 };
-
+const getUniqueYears = sightings => {
+  return [
+    ...new Set(
+      Object.keys(sightings).map(key => {
+        const date = moment(sightings[key].date);
+        return date.format('Y');
+      }),
+    ),
+  ];
+};
 const getUniqueProperties = (sightings, property) => {
   return [
     ...new Set(
@@ -82,23 +90,24 @@ const sightingsFilter = (state = initialState, action) => {
       const sightings = action.payload;
       const newFamilies = getUniqueProperties(sightings, 'familyName');
       const newBirds = getUniqueProperties(sightings, 'name');
-      console.log(newFamilies);
-      console.log(newBirds);
+      const years = getUniqueYears(sightings);
 
       const nextFilters = filters.map(filter => {
-        /* Updates options for PrimaryName dropdown if Family or Date is changed */
-        // const oldFamily = filters.find(f => f.id === 'Family').value;
-        // const oldYear = filters.find(f => f.id === 'Date').value;
-        // const currentFamily = id === 'Family' ? action.value : oldFamily;
-        // const currentDate = id === 'Date' ? action.value : oldDate;
-
-        if (filter.id === 'birdName') {
+        if (filter.id === 'Year') {
+          return {
+            ...filter,
+            options: years,
+          };
+        } else if (filter.id === 'familyName') {
+          return {
+            ...filter,
+            options: newFamilies,
+          };
+        } else if (filter.id === 'birdName') {
           const nextBirdNames = getBirdNames(sightings, '', '');
           return {
             ...filter,
             options: nextBirdNames,
-            value: '',
-            displayName: '',
           };
         } else {
           return { ...filter };
@@ -106,13 +115,10 @@ const sightingsFilter = (state = initialState, action) => {
         return filter;
       });
 
-      // const nextsightings = filtersightings(state.sightings, nextFilters);
-
       return {
         ...state,
         filteredSightings: sightings,
         filters: nextFilters,
-        sightings: action.payload,
       };
     }
     default:
