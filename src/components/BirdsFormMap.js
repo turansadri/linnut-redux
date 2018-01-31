@@ -6,7 +6,7 @@ import {
   Marker,
 } from 'react-google-maps';
 import { func } from 'prop-types';
-import { MAP } from 'react-google-maps/lib/constants';
+// import { MAP } from 'react-google-maps/lib/constants';
 
 const googleMapStyles = require('../data/googleMapStyles.json');
 
@@ -126,11 +126,8 @@ class BirdsFormMap extends React.Component {
     );
   }
   getReverseGeolocation(location) {
-    const getCountryFromAddressComponents = components => {
-      return components.filter(component => {
-        return component.types.includes('country');
-      })[0];
-    };
+    const getCountryFromAddressComponents = components =>
+      components.filter(component => component.types.includes('country'))[0];
     return this.geocoder.geocode(location, (results, status) => {
       if (status === 'OK') {
         if (results[0]) {

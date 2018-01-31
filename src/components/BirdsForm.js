@@ -2,7 +2,7 @@ import React from 'react';
 import 'react-dates/initialize';
 import InputMoment from 'input-moment';
 import moment from 'moment';
-import { string, arrayOf, shape, object } from 'prop-types';
+import { shape } from 'prop-types';
 // import 'moment/locale/fi';
 import styled from 'styled-components';
 import update from 'immutability-helper';
@@ -75,13 +75,13 @@ class BirdsForm extends React.Component {
   componentWillMount() {
     const { families } = this.state;
     const allBirds = [];
-    Object.keys(families).map(key => {
+    Object.keys(families).map(key =>
       families[key].species.forEach(bird => {
         const birdObj = bird;
         birdObj.familyName = helpers.slugify(families[key].name);
         allBirds.push(birdObj);
-      });
-    });
+      }),
+    );
     this.setState({
       allBirds,
     });
@@ -89,12 +89,8 @@ class BirdsForm extends React.Component {
   getBirdsByFamily(currentFamilyName) {
     const { families } = this.state;
     return Object.keys(families)
-      .map(key => {
-        return families[key];
-      })
-      .filter(family => {
-        return family.name === currentFamilyName;
-      })[0].species;
+      .map(key => families[key])
+      .filter(family => family.name === currentFamilyName)[0].species;
     // return Object.keys(families).filter(key => families[key].name === currentFamilyName)[0]
     //   .species;
   }
@@ -124,13 +120,14 @@ class BirdsForm extends React.Component {
     this.setState({ places });
   }
   showDatetime(show = true) {
-    const newShowState = show ? show : false;
+    const newShowState = show || false;
     this.setState({
       datetimeshown: newShowState,
     });
   }
-  triggerGetCurrentPosition() {
-    this.refs.birdsformmap.getCurrentPosition();
+  triggerGetCurrentPosition(e) {
+    e.preventDefault();
+    this.refs.birdsformmap.getCurrentPosition(); // eslint-disable-line react/no-string-refs
   }
   handleDateSave() {
     this.setState({ datetimeshown: false });
@@ -180,7 +177,7 @@ class BirdsForm extends React.Component {
   handleSubmit(e) {
     e.preventDefault();
     const { sighting } = this.state;
-    console.log(sighting);
+    console.log(sighting); // eslint-disable-line no-console
     // return this.props.firebase
     //   .push('/sightings', { sighting })
     //   .then(() => {
@@ -192,7 +189,7 @@ class BirdsForm extends React.Component {
     return (
       <FormContainer onSubmit={this.handleSubmit}>
         <h1>Add bird</h1>
-        <a onClick={this.triggerGetCurrentPosition}>Get position</a>
+        <button onClick={this.triggerGetCurrentPosition}>Get position</button>
         <BirdsFormSearch
           items={this.state.allBirds}
           onChange={selectedItem => this.handleSearchChange(selectedItem)}
@@ -245,7 +242,7 @@ class BirdsForm extends React.Component {
           visible={this.state.datetimeshown ? 'true' : 'false'}
         />
         <BirdsFormMap
-          ref="birdsformmap"
+          ref="birdsformmap" // eslint-disable-line
           handleMapLocation={this.handleMapLocation}
           handleMapAddress={this.handleMapAddress}
           handleMapPlaces={this.handleMapPlaces}
@@ -256,13 +253,13 @@ class BirdsForm extends React.Component {
   }
 }
 const PropTypes = {
-  families: object,
-  firebase: shape(),
+  families: shape({}),
+  // firebase: shape({}),
 };
 
 const DefaultProps = {
   families: [],
-  firebase: {},
+  // firebase: {},
 };
 BirdsForm.propTypes = PropTypes;
 BirdsForm.defaultProps = DefaultProps;

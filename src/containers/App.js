@@ -1,9 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Provider } from 'react-redux';
 import { createStore, compose } from 'redux';
 import { composeWithDevTools } from 'redux-devtools-extension';
 import { reactReduxFirebase } from 'react-redux-firebase';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import styled from 'styled-components';
 import * as firebase from 'firebase';
 import 'input-moment/dist/input-moment.css';
 import { firebaseConfig } from '../config';
@@ -14,8 +15,8 @@ import BirdsForm from '../containers/BirdsForm';
 import BirdsUpdater from '../containers/BirdsUpdater';
 import './App.css';
 
-const composer =
-  process.env.NODE_ENV !== 'production' ? composeWithDevTools : compose;
+// const composer =
+//   process.env.NODE_ENV !== 'production' ? composeWithDevTools : compose;
 
 const rrfConfig = { userProfile: 'users' }; // react-redux-firebase config
 
@@ -23,7 +24,7 @@ const config = firebaseConfig;
 
 firebase.initializeApp(config); // <- new to v2.*.*
 
-const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+const composeEnhancers = composeWithDevTools({});
 
 const createStoreWithFirebase = compose(
   reactReduxFirebase(firebase, rrfConfig),
@@ -31,24 +32,25 @@ const createStoreWithFirebase = compose(
 
 const store = createStoreWithFirebase(reducers, composeEnhancers());
 
-class App extends Component {
-  render() {
-    return (
-      <Provider store={store}>
-        <BrowserRouter>
-          <div>
-            <Navigation />
-            <Switch>
-              <Route exact path="/" component={Sightings} />
-              <Route path="/add" component={BirdsForm} />
-              <Route path="/update/:id" component={BirdsForm} />
-              <Route path="/updater" component={BirdsUpdater} />
-            </Switch>
-          </div>
-        </BrowserRouter>
-      </Provider>
-    );
-  }
-}
+const Main = styled.main`
+  display: grid;
+  grid-template-rows: 40px auto;
+  height: 100vh;
+`;
+const App = () => (
+  <Provider store={store}>
+    <BrowserRouter>
+      <Main>
+        <Navigation />
+        <Switch>
+          <Route exact path="/" component={Sightings} />
+          <Route path="/add" component={BirdsForm} />
+          <Route path="/update/:id" component={BirdsForm} />
+          <Route path="/updater" component={BirdsUpdater} />
+        </Switch>
+      </Main>
+    </BrowserRouter>
+  </Provider>
+);
 
 export default App;
