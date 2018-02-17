@@ -20,7 +20,6 @@ const Map = withScriptjs(
         lat: props.currentLocation.lat,
         lng: props.currentLocation.lng,
       }}
-      onZoomChanged={() => console.log('zoom')}
     >
       <MarkerClusterer
         onClick={props.onMarkerClustererClick}
@@ -76,7 +75,7 @@ export default class BirdsMap extends Component {
     return (
       <Map
         currentLocation={this.state.currentLocation}
-        googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyCV31G_XGjKMer9YBaviREhz501w0EyOYs&v=3.exp&libraries=geometry,drawing,places"
+        googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyCV31G_XGjKMer9YBaviREhz501w0EyOYs&v=3.30&libraries=geometry,drawing,places"
         containerElement={<div style={{ height: '100%' }} />}
         mapElement={<div style={{ height: '100%' }} />}
         loadingElement={<div style={{ height: '100%' }} />}

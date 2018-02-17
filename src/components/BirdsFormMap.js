@@ -181,7 +181,7 @@ class BirdsFormMap extends React.Component {
         onMarkerPositionChanged={this.onMarkerPositionChanged}
         currentLocation={this.state.currentLocation}
         googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyCV31G_XGjKMer9YBaviREhz501w0EyOYs&v=3.exp&libraries=geometry,drawing,places"
-        containerElement={<div style={{ height: '400px' }} />}
+        containerElement={<div style={{ height: '320px' }} />}
         mapElement={<div style={{ height: '100%' }} />}
         loadingElement={<div style={{ height: '100%' }} />}
         isMarkerShown

@@ -1,0 +1,110 @@
+@import 'variables';
+
+.m-calendar {
+  display: inline-block;
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+  }
+
+  td {
+    padding: 8px 0;
+    text-align: center;
+    cursor: pointer;
+    color: $color-white;
+  }
+
+  thead {
+    td {
+      color: $color-blue;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 12px;
+    }
+  }
+
+  tbody td {
+    color: $color-blue;
+
+    &:hover {
+      background: $color-blue;
+      border-color: $color-blue;
+      color: $color-white;
+    }
+  }
+
+  .current-day {
+    background-color: lighten($color-gray, 14%);
+    color: $color-blue;
+    font-weight: bold;
+  }
+
+  .prev-month,
+  .next-month {
+    color: rgba($color-blue, 0.3);
+  }
+
+  .toolbar {
+    line-height: 30px;
+    color: $color-blue;
+    text-align: center;
+    margin-bottom: 13px;
+
+    button {
+      -webkit-appearance: none;
+      border-radius: 0;
+      position: relative;
+      width: 30px;
+      font-size: 1rem;
+      padding: 0;
+      text-align: center;
+      outline: 0;
+      z-index: 5;
+      border: none;
+      cursor: pointer;
+      i.ion-ios-arrow-left {
+        -webkit-appearance: none;
+        border-radius: 0;
+        font-style: normal;
+        color: $color-blue;
+        font-weight: 700;
+        line-height: 1.5em;
+        border: none;
+        &:before {
+          border: none;
+          -webkit-appearance: none;
+          border-radius: 0;
+          content: '←';
+        }
+      }
+      i.ion-ios-arrow-right {
+        font-style: normal;
+        color: $color-blue;
+        font-weight: 700;
+        line-height: 1.5em;
+        &:before {
+          content: '→';
+        }
+      }
+    }
+
+    .prev-month {
+      float: left;
+    }
+
+    .next-month {
+      float: right;
+    }
+
+    .current-date {
+      font-size: 1.2rem;
+      color: $color-blue;
+      text-transform: uppercase;
+      font-weight: 500;
+    }
+  }
+}

@@ -1,16 +1,296 @@
+@charset "UTF-8";
 html, body {
   height: 100%;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  font-family: 'Platform';
+  font-weight: 400; }
 
 #root, [data-reactroot] {
   height: 100%; }
-  #root > div, [data-reactroot] > div {
-    height: 100%;
-    width: 100%; }
-    #root > div > div, [data-reactroot] > div > div {
-      height: 100%;
-      width: 100%; }
+
+#root > div, [data-reactroot] > div {
+  height: 100%;
+  width: 100%; }
+
+#root > div > div, [data-reactroot] > div > div {
+  height: 100%;
+  width: 100%; }
 
 .labels {
   overflow: visible !important; }
+
+.m-calendar {
+  display: inline-block; }
+
+.m-calendar table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: fixed; }
+
+.m-calendar td {
+  padding: 8px 0;
+  text-align: center;
+  cursor: pointer;
+  color: #ffffff; }
+
+.m-calendar thead td {
+  color: #001C6B;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 12px; }
+
+.m-calendar tbody td {
+  color: #001C6B; }
+
+.m-calendar tbody td:hover {
+  background: #001C6B;
+  border-color: #001C6B;
+  color: #ffffff; }
+
+.m-calendar .current-day {
+  background-color: #d6ffff;
+  color: #001C6B;
+  font-weight: bold; }
+
+.m-calendar .prev-month,
+.m-calendar .next-month {
+  color: rgba(0, 28, 107, 0.3); }
+
+.m-calendar .toolbar {
+  line-height: 30px;
+  color: #001C6B;
+  text-align: center;
+  margin-bottom: 13px; }
+
+.m-calendar .toolbar button {
+  -webkit-appearance: none;
+  border-radius: 0;
+  position: relative;
+  width: 30px;
+  font-size: 1rem;
+  padding: 0;
+  text-align: center;
+  outline: 0;
+  z-index: 5;
+  border: none;
+  cursor: pointer; }
+
+.m-calendar .toolbar button i.ion-ios-arrow-left {
+  -webkit-appearance: none;
+  border-radius: 0;
+  font-style: normal;
+  color: #001C6B;
+  font-weight: 700;
+  line-height: 1.5em;
+  border: none; }
+
+.m-calendar .toolbar button i.ion-ios-arrow-left:before {
+  border: none;
+  -webkit-appearance: none;
+  border-radius: 0;
+  content: '←'; }
+
+.m-calendar .toolbar button i.ion-ios-arrow-right {
+  font-style: normal;
+  color: #001C6B;
+  font-weight: 700;
+  line-height: 1.5em; }
+
+.m-calendar .toolbar button i.ion-ios-arrow-right:before {
+  content: '→'; }
+
+.m-calendar .toolbar .prev-month {
+  float: left; }
+
+.m-calendar .toolbar .next-month {
+  float: right; }
+
+.m-calendar .toolbar .current-date {
+  font-size: 1.2rem;
+  color: #001C6B;
+  text-transform: uppercase;
+  font-weight: 500; }
+
+.m-time {
+  color: #ffffff; }
+
+.m-time .showtime {
+  text-align: center; }
+
+.m-time .separater {
+  display: inline-block;
+  font-size: 32px;
+  font-weight: bold;
+  color: #001C6B;
+  width: 32px;
+  height: 65px;
+  line-height: 65px;
+  text-align: center; }
+
+.m-time .time-text {
+  position: relative;
+  text-align: center;
+  font-size: 15px;
+  color: #001C6B;
+  margin-top: 5px;
+  margin-bottom: 14px;
+  text-transform: uppercase;
+  font-weight: 500; }
+
+.m-time .sliders {
+  padding: 0 10px; }
+
+.m-time .sliders .u-slider {
+  margin-bottom: 30px; }
+
+.m-time .time {
+  width: 65px;
+  height: 65px;
+  display: inline-block;
+  font-size: 38px;
+  line-height: 65px;
+  color: #001C6B;
+  border-radius: 3px;
+  text-align: center; }
+
+.u-slider-time {
+  position: relative;
+  display: inline-block;
+  background-color: #ffffff;
+  border-radius: 3px;
+  height: 4px;
+  width: 100%;
+  cursor: pointer; }
+
+.u-slider-time .value {
+  position: absolute;
+  background-color: #001C6B;
+  border-radius: 3px;
+  top: 0;
+  height: 100%; }
+
+.u-slider-time .handle {
+  position: absolute;
+  width: 4px;
+  height: 4px; }
+
+.u-slider-time .handle:after {
+  position: relative;
+  display: block;
+  content: '';
+  top: -10px;
+  left: -12px;
+  width: 24px;
+  height: 24px;
+  background-color: #001C6B;
+  border-radius: 50%;
+  cursor: pointer; }
+
+.im-btn {
+  display: inline-block;
+  background-color: #ffffff;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  line-height: 1; }
+
+.im-btn:before {
+  margin-right: 6px; }
+
+.m-input-moment {
+  display: inline-block;
+  width: 330px;
+  padding: 24px 15px;
+  border: none;
+  background-color: #8FFFFE; }
+
+.m-input-moment .options {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 10px; }
+
+.m-input-moment .options button {
+  float: left;
+  width: 50%;
+  color: #001C6B;
+  text-align: center;
+  font-size: 16px;
+  padding: 7px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: 700; }
+
+.m-input-moment .options button:first-child {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0; }
+
+.m-input-moment .options button:last-child {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0; }
+
+.m-input-moment .options button.is-active {
+  color: #ffffff;
+  background-color: #001C6B; }
+
+.m-input-moment .tab {
+  display: none; }
+
+.m-input-moment .tab.is-active {
+  display: block; }
+
+.m-input-moment .tabs {
+  margin-bottom: 11px; }
+
+.m-input-moment .btn-save {
+  display: block;
+  margin-top: 10px;
+  width: 100%;
+  background-color: #001C6B;
+  padding: 12px 0;
+  text-align: center;
+  color: #ffffff;
+  font-size: 16px;
+  border-radius: 3px; }
+
+@font-face {
+  font-family: 'Platform';
+  src: url("../fonts/Platform-Bold-Web.eot");
+  src: url("../fonts/Platform-Bold-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/Platform-Bold-Web.woff2") format("woff2"), url("../fonts/Platform-Bold-Web.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal; }
+
+@font-face {
+  font-family: 'Platform';
+  src: url("../fonts/Platform-Medium-Web.eot");
+  src: url("../fonts/Platform-Medium-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/Platform-Medium-Web.woff2") format("woff2"), url("../fonts/Platform-Medium-Web.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal; }
+
+@font-face {
+  font-family: 'Platform';
+  src: url("../fonts/Platform-Regular-Web.eot");
+  src: url("../fonts/Platform-Regular-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/Platform-Regular-Web.woff2") format("woff2"), url("../fonts/Platform-Regular-Web.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal; }
+
+@font-face {
+  font-family: 'Platform';
+  src: url("../fonts/Platform-Light-Web.eot");
+  src: url("../fonts/Platform-Light-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/Platform-Light-Web.woff2") format("woff2"), url("../fonts/Platform-Light-Web.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal; }
+
+@font-face {
+  font-family: 'Platform';
+  src: url("../fonts/Platform-Hairline-Web.eot");
+  src: url("../fonts/Platform-Hairline-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/Platform-Hairline-Web.woff2") format("woff2"), url("../fonts/Platform-Hairline-Web.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-stretch: normal; }

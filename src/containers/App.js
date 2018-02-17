@@ -6,7 +6,6 @@ import { reactReduxFirebase } from 'react-redux-firebase';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import styled from 'styled-components';
 import * as firebase from 'firebase';
-import 'input-moment/dist/input-moment.css';
 import { firebaseConfig } from '../config';
 import reducers from '../reducers';
 import Navigation from '../components/Navigation';
@@ -34,20 +33,20 @@ const store = createStoreWithFirebase(reducers, composeEnhancers());
 
 const Main = styled.main`
   display: grid;
-  grid-template-rows: 40px auto;
+  grid-template-rows: auto 40px;
   height: 100vh;
 `;
 const App = () => (
   <Provider store={store}>
     <BrowserRouter>
       <Main>
-        <Navigation />
         <Switch>
           <Route exact path="/" component={Sightings} />
           <Route path="/add" component={BirdsForm} />
           <Route path="/update/:id" component={BirdsForm} />
           <Route path="/updater" component={BirdsUpdater} />
         </Switch>
+        <Navigation />
       </Main>
     </BrowserRouter>
   </Provider>

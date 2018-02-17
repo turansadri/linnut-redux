@@ -9,12 +9,21 @@ import update from 'immutability-helper';
 import helpers from '../helpers';
 import BirdsFormMap from './BirdsFormMap';
 import BirdsFormSearch from './BirdsFormSearch';
+import Header from './shared/Header';
+import IconButton from './shared/IconButton';
+import Icon from './shared/Icons';
+import Button from './shared/Button';
+import Select from './shared/Select';
+import Input from './shared/Input';
 
 // moment.locale('fi');
 
 const FormContainer = styled.form`
   margin: 0 auto;
   max-width: 720px;
+  height: 100%;
+  display: grid;
+  grid-template-rows: auto auto auto;
 `;
 const DateTimePicker = styled(InputMoment)`
   position: absolute;
@@ -25,6 +34,25 @@ const DateTimePicker = styled(InputMoment)`
   transform: translate(-50%, -50%);
   display: ${props =>
     props.visible === 'true' ? 'block!important' : 'none!important'};
+`;
+const GeolocationIconButton = IconButton.extend`
+  position: absolute;
+  right: 10px;
+  top: 10px;
+`;
+const FormTextFieldset = styled.fieldset`
+  padding: 10px;
+  border: none;
+`;
+const FormMapFieldset = styled.fieldset`
+  padding: 0;
+  height: 100%;
+  border: none;
+`;
+const FormSubmitFielset = styled.fieldset`
+  padding: 0;
+  text-align: center;
+  border: none;
 `;
 class BirdsForm extends React.Component {
   constructor(props) {
@@ -188,66 +216,78 @@ class BirdsForm extends React.Component {
     const { families } = this.state;
     return (
       <FormContainer onSubmit={this.handleSubmit}>
-        <h1>Add bird</h1>
-        <button onClick={this.triggerGetCurrentPosition}>Get position</button>
-        <BirdsFormSearch
-          items={this.state.allBirds}
-          onChange={selectedItem => this.handleSearchChange(selectedItem)}
-          // onChange={selectedItem => console.log(selectedItem)}
-        />
-        <select name="family" onChange={this.handleChange}>
-          <option value="">Valitse suku</option>
-          {Object.keys(families).map(key => (
-            <option value={families[key].name} key={key}>
-              {families[key].displayName}
-            </option>
-          ))}
-        </select>
-        <select
-          value={this.state.sighting.bird.value}
-          name="bird"
-          onChange={this.handleChange}
-        >
-          <option value="">Valitse lintu</option>
-          {this.state.birds.map(bird => (
-            <option value={bird.name} key={bird.name}>
-              {bird.displayName}
-            </option>
-          ))}
-        </select>
-        <select
-          value={this.state.sighting.location.place.value}
-          name="place"
-          onChange={this.handleChange}
-        >
-          <option value="">Valitse paikka</option>
-          {this.state.places.map(place => (
-            <option value={place.name} key={place.place_id}>
-              {place.name}
-            </option>
-          ))}
-        </select>
-        <input
-          type="text"
-          name="date"
-          value={this.state.date.format()}
-          onChange={this.handleChange}
-          onClick={this.showDatetime}
-        />
-        <DateTimePicker
-          moment={this.state.date}
-          onChange={this.handleDateChange}
-          onSave={this.handleDateSave}
-          minStep={5}
-          visible={this.state.datetimeshown ? 'true' : 'false'}
-        />
-        <BirdsFormMap
-          ref="birdsformmap" // eslint-disable-line
-          handleMapLocation={this.handleMapLocation}
-          handleMapAddress={this.handleMapAddress}
-          handleMapPlaces={this.handleMapPlaces}
-        />
-        <button onClick={this.handleAdd}>Add</button>
+        <FormTextFieldset>
+          <Header>Lisää havainto</Header>
+          <GeolocationIconButton onClick={this.triggerGetCurrentPosition}>
+            <Icon icon="compass" />
+          </GeolocationIconButton>
+          <BirdsFormSearch
+            items={this.state.allBirds}
+            onChange={selectedItem => this.handleSearchChange(selectedItem)}
+            // onChange={selectedItem => console.log(selectedItem)}
+          />
+          {/* 
+          <select name="family" onChange={this.handleChange}>
+            <option value="">Valitse suku</option>
+            {Object.keys(families).map(key => (
+              <option value={families[key].name} key={key}>
+                {families[key].displayName}
+              </option>
+            ))}
+          </select>
+          <select
+            value={this.state.sighting.bird.value}
+            name="bird"
+            onChange={this.handleChange}
+          >
+            <option value="">Valitse lintu</option>
+            {this.state.birds.map(bird => (
+              <option value={bird.name} key={bird.name}>
+                {bird.displayName}
+              </option>
+            ))}
+          </select>
+          */}
+          <Select
+            value={this.state.sighting.location.place.value}
+            name="place"
+            onChange={this.handleChange}
+          >
+            <option value="">Valitse paikka</option>
+            {this.state.places.map(place => (
+              <option value={place.name} key={place.place_id}>
+                {place.name}
+              </option>
+            ))}
+          </Select>
+          <Input
+            type="text"
+            name="date"
+            value={this.state.date.format()}
+            onChange={this.handleChange}
+            onClick={this.showDatetime}
+          />
+          <DateTimePicker
+            moment={this.state.date}
+            onChange={this.handleDateChange}
+            onSave={this.handleDateSave}
+            minStep={5}
+            visible={this.state.datetimeshown ? 'true' : 'false'}
+          />
+        </FormTextFieldset>
+        <FormMapFieldset>
+          <BirdsFormMap
+            ref="birdsformmap" // eslint-disable-line
+            handleMapLocation={this.handleMapLocation}
+            handleMapAddress={this.handleMapAddress}
+            handleMapPlaces={this.handleMapPlaces}
+          />
+        </FormMapFieldset>
+        <FormSubmitFielset>
+          <Button primary onClick={this.handleAdd}>
+            Lisää
+          </Button>
+        </FormSubmitFielset>
       </FormContainer>
     );
   }

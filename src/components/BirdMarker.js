@@ -4,11 +4,7 @@ import styled from 'styled-components';
 import { colorize } from '../helpers/styled-utils';
 import helpers from '../helpers';
 import * as styled_var from '../constants/styled-variables';
-import * as icons from '../icons';
-
-const Icon = props => (
-  <div dangerouslySetInnerHTML={{ __html: icons[props.icon] }} />
-);
+// import * as icons from '../icons';
 
 const Marker = styled.span`
   width: 28px;

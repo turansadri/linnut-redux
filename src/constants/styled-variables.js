@@ -1,4 +1,8 @@
-export const primaryColor = '#1B2123';
+export const primaryColor = '#001C6B';
+export const secondaryColor = '#8FFFFE';
+export const tertiaryColor = '#9DFA40';
+export const blackColor = '#030005';
+export const whiteColor = '#fff';
 export const tikat = '#FF5041';
 export const varikset = '#bbb';
 export const kahlaajat = '#00A87C';
